@@ -20,17 +20,24 @@ init python:
 define robin = Character("Robin", callback=robin_beep)
 define fridai = Character("FrIDAI", callback=fridai_beep)
 
-image robin:
-    "robin-default"
+image outfit:
+    "Characters/Bases/robin suit.png"
+image face:
+    "Characters/Expressions/robin default.png"
 
-image robin smile:
-    "robin-smile"
+image robin = Composite(
+    (484, 752),
+    (0, -210), "outfit",
+    (0, -210), "face",
+    (0, -210), "Characters/Other/robin hair.png")
 
 # The game starts here.
 
 label start:
 
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
+
+    show robin at center with dissolve
     narrator "The smell reached the back of my throat and I couldn’t help wincing at the sting in my nostrils."
     narrator "Aches and balance returned to me as I moved and lifted myself slightly. Immediately, I could feel my world tilting and sliding beneath me, and I crashed back to the ground."
     narrator "The ground was gritty and had some give to it, not at all like the deck on my ship. Something wasn’t right. My balance was wrong."
