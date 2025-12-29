@@ -16,6 +16,9 @@ init python:
         elif event == "slow_done" or event == "end":
             renpy.music.stop(channel="sound")
 
+transform midright:
+    xalign 0.9
+    yalign 1.0
 
 define robin = Character("Robin", callback=robin_beep)
 define fridai = Character("FrIDAI", callback=fridai_beep)
@@ -37,7 +40,8 @@ label start:
 
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
 
-    show robin at center with dissolve
+    show bg beach with fade
+    show robin at midright with dissolve
     narrator "The smell reached the back of my throat and I couldn’t help wincing at the sting in my nostrils."
     narrator "Aches and balance returned to me as I moved and lifted myself slightly. Immediately, I could feel my world tilting and sliding beneath me, and I crashed back to the ground."
     narrator "The ground was gritty and had some give to it, not at all like the deck on my ship. Something wasn’t right. My balance was wrong."
