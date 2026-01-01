@@ -23,16 +23,57 @@ transform midright:
 define robin = Character("Robin", callback=robin_beep)
 define fridai = Character("FrIDAI", callback=fridai_beep)
 
-image outfit:
+# Images
+# Outfits
+image suit:
     "Characters/Bases/robin suit.png"
-image face:
+image underwear:
+    "Characters/Bases/robin underwear.png"
+    
+# Expressions
+image default:
     "Characters/Expressions/robin default.png"
+image bored:
+    "Characters/Expressions/robin bored.png"
+image happy:
+    "Characters/Expressions/robin happy.png"
+image surprise:
+    "Characters/Expressions/robin surprise.png"
+image angry:
+    "Characters/Expressions/robin angry"
+image sick:
+    "Characters/Expressions/robin sick"
+image pain:
+    "Characters/Expressions/robin pain"
+    
+# Details
+image hair:
+    "Characters/Other/robin hair.png"
+image gaunt:
+    "Characters/Other/robin gaunt.png"
+image none:
+    "Characters/Other/robin none.png"
+
+# Composition
+define outfits = ["suit", "underwear"]
+define expressions = ["default", "bored", "happy", "surprise",
+    "angry", "sick", "pain"]
+define gaunt = ["none", "gaunt"]
+
+define outfitIndex = 0
+define expressionsIndex = 0
+define gaintIndex = 0
 
 image robin = Composite(
     (484, 752),
-    (0, -210), "outfit",
-    (0, -210), "face",
-    (0, -210), "Characters/Other/robin hair.png")
+    (0, -210), outfits[outfitIndex],
+    (0, -210), expressions[expressionsIndex],
+    (0, -210), "hair",
+    (0, -210), gaunt[gauntIndex])
+    
+# Custom functions
+define my_function():
+    print("Hello from a function") 
 
 # The game starts here.
 
