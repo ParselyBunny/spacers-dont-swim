@@ -564,7 +564,7 @@ label start:
     # search for food
     narrator "After all this time I’d spent exploring  I was starting to get a good understanding of the terrain."
     narrator "I stopped briefly to make a little diorama in the sand, just to cement the idea in my head."
-    show bg map
+    show cg diorama with fade
 
     narrator "So there was the beach, the jungle outskirts where I’d made my camp, the low lying swamp area further inland where I’d made my well, and thick jungle beyond that I had yet to venture into."
     narrator "The highlands near the center of the island and the wreck of the {i}Selkirk{/i} out in the water were both visible from a distance and made for good landmarks."
@@ -783,6 +783,9 @@ label start:
     narrator "I brought that tree down and decided to take a break after that. I deserved it."
 
     # transition
+    
+    bg bg beach night yeslights noreef with fade
+    
     narrator "As twilight was coming on, I dragged the log down to the beach. I needed to see if it would float."
     narrator "I almost didn’t want to do it. After all this work, I nearly couldn’t bear to know if it was all a waste of time."
     narrator "I pulled from a deep reserve of determination, one I didn’t know I had, and rolled the log out into the water."
@@ -799,6 +802,9 @@ label start:
 
     # days pass
     # robin gaunt
+    
+    show bg beach with fade
+    
     narrator "After a few days of foraging, carving, and braiding, I had several coils of good, strong cordrope and a respectable row of logs, all roughly the same diameter and length, lined up at the head of the beach like soldiers."
     narrator "My adze held up well, though I had to replace the cordage recently. All the branches and leaves I got from delimbing the trees made for a great supply of fuel and I had a reserve of fuel for the first time since I was on this island."
     narrator "My hands and feet were hard from the work, and my face and neck darkened by the sun. I spent most of my time finding food to eat."
@@ -823,6 +829,8 @@ label start:
     narrator "The cool water shocked me, brought my mind screaming back into the real. It felt so soothing that I let out a moan, even as the salt found the nicks and scrapes on my soft flesh and whipped them screaming raw."
     narrator "The pain was angry, thin, and everywhere. I itched and it just turned the itching into more raw and sore and crawling itch."
     narrator "Tragically sobered from my feverish fit by the cool water, enveloped in a skittering agony that teased my body into strange contortions that somehow helped me fight the urge to scratch, I waded out of the sea and trudged my way back to camp."
+    
+    show bg jungle day with fade
     
     robin "I’m fucking miserable."
     fridai "That makes two of us. Like peas in a pod."
@@ -913,6 +921,9 @@ label start:
     narrator "It was then that I felt the fear. It made a home in my heart. And my heart soared with a frenzied desperation. I knew I would escape."
     narrator "I thought that right up until the raft took one last wave, a huge ripper that foamed and bubbled madly, curling as it seized the lip of the raft and fired it right over my head."
     # drowning
+    
+    show cg drowning with fade
+    
     narrator "The sun was blocked out by a wall of water as I was hurled away from the raft, twisting through the air."
     narrator "I hit the water and there was nothing but a confused flurry of sensations. A rush of colors. My limbs were jerked and twisted as I spun through the whirling currents."
     narrator "Even as I tried to scream, the seawater forced its way into my nose and throat, filling me and driving the air out of my body. My body gasped and gulped on the water, trying to find oxygen. The taste of salt burned its way through my face and chest."
@@ -922,11 +933,17 @@ label start:
     #scene break to add tension
 
     # ocean
+    
+    show bg open wreck with fade
+    
     narrator "I hurled myself up to the surface, coughing and throwing up mouthfuls of seawater between gasps of air. My vision was blurry, but I could see I was near the shore."
     narrator "I moved my right leg to take a step and felt a weird, flapping sensation. It felt like a piece of seaweed was stuck to my leg. The next instant my foot touched the ground and, as I felt my leg take the weight of my body, my leg shivered, threatening to buckle."
     narrator "I let myself fall forward into the chest-high water to take the weight off my injured right leg. It wasn’t painful yet and I shoved it out of my mind before I could think about it too closely."
     narrator "I paddled my left leg and arms experimentally. I felt a weird sensation in some of my fingers, but I put that aside too and focused on getting out of the water. I could see pinkish blooms spreading around me as I bled into the water."
     narrator "Favoring my left leg, I limped my way out of the water and onto the sand. I couldn’t see anything out of my right eye and for one gut-wrenching instant I thought I might have been blinded."
+    
+    show bg beach with fade
+    
     narrator "After gingerly probing my face with my good fingers I realized I just had blood in my eyes from a gash on my head."
     narrator "I looked back behind me and wiped my eyes, looking for the raft. It was drifting away and for an instant I had a suicidal impulse to swim out to it and rescue it."
     narrator "A trail of footprints and blood, already fading as it leached into the sand, marked my path up the beach."
@@ -952,6 +969,9 @@ label start:
     narrator " Stopped."
 
     #the nightmare
+    
+    show cg nightmare with fade 
+    
     narrator "Her bedroom was warm. Not too hot or cold, just so."
     narrator "Her arms curled around me and I felt the heat of a flame in my belly, reaching out and caressing my skin and my heart."
     narrator "I let my fingers drip over the curve of her side and down to her back."
@@ -965,6 +985,9 @@ label start:
     narrator "I saw the flash of her white, moonlit teeth as they sunk into my leg."
 
     # robin passes out and wakes up later that night
+    
+    show bg jungle night fire
+    
     narrator "The pain shocked me awake. I gave a wet, coughing sob. I coughed so hard that I gagged. I closed my eyes."
     narrator "I wanted desperately to go back to sleep and stop hurting, but the fire was low. I was shivering from the cold, not just the pain and exhaustion."
     narrator "I groaned and wormed pathetically towards the wood pile. Even without my injuries, wearing the suit backwards would have made it awkward to walk."
@@ -981,7 +1004,11 @@ label start:
     narrator "I crawled onto the buried coals, letting them heat the sand and warm my body."
     narrator "Warm though I was, with a lullaby of throbbing pains to torture me, sleep would not come. I don’t know how long I lay there."
     narrator "With nothing else to do, I eased my eyes open, casting about me for something, anything to distract me. I was stunned."
+    
     # the night sky
+    
+    show cg nightsky with fade
+    
     narrator "I’d been awake during the night before, of course, but the glare of the fire always masked my surroundings."
     narrator "Now, in the dark and with my eyes adjusted for the first time I saw the sky as it really was. Lit by the bright moons and stars overhead, it glittered brighter than any orbital."
     narrator "For one moment, all the feeling flew out of me. I was outside myself, in the world. Seeing the place for the first time. It was beautiful, all of it. The awe washed me out to sea, cast away in the waters of a universe."
@@ -1026,7 +1053,7 @@ label start:
     robin "Ah-huh. Yeah."
     fridai "OK, just keep looking."
     narrator "I looked. A few heartbeats passed. Then, I saw flickering as the {i}Selkirk{/i}’s running lights blinked to life, one at a time."
-    narrator "The lights winked on and off in rhythmic, playful patterns. I’d never have been able to see them in the daytime, but here they shone as brilliantly as any star. It was beautiful"
+    narrator "The lights winked on and off in rhythmic, playful patterns. I’d never have been able to see them in the daytime, but here they shone as brilliantly as any star. It was beautiful."
     narrator "I could feel a lump in my throat, and my voice quavered."
     robin "You didn’t have to do that..."
     fridai "Of course I didn’t. That’s the point. I didn’t want to say anything, but, for a human, you’re awfully bad at this whole ‘emotion’ thing aren’t you?"
@@ -1039,6 +1066,9 @@ label start:
     narrator "The gentle glow of my friend’s light shone down, covering me like a shield. My sleep came hard, and fitfully, but it came."
 
     # the next morning
+    
+    show bg beach with fade
+    
     narrator "The next day, I didn’t feel much better than before. But I was fresh, I had some strength back, and a new determination. I knew my energy would go quickly because of my injury. Hunger gnawed at my stomach."
     narrator "Crawling around my camp, I finished the last of the meat and water I’d saved. I was still peckish, but it would have to do."
     narrator "I propped myself up on one elbow and looked out at the sea. I thought about what I’d seen last night."
@@ -1108,6 +1138,9 @@ label start:
 
     # reaching the ship
     # bg ship exterior
+    
+    show cg wreck with fade
+    
     narrator "I would have bashed my head right into the hull if it weren’t for the expanding shadow implying the looming hull of the {i}Selkirk{/i}."
     narrator "I planted my feet firmly, trying to get as comfortable as possible, before taking the time to slowly look up."
     narrator "I could see the fine details of her hull, the seams of her ablative panels, and the bulge of plumbing where vital coolant and potables flowed."
@@ -1120,7 +1153,9 @@ label start:
     narrator "The jagged edges of ceramic and metal dragged at my face and shoulders, and I exhaled and held my breath to keep from impaling myself."
     narrator "The wicked ribs of the ship ripped bloody gouges into my face and shoulders as I pulled myself forward relentlessly, eyes squeezed shut, unable to turn or wiggle backwards."
     narrator "I moaned in a desperate, primal terror as I shivered my way through the tangled wreckage."
-    # bg selkirk interior
+    
+    show bg ship corridor with fade
+    
     narrator "Finally, the barbed and twisted metal gave way and I fell into thin air, flopping with a great splash onto the waterlogged deck. I trembled and shook from the cold of the water seeping into my suit."
     narrator "The deck was canted at a significant angle, sloping away from me and threatening to send me tumbling against the far wall."
     narrator "Even on this somewhat kinder ground my feet still felt like they were full of glass. I felt I’d surely cracked a few bones from the harsh walk."
@@ -1168,6 +1203,9 @@ label start:
     narrator "My mind returned to the present as I finished my daily checks. I slapped my clipboard onto a stick-patch on the hull and swung my way aft, towards the AI compartment."
     narrator "Every day I told myself, today is the day I’d punch in the wakeup command. FridAI had finished recompiling days ago, but I woke up the displays and checked it anyway. It was still ready."
     # final scene
+    
+    show cg end with fade
+    
     narrator "My heart was in my mouth as my finger hovered over the control that would key the reboot macro I’d written by hand."
     narrator "AI don’t get shut down partway and then rebooted. It simply wasn’t done. I had to write the procedures myself."
     narrator "I breathed hard, my eyes fixed on the screen."
