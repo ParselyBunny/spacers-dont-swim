@@ -59,7 +59,7 @@ layeredimage robin:
 label start:
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
 
-    show bg beach with fade
+    scene bg beach with fade
     show robin sick at midright with dissolve
     narrator "The smell reached the back of my throat and I couldn’t help wincing at the sting in my nostrils."
     show robin pain with dissolve
@@ -549,7 +549,7 @@ label start:
     # search for food
     narrator "After all this time I’d spent exploring  I was starting to get a good understanding of the terrain."
     narrator "I stopped briefly to make a little diorama in the sand, just to cement the idea in my head."
-    show cg diorama with fade
+    scene cg diorama with fade
 
     narrator "So there was the beach, the jungle outskirts where I’d made my camp, the low lying swamp area further inland where I’d made my well, and thick jungle beyond that I had yet to venture into."
     narrator "The highlands near the center of the island and the wreck of the {i}Selkirk{/i} out in the water were both visible from a distance and made for good landmarks."
@@ -769,7 +769,7 @@ label start:
 
     # transition
     
-    show bg beach night yeslights noreef with fade
+    scene bg beach night yeslights noreef with fade
     
     narrator "As twilight was coming on, I dragged the log down to the beach. I needed to see if it would float."
     narrator "I almost didn’t want to do it. After all this work, I nearly couldn’t bear to know if it was all a waste of time."
@@ -788,7 +788,7 @@ label start:
     # days pass
     # robin gaunt
     
-    show bg beach with fade
+    scene bg beach with fade
     
     narrator "After a few days of foraging, carving, and braiding, I had several coils of good, strong cordrope and a respectable row of logs, all roughly the same diameter and length, lined up at the head of the beach like soldiers."
     narrator "My adze held up well, though I had to replace the cordage recently. All the branches and leaves I got from delimbing the trees made for a great supply of fuel and I had a reserve of fuel for the first time since I was on this island."
@@ -815,7 +815,7 @@ label start:
     narrator "The pain was angry, thin, and everywhere. I itched and it just turned the itching into more raw and sore and crawling itch."
     narrator "Tragically sobered from my feverish fit by the cool water, enveloped in a skittering agony that teased my body into strange contortions that somehow helped me fight the urge to scratch, I waded out of the sea and trudged my way back to camp."
     
-    show bg jungle day with fade
+    scene bg jungle day with fade
     
     robin "I’m fucking miserable."
     fridai "That makes two of us. Like peas in a pod."
@@ -907,7 +907,7 @@ label start:
     narrator "I thought that right up until the raft took one last wave, a huge ripper that foamed and bubbled madly, curling as it seized the lip of the raft and fired it right over my head."
     # drowning
     
-    show cg drowning with fade
+    scene cg drowning with fade
     
     narrator "The sun was blocked out by a wall of water as I was hurled away from the raft, twisting through the air."
     narrator "I hit the water and there was nothing but a confused flurry of sensations. A rush of colors. My limbs were jerked and twisted as I spun through the whirling currents."
@@ -919,7 +919,7 @@ label start:
 
     # ocean
     
-    show bg open wreck with fade
+    scene bg open wreck with fade
     
     narrator "I hurled myself up to the surface, coughing and throwing up mouthfuls of seawater between gasps of air. My vision was blurry, but I could see I was near the shore."
     narrator "I moved my right leg to take a step and felt a weird, flapping sensation. It felt like a piece of seaweed was stuck to my leg. The next instant my foot touched the ground and, as I felt my leg take the weight of my body, my leg shivered, threatening to buckle."
@@ -927,7 +927,7 @@ label start:
     narrator "I paddled my left leg and arms experimentally. I felt a weird sensation in some of my fingers, but I put that aside too and focused on getting out of the water. I could see pinkish blooms spreading around me as I bled into the water."
     narrator "Favoring my left leg, I limped my way out of the water and onto the sand. I couldn’t see anything out of my right eye and for one gut-wrenching instant I thought I might have been blinded."
     
-    show bg beach with fade
+    scene bg beach with fade
     
     narrator "After gingerly probing my face with my good fingers I realized I just had blood in my eyes from a gash on my head."
     narrator "I looked back behind me and wiped my eyes, looking for the raft. It was drifting away and for an instant I had a suicidal impulse to swim out to it and rescue it."
@@ -955,7 +955,7 @@ label start:
 
     #the nightmare
     
-    show cg nightmare with fade 
+    scene cg nightmare with fade 
     
     narrator "Her bedroom was warm. Not too hot or cold, just so."
     narrator "Her arms curled around me and I felt the heat of a flame in my belly, reaching out and caressing my skin and my heart."
@@ -971,7 +971,7 @@ label start:
 
     # robin passes out and wakes up later that night
     
-    show bg jungle night fire
+    scene bg jungle night fire
     
     narrator "The pain shocked me awake. I gave a wet, coughing sob. I coughed so hard that I gagged. I closed my eyes."
     narrator "I wanted desperately to go back to sleep and stop hurting, but the fire was low. I was shivering from the cold, not just the pain and exhaustion."
@@ -992,7 +992,7 @@ label start:
     
     # the night sky
     
-    show cg nightsky with fade
+    scene cg nightsky with fade
     
     narrator "I’d been awake during the night before, of course, but the glare of the fire always masked my surroundings."
     narrator "Now, in the dark and with my eyes adjusted for the first time I saw the sky as it really was. Lit by the bright moons and stars overhead, it glittered brighter than any orbital."
@@ -1052,7 +1052,7 @@ label start:
 
     # the next morning
     
-    show bg beach with fade
+    scene bg beach with fade
     
     narrator "The next day, I didn’t feel much better than before. But I was fresh, I had some strength back, and a new determination. I knew my energy would go quickly because of my injury. Hunger gnawed at my stomach."
     narrator "Crawling around my camp, I finished the last of the meat and water I’d saved. I was still peckish, but it would have to do."
@@ -1124,7 +1124,7 @@ label start:
     # reaching the ship
     # bg ship exterior
     
-    show cg wreck with fade
+    scene cg wreck with fade
     
     narrator "I would have bashed my head right into the hull if it weren’t for the expanding shadow implying the looming hull of the {i}Selkirk{/i}."
     narrator "I planted my feet firmly, trying to get as comfortable as possible, before taking the time to slowly look up."
@@ -1139,7 +1139,7 @@ label start:
     narrator "The wicked ribs of the ship ripped bloody gouges into my face and shoulders as I pulled myself forward relentlessly, eyes squeezed shut, unable to turn or wiggle backwards."
     narrator "I moaned in a desperate, primal terror as I shivered my way through the tangled wreckage."
     
-    show bg ship corridor with fade
+    scene bg ship corridor with fade
     
     narrator "Finally, the barbed and twisted metal gave way and I fell into thin air, flopping with a great splash onto the waterlogged deck. I trembled and shook from the cold of the water seeping into my suit."
     narrator "The deck was canted at a significant angle, sloping away from me and threatening to send me tumbling against the far wall."
@@ -1189,7 +1189,7 @@ label start:
     narrator "Every day I told myself, today is the day I’d punch in the wakeup command. FridAI had finished recompiling days ago, but I woke up the displays and checked it anyway. It was still ready."
     # final scene
     
-    show cg end with fade
+    scene cg end with fade
     
     narrator "My heart was in my mouth as my finger hovered over the control that would key the reboot macro I’d written by hand."
     narrator "AI don’t get shut down partway and then rebooted. It simply wasn’t done. I had to write the procedures myself."
