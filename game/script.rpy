@@ -18,72 +18,51 @@ init python:
 
 transform midright:
     xalign 0.9
-    yalign 1.0
+    yalign 0.5
 
 define robin = Character("Robin", callback=robin_beep)
 define fridai = Character("FrIDAI", callback=fridai_beep)
 
 # Images
-# Outfits
-image suit:
-    "Characters/Bases/robin suit.png"
-image underwear:
-    "Characters/Bases/robin underwear.png"
-    
-# Expressions
-image default:
-    "Characters/Expressions/robin default.png"
-image bored:
-    "Characters/Expressions/robin bored.png"
-image happy:
-    "Characters/Expressions/robin happy.png"
-image surprise:
-    "Characters/Expressions/robin surprise.png"
-image angry:
-    "Characters/Expressions/robin angry"
-image sick:
-    "Characters/Expressions/robin sick"
-image pain:
-    "Characters/Expressions/robin pain"
-    
-# Details
-image hair:
-    "Characters/Other/robin hair.png"
-image gaunt:
-    "Characters/Other/robin gaunt.png"
-image none:
-    "Characters/Other/robin none.png"
-
-# Composition
-define outfits = ["suit", "underwear"]
-define expressions = ["default", "bored", "happy", "surprise",
-    "angry", "sick", "pain"]
-define gaunt = ["none", "gaunt"]
-
-define outfitIndex = 0
-define expressionsIndex = 0
-define gaintIndex = 0
-
-image robin = Composite(
-    (484, 752),
-    (0, -210), outfits[outfitIndex],
-    (0, -210), expressions[expressionsIndex],
-    (0, -210), "hair",
-    (0, -210), gaunt[gauntIndex])
-    
-# Custom functions
-define my_function():
-    print("Hello from a function") 
+layeredimage robin:
+    group outfit:
+        attribute suit default:
+            "Characters/Bases/robin_suit.png"
+        attribute underwear:
+            "Characters/Bases/robin_underwear.png"
+    group face:
+        attribute neutral default:
+            "Characters/Expressions/robin_neutral.png"
+        attribute bored:
+            "Characters/Expressions/robin_bored.png"
+        attribute happy:
+            "Characters/Expressions/robin_happy.png"
+        attribute surprised:
+            "Characters/Expressions/robin_surprise.png"
+        attribute angry:
+            "Characters/Expressions/robin_angry.png"
+        attribute sick:
+            "Characters/Expressions/robin_sick.png"
+        attribute pain:
+            "Characters/Expressions/robin_pain.png"
+    #group eyes:
+    group satiety:
+        attribute none default:
+            "Characters/Other/robin_none.png"
+        attribute gaunt:
+            "Characters/Other/robin_gaunt.png"
+    attribute hair default:
+        "Characters/Other/robin_hair.png"
 
 # The game starts here.
 
 label start:
-
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
 
     show bg beach with fade
-    show robin at midright with dissolve
+    show robin sick at midright with dissolve
     narrator "The smell reached the back of my throat and I couldn’t help wincing at the sting in my nostrils."
+    show robin pain with dissolve
     narrator "Aches and balance returned to me as I moved and lifted myself slightly. Immediately, I could feel my world tilting and sliding beneath me, and I crashed back to the ground."
     narrator "The ground was gritty and had some give to it, not at all like the deck on my ship. Something wasn’t right. My balance was wrong."
     narrator "The dizziness grew into a horrible nausea and I groaned miserably, feeling my bile rise. I didn’t dare open my eyes for fear of making it worse."
@@ -93,9 +72,11 @@ label start:
     narrator "The white-hot IEV, flakes of ablative heat shielding blasting up and away like sparks from an archaic anvil as it rocketed towards the alien world below."
     narrator "I shook those flame-wreathed memories from my mind and reached further back. Remembered waking in a daze, alarms blaring."
     narrator "My shipmate, FridAI, coolly reported over my comm implant that the ship had automatically dropped out of FTL when our plotted route strayed too close to a gravity well."
+    show robin angry with dissolve
     narrator "My fist clenched. How could that have happened? All interstellar travel took place via pre-established routes."
     narrator "FTL travel in this millennium was so trivialized that astrogation was a matter of set-and-forget. This wasn’t supposed to happen."
     narrator "I don't know how long I lay there, replaying the crash over and over in my head. I couldn't see how so many things had gone wrong. It didn't seem possible."
+    show robin bored with dissolve
     narrator "I slowly opened my eyes, cautiously squinting to protect them from the bright sunlight glaring down from overhead."
     narrator "My hair and scalp was uncomfortably hot, the way it got when I'd used the dryer on ‘HI’ for too long."
     narrator "Something brushed the fine hairs on my neck and I flinched. I felt it again. A draft? The fingers of the world reached out as if to stroke me piteously, muttering ‘there there, these things happen.’"
@@ -118,6 +99,7 @@ label start:
     narrator "Since I was doing inventory, I fired off a mental command that my implants picked up and translated into a request for a comms diagnostic."
     narrator "The results came back as a coded impulse of emotion and sensation that experience taught me to translate as `All OK`."
     narrator "Comms OK, landing went well, and not a word from FridAI. I tore my eyes away from the {i}Selkirk{/i}, looking for something else to think about."
+    show robin neutral with dissolve
     narrator "Behind me, sparse, bright greenery and trees sprung up from the sand. The forest grew steadily thicker beyond the outskirts until it burst into a huge body of dense trees and brush. It was astonishing."
     narrator "I’d never seen such huge plants before except in pictures and video fics. It was another reminder of many now that knowing something and experiencing it are two different things."
     narrator "As I looked at that tangled, green mass I had begun to feel uneasy. I don't know why I looked up, but every other direction I could look was making my upset. expecting to see the comforting sight of stars."
@@ -142,9 +124,12 @@ label start:
     
     narrator "I forced myself to look back at the {i}Selkirk{/i}. With a thought, I keyed my comms and sent a broadcast out to FridAI on the usual channel. The only channel we needed on these long, lonely voyages."
     robin "Fry?"
+    show robin surprised
     narrator "I jumped a little, startled at the unfamiliar croak of my voice. I coughed hard once, twice, then tried again."
+    show robin pain
     robin "FridAI? FridAI, I need you. Please tell me you’re OK."
     fridai "{i}Exiting emergency low power mode.{/i}"
+    show robin happy
     narrator "I couldn’t help it, I laughed."
     robin "What?"
     fridai "Sorry, I can not control that."
