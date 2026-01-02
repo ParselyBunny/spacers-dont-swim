@@ -769,7 +769,7 @@ label start:
 
     # transition
     
-    bg bg beach night yeslights noreef with fade
+    show bg beach night yeslights noreef with fade
     
     narrator "As twilight was coming on, I dragged the log down to the beach. I needed to see if it would float."
     narrator "I almost didn’t want to do it. After all this work, I nearly couldn’t bear to know if it was all a waste of time."
