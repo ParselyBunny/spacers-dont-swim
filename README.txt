@@ -13,5 +13,7 @@ Campfire, Elbow River 220601-T012.wav by Robert.Crosley -- https://freesound.org
 Spaceship Cockpit Ambience 02.wav by Tim_Verberne -- https://freesound.org/s/487442/ -- License: Creative Commons 0
 Spaceship Ambience  by nick121087 -- https://freesound.org/s/234316/ -- License: Creative Commons 0
 Quarrelling Foxes by naturenotesuk -- https://freesound.org/s/530123/ -- License: Creative Commons 0
+jack daniels brand water.wav by rstthedave -- https://freesound.org/s/186529/ -- License: Creative Commons 0
+Steps_Fine_Snow_Or_Sand by BlondPanda -- https://freesound.org/s/778542/ -- License: Creative Commons 0
 
 ## Music
