@@ -24,35 +24,154 @@ define robin = Character("Robin", callback=robin_beep)
 define fridai = Character("FrIDAI", callback=fridai_beep)
 
 # Images
+image robin_eyes_neutral:
+    "Characters/Expressions/robin_neutral_1.png"
+    choice:
+        pause 1.75
+    choice:
+        pause 2.5
+    choice:
+        pause 3.75
+    "Characters/Expressions/robin_neutral_2.png"
+    pause 0.05
+    "Characters/Expressions/robin_neutral_3.png"
+    pause 0.125
+    "Characters/Expressions/robin_neutral_4.png"
+    pause 0.035
+    repeat
+
+image robin_eyes_bored:
+    "Characters/Expressions/robin_bored_1.png"
+    choice:
+        pause 2.75
+    choice:
+        pause 3.5
+    choice:
+        pause 4.75
+    "Characters/Expressions/robin_bored_2.png"
+    pause 0.1
+    "Characters/Expressions/robin_bored_3.png"
+    pause 0.175
+    "Characters/Expressions/robin_bored_4.png"
+    pause 0.07
+    repeat
+
+image robin_eyes_happy:
+    "Characters/Expressions/robin_happy_1.png"
+    choice:
+        pause 1.75
+    choice:
+        pause 2.5
+    choice:
+        pause 3.75
+    "Characters/Expressions/robin_happy_2.png"
+    pause 0.05
+    "Characters/Expressions/robin_happy_3.png"
+    pause 0.125
+    "Characters/Expressions/robin_happy_4.png"
+    pause 0.035
+    repeat
+
+image robin_eyes_surprised:
+    "Characters/Expressions/robin_surprised_1.png"
+    choice:
+        pause 1.75
+    choice:
+        pause 2.5
+    choice:
+        pause 3.75
+    "Characters/Expressions/robin_surprised_2.png"
+    pause 0.05
+    "Characters/Expressions/robin_surprised_3.png"
+    pause 0.125
+    "Characters/Expressions/robin_surprised_4.png"
+    pause 0.035
+    repeat
+
+image robin_eyes_angry:
+    "Characters/Expressions/robin_angry_1.png"
+    choice:
+        pause 1.75
+    choice:
+        pause 2.5
+    choice:
+        pause 3.75
+    "Characters/Expressions/robin_angry_2.png"
+    pause 0.05
+    "Characters/Expressions/robin_angry_3.png"
+    pause 0.125
+    "Characters/Expressions/robin_angry_4.png"
+    pause 0.035
+    repeat
+
+image robin_eyes_sick:
+    "Characters/Expressions/robin_sick_1.png"
+    choice:
+        pause 2.75
+    choice:
+        pause 3.5
+    choice:
+        pause 4.75
+    "Characters/Expressions/robin_sick_2.png"
+    pause 0.1
+    "Characters/Expressions/robin_sick_3.png"
+    pause 0.175
+    "Characters/Expressions/robin_sick_4.png"
+    pause 0.07
+    repeat
+
+image robin_eyes_pain:
+    "Characters/Expressions/robin_pain_1.png"
+    choice:
+        pause 2.75
+    choice:
+        pause 3.5
+    choice:
+        pause 4.75
+    "Characters/Expressions/robin_pain_2.png"
+    pause 0.1
+    "Characters/Expressions/robin_pain_3.png"
+    pause 0.175
+    "Characters/Expressions/robin_pain_4.png"
+    pause 0.07
+    repeat
+
 layeredimage robin:
     group outfit:
         attribute suit default:
-            "Characters/Bases/robin_suit.png"
+            "robin_suit"
         attribute underwear:
-            "Characters/Bases/robin_underwear.png"
+            "robin_underwear"
     group face:
         attribute neutral default:
-            "Characters/Expressions/robin_neutral.png"
+            "robin_neutral"
         attribute bored:
-            "Characters/Expressions/robin_bored.png"
+            "robin_bored"
         attribute happy:
-            "Characters/Expressions/robin_happy.png"
+            "robin_happy"
         attribute surprised:
-            "Characters/Expressions/robin_surprise.png"
+            "robin_surprise"
         attribute angry:
-            "Characters/Expressions/robin_angry.png"
+            "robin_angry"
         attribute sick:
-            "Characters/Expressions/robin_sick.png"
+            "robin_sick"
         attribute pain:
-            "Characters/Expressions/robin_pain.png"
-    #group eyes:
+            "robin_pain"
+    group eyes auto:
+        attribute neutral
+        attribute bored
+        attribute happy
+        attribute surprised
+        attribute angry
+        attribute sick
+        attribute pain
     group satiety:
         attribute none default:
-            "Characters/Other/robin_none.png"
+            "robin_none"
         attribute gaunt:
-            "Characters/Other/robin_gaunt.png"
-    attribute hair default:
-        "Characters/Other/robin_hair.png"
+            "robin_gaunt"
+    always:
+        "robin_hair"
 
 # The game starts here.
 
