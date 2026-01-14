@@ -343,6 +343,7 @@ label start:
     narrator "It was impossible to get rid of every grain, and when I finally zipped my suit up again the feeling of it pressing specks of grit into my skin is already driving me mad with discomfort."
     narrator "The day was wearing on, and I still needed to find a reliable source of fresh water. I turned towards the jungle and set off to explore it more thoroughly."
 
+    scene bg jungle day with fade
 
     # water search scene
     narrator "As the shadows were growing long and the sky turned red, I pushed through the overgrowth. The outskirts of the jungle gave way to a deep, thick carpet of green, forming impassable walls in places."
@@ -363,6 +364,8 @@ label start:
     narrator "So much for that idea. I gingerly poured the water back into the leaf, hoping to come back for it later."
     narrator "This spot was cooler than the beach due to the thick overhead cover from the trees, intertwined and overlapping. There was even a light breeze, and the cool lick of a breeze on my face felt incredible."
     narrator "It reminded me of the end of a work day, standing in a state of undress in front of the A/C after a long shift."
+
+    scene bg jungle night with fade
 
     robin "Not a bad place to bed down..."
     narrator "I took a short break, then hiked back to where I’d stashed the fruit and took some time moving them to my new camp. After that tough swim, even this effort revived the burning sensation in my muscles."
@@ -428,6 +431,9 @@ label start:
     narrator "Then, I aimed the rock’s edge at the steel, holding the rock at a fairly shallow angle as if I were preparing to shave it with a razor."
     narrator "I gave it a firm smack and I surprised myself with just how many sparks are thrown by the blow. Most of the sparks missed the tinder and were wasted. I adjusted my grip a little and tried again."
     narrator "It wasn't as easy the second time as I'd made it look before. I was just about to give up when I managed a good blow that sent a jet of sparks spattering against the leaves."
+    
+    show bg jungle night fire with fade
+    
     narrator "The leaves smoldered, and I did exactly what FridAI said the marines did in {i}Zone Troopers{/i}. Build it up, just a little at a time... Don’t rush... In no time, I had a roaring fire."
     narrator "I dropped my tools and rolled onto my back. I laid there quietly for a moment, groaning at my aching bones and knotted muscles."
     robin "There... Done..."
@@ -436,6 +442,9 @@ label start:
 
 
     # day 2
+    
+    scene bg jungle day with fade
+    
     narrator "I woke to a pattering sound. I groaned and pulled myself to my knees to look around. Warm, red light shafted through the canopy overhead. I had slept through until morning."
     narrator "As I looked up, I noticed the leaves overhead bouncing and I could see waterfalls of rain had formed all around me."
     narrator "It was something I’d only ever seen or read about in fics. The water felt so warm on my skin that I didn’t even realize I was getting wet at first."
@@ -534,6 +543,8 @@ label start:
     robin "Wait, okay, I see where you’re going with this. Hang on, I’ve got an idea."
     narrator "I dumped the water from the pouch into the little well and started scrounging up sticks and branches and other fuel. Soon I’d built a decently-sized fire only a few feet away."
     
+    scene bg jungle day fire with fade
+    
     narrator "One brisk walk later and I’d returned to the well with a leafy branch that I had lit in my original, rekindled camp fire."
     narrator "I dropped the flaming branch into the fuel and waited for the flames to catch. Meanwhile, I found a few fist-sized stones and dropped them as near to the flames as I could manage."
     narrator "While the stones were heating, I looked for a sapling. I used my hands to snap the stem away and then plucked off all the thin branches."
@@ -555,6 +566,9 @@ label start:
     narrator "The highlands near the center of the island and the wreck of the {i}Selkirk{/i} out in the water were both visible from a distance and made for good landmarks."
 
     # show previous background
+    
+    scene bg beach with fade
+    
     narrator "The humidity under the jungle canopy was starting to get to me, so I resolved to take my expedition back towards the beach where I could at least take in a breeze."
     narrator "As I reached the border between the jungle and the sand of the beach, I walked along the edge of it to take advantage of the shade of the occasional tree."
     narrator "The sun was setting, warming the horizon to a comforting orange glow. My hair was matted with sweat and so the caress of the breeze felt all the more cooling. The sensation was incredible on my flushed skin."
@@ -584,6 +598,9 @@ label start:
     narrator "A small, frightened part of me asked: what if this defense is so potent that all their predators have gone extinct? That means nothing to eat for me."
     narrator "The cold, logical part of me argued back: these trees are everywhere, so there must be something that eats enough of the beetles that the trees can survive and breed."
     narrator "The trees live on with no obvious defense, so there must be a predator."
+    
+    scene cg doglike with fade
+    
     narrator "That's when I saw it, a small, bulbous creature with a fat, innocent face. It reminded me of a dog the way its eyes were wide and wet with emotion."
     narrator "It stood on two spindly legs and had rubbery, moist flesh like a frog. It was surprisingly brightly colored, with large, irregularly-shaped spots all over."
     narrator "Though it must have heard me gasp when I saw it, it wasn't paying the slightest attention to me."
@@ -595,6 +612,9 @@ label start:
     narrator "Did it read the murderous intent in my posture? Can it smell the hunger on my sweat?"
     narrator "I was shaking with desire. I couldn't let the first real meal on this island escape me. My body lunged towards it."
     narrator "It scuttled into the brush in an instant. It escaped with such startling speed and alacrity, and so very easily, that I gave up before the chase even began."
+    
+    scene bg jungle day with fade
+    
     narrator "Something in my spirit broke. I tried to summon up frustration, anger, something. But my mind was numb. I only felt my body."
     narrator "My feet hurt. My limbs were heavy, sore, and tired. And my head was pounding. I tried looking for some kind of sign of where it had gone, but it left no traces, not in the failing red light of the sun."
     narrator "I looked at the bugs again, wishing I could understand how that dogthing could swallow them without choking. Something in its saliva? Its stomach?"
@@ -617,7 +637,7 @@ label start:
     narrator "I forced myself to gather more fuel and stoke the dying fire. I added some wood scraps, nudged it tenderly with a branch, nurturing it into a roaring flame that would burn through the night."
     narrator "The hunger gnawing at me made it hard to fall asleep that night. I lay sprawled out, my face to the sky. The glare from the fire turned the sky into a dark wet smear; not a single star."
 
-
+    scene bg jungle day with fade
 
     # day 3
     narrator "Morning came. Dull, insistent pangs in my stomach woke me. I was dizzy and shivering. There was a mouth chewing at my insides, hollowing me out. Not sure if it was just from hunger, or if the beetles were a little toxic."
@@ -633,6 +653,9 @@ label start:
     narrator "I learned to widen my gaze, not focusing on just one spot in particular, but seeing everything at once. I forgot my hunger and started to track, and hunt."
 
     # transition
+    
+    scene bg highlands day with fade 
+    
     narrator "My walk took me deeper inland than I had been before. The ground grew hard, the trees giving way to low, scrubby brush as they struggled to push their roots into dry, rocky soil."
     narrator "The signs became more obvious still, until the spare tracks of a single doglike merged into pairs, then grew into a gaggle, a herd."
     narrator "The ground was packed and beaten flat by their little feet into a modest trail, like a scar on the earth."
@@ -646,6 +669,9 @@ label start:
     narrator "I pushed myself forward before I could think about it too deeply."
     narrator "As I crept through the brush, I carefully placed each footstep and stopped to push the brush aside and lower it gently back into place to avoid noise."
     narrator "Soon, I could hear the grunting and snuffling of something ahead. I peered between the leaves."
+    
+    scene bg highlands day den with fade
+    
     narrator "I was back far enough that I could only really see them when they moved, but the doglikes were there."
     narrator "As I drew near, I could see there were about six or seven of them milling around the narrow opening of their den."
     narrator "Their home was a burrow, its entrance nestled at the base of a small hill, tucked into a fork that gave them some natural cover."
@@ -672,7 +698,7 @@ label start:
     narrator "I ran, panting with the effort. The cub wriggled as it slowly came back to its senses. I shut my eyes and wrung it in my hands until something popped and it stopped moving. I felt a sob bubble up from my throat."
     narrator "Sure now that I wasn’t being followed, I slowed to a stop and dropped to my knees, panting. I tried not to look at it, but I couldn’t ignore the limp weight spilling over my arms. Hot tears streamed down my face and stained my cheeks."
 
-
+    scene bg jungle day with fade
     # later
     narrator "As I walked back to camp, FridAI speculated about how to actually go about preparing and eating the creature I’d caught. I didn't say anything, but if FridAI noticed, it had the grace not to mention it."
     narrator "After a long walk back, I felt the exhaustion setting in once more. The hunger pangs returned with a vengeance. I settled on FridAI's suggestion to make a shallow cut in the skin to see how things were arranged inside."
@@ -691,6 +717,9 @@ label start:
     narrator "I had a drink while I set the carcass in the sun to dry a little, then I returned to work and started the work of butchering the meat. It was delicate work, and I frequently tore or mangled the cuts I was making."
     narrator "The fire was burnt down but still smoking a little. I reached my hand out and felt that the ashes were still hot."
     narrator "I turned and stirred the ash and saw the coals glowing underneath. I was amazed that it had stayed hot through the entire day. I took advantage of the heat to get another fire going quickly."
+    
+    scene bg jungle day fire with fade
+    
     narrator "I gathered up the pile of morsels I had made and started spearing them on thin sticks and arranging them around the fire to cook."
     narrator "I figured I’d let them char just to be absolutely sure they were cooked all the way through. After all this hard work I wasn’t going to take any chances on getting killed by food poisoning."
     narrator "While the meat cooked, I took a look at the organs. Turning them over with sticks, they didn’t seem to be the familiar shapes I’d seen in school."
@@ -703,6 +732,9 @@ label start:
 
 
     # making cord
+    
+    scene bg jungle day with fade
+    
     narrator "The day wore on, and after a meal and a drink I felt revived. I needed a rest, so I sat down in front of the bundle of grass I'd gathered and started playing with it."
     narrator "First, I tried ripping it to get a thread started, but that frayed the ends and left me little length to work with. I looked at the torn end of a blade of grass, saw the skin around the threads I wanted. How to get rid of the skin?"
     narrator "I rolled a bit of grass between my fingertips, scratched it with my fingernail. I saw something green come away under my hand."
@@ -971,7 +1003,7 @@ label start:
 
     # robin passes out and wakes up later that night
     
-    scene bg jungle night fire
+    scene bg jungle night
     
     narrator "The pain shocked me awake. I gave a wet, coughing sob. I coughed so hard that I gagged. I closed my eyes."
     narrator "I wanted desperately to go back to sleep and stop hurting, but the fire was low. I was shivering from the cold, not just the pain and exhaustion."
@@ -979,6 +1011,9 @@ label start:
     narrator "It was all I could do to get within arm’s reach of a thin branch. By then I was panting. My body was covered in a cold sweat from the exertion."
     narrator "I dropped my hand onto a branch with a gasp, then willed my hand to close around it. I clumsily dropped sticks into the embers."
     narrator "Not having the energy to place them carefully, the fire was uneven and spilling from the barrier of rocks I’d built around it."
+    
+    scene bg jungle night fire with fade
+    
     narrator "Luck was with me as the fire grew nevertheless. Slowly, the heat seeped into my body, and I stopped shivering. Yet another danger had passed."
     narrator "I must have fallen unconscious the moment my guard dropped, because one instant I was warm, the next I could smell burning hair. I saw my arm being kissed by the flames before I felt it burning."
     narrator "In one move I yanked my arm back and kicked away from the flames with a shriek of pain, sending a spray of sand over the fire and plunging me into darkness."
@@ -1002,6 +1037,9 @@ label start:
     narrator "It felt like a hundred years since I’d heard its voice. I felt worry worm its way into my heart."
     narrator "My chin worried a little furrow into the sand as I dragged my head around, looking for the {i}Selkirk{/i}."
     # bam. ocean GLOWING. CG goes here
+    
+    scene bg beach night nolights reef with fade
+    
     narrator "Something was glowing up through the water, everywhere. Like a lamp seen through an ear, the color was dull but striking. It looked so close to the surface, like I could touch it."
     narrator "Somewhere, deep in the lake of my memories, a word dredged itself from the silty bottom. Coral."
     narrator "Bioluminescent coral? I’d read about something like that once upon a time. So far away it felt like someone else’s life. A child scrolling through encyclopedia articles and sounding out the big words."
@@ -1094,6 +1132,9 @@ label start:
     narrator "Two winks. I got to work."
 
     #that night
+    
+    scene bg beach night nolights reef with fade
+    
     narrator "I sat by the fire as it burned the last of my fuel down to angry, glowing coals. Night had fallen, and just like before, the bioluminescent coral gleamed through the surface of the water."
     narrator "I nibbled anxiously on a strand of ropegrass, feeling it fray and come undone in my mouth, letting the tickling sensation distract me."
     narrator "Distract me from the gummy feeling in my mouth and the deep rut that hunger had furrowed into my stomach as my body began to eat itself."
