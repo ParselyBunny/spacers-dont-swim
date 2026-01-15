@@ -17,3 +17,6 @@ jack daniels brand water.wav by rstthedave -- https://freesound.org/s/186529/ --
 Steps_Fine_Snow_Or_Sand by BlondPanda -- https://freesound.org/s/778542/ -- License: Creative Commons 0
 
 ## Music
+"Leaving Home" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/ 
