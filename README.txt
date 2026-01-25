@@ -19,4 +19,12 @@ Steps_Fine_Snow_Or_Sand by BlondPanda -- https://freesound.org/s/778542/ -- Lice
 ## Music
 "Leaving Home" Kevin MacLeod (incompetech.com)
 Licensed under Creative Commons: By Attribution 4.0 License
-http://creativecommons.org/licenses/by/4.0/ 
+http://creativecommons.org/licenses/by/4.0/
+
+"Dark Fog" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+
+"Heart of the Beast" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/

@@ -176,6 +176,8 @@ layeredimage robin:
 # The game starts here.
 
 label start:
+    play music "music/Leaving Home.mp3" fadein 8.0
+
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
 
     scene bg beach with fade
@@ -243,7 +245,7 @@ label start:
     
     narrator "I forced myself to look back at the {i}Selkirk{/i}. With a thought, I keyed my comms and sent a broadcast out to FridAI on the usual channel. The only channel we needed on these long, lonely voyages."
     robin "Fry?"
-    show robin surprised
+    show robin surprise
     narrator "I jumped a little, startled at the unfamiliar croak of my voice. I coughed hard once, twice, then tried again."
     show robin pain
     robin "FridAI? FridAI, I need you. Please tell me you’re OK."
@@ -462,6 +464,7 @@ label start:
     narrator "It was impossible to get rid of every grain, and when I finally zipped my suit up again the feeling of it pressing specks of grit into my skin is already driving me mad with discomfort."
     narrator "The day was wearing on, and I still needed to find a reliable source of fresh water. I turned towards the jungle and set off to explore it more thoroughly."
 
+    play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day with fade
 
     # water search scene
@@ -484,6 +487,7 @@ label start:
     narrator "This spot was cooler than the beach due to the thick overhead cover from the trees, intertwined and overlapping. There was even a light breeze, and the cool lick of a breeze on my face felt incredible."
     narrator "It reminded me of the end of a work day, standing in a state of undress in front of the A/C after a long shift."
 
+    play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle night with fade
 
     robin "Not a bad place to bed down..."
@@ -561,7 +565,7 @@ label start:
 
 
     # day 2
-    
+    play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day with fade
     
     narrator "I woke to a pattering sound. I groaned and pulled myself to my knees to look around. Warm, red light shafted through the canopy overhead. I had slept through until morning."
@@ -662,6 +666,7 @@ label start:
     robin "Wait, okay, I see where you’re going with this. Hang on, I’ve got an idea."
     narrator "I dumped the water from the pouch into the little well and started scrounging up sticks and branches and other fuel. Soon I’d built a decently-sized fire only a few feet away."
     
+    play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day fire with fade
     
     narrator "One brisk walk later and I’d returned to the well with a leafy branch that I had lit in my original, rekindled camp fire."
@@ -732,6 +737,7 @@ label start:
     narrator "I was shaking with desire. I couldn't let the first real meal on this island escape me. My body lunged towards it."
     narrator "It scuttled into the brush in an instant. It escaped with such startling speed and alacrity, and so very easily, that I gave up before the chase even began."
     
+    play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day with fade
     
     narrator "Something in my spirit broke. I tried to summon up frustration, anger, something. But my mind was numb. I only felt my body."
@@ -756,6 +762,7 @@ label start:
     narrator "I forced myself to gather more fuel and stoke the dying fire. I added some wood scraps, nudged it tenderly with a branch, nurturing it into a roaring flame that would burn through the night."
     narrator "The hunger gnawing at me made it hard to fall asleep that night. I lay sprawled out, my face to the sky. The glare from the fire turned the sky into a dark wet smear; not a single star."
 
+    play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day with fade
 
     # day 3
@@ -817,6 +824,7 @@ label start:
     narrator "I ran, panting with the effort. The cub wriggled as it slowly came back to its senses. I shut my eyes and wrung it in my hands until something popped and it stopped moving. I felt a sob bubble up from my throat."
     narrator "Sure now that I wasn’t being followed, I slowed to a stop and dropped to my knees, panting. I tried not to look at it, but I couldn’t ignore the limp weight spilling over my arms. Hot tears streamed down my face and stained my cheeks."
 
+    play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day with fade
     # later
     narrator "As I walked back to camp, FridAI speculated about how to actually go about preparing and eating the creature I’d caught. I didn't say anything, but if FridAI noticed, it had the grace not to mention it."
@@ -837,6 +845,7 @@ label start:
     narrator "The fire was burnt down but still smoking a little. I reached my hand out and felt that the ashes were still hot."
     narrator "I turned and stirred the ash and saw the coals glowing underneath. I was amazed that it had stayed hot through the entire day. I took advantage of the heat to get another fire going quickly."
     
+    play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day fire with fade
     
     narrator "I gathered up the pile of morsels I had made and started spearing them on thin sticks and arranging them around the fire to cook."
@@ -851,7 +860,7 @@ label start:
 
 
     # making cord
-    
+    play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day with fade
     
     narrator "The day wore on, and after a meal and a drink I felt revived. I needed a rest, so I sat down in front of the bundle of grass I'd gathered and started playing with it."
@@ -966,6 +975,7 @@ label start:
     narrator "The pain was angry, thin, and everywhere. I itched and it just turned the itching into more raw and sore and crawling itch."
     narrator "Tragically sobered from my feverish fit by the cool water, enveloped in a skittering agony that teased my body into strange contortions that somehow helped me fight the urge to scratch, I waded out of the sea and trudged my way back to camp."
     
+    play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day with fade
     
     robin "I’m fucking miserable."
@@ -1058,6 +1068,7 @@ label start:
     narrator "I thought that right up until the raft took one last wave, a huge ripper that foamed and bubbled madly, curling as it seized the lip of the raft and fired it right over my head."
     # drowning
     
+    stop music
     scene cg drowning with fade
     
     narrator "The sun was blocked out by a wall of water as I was hurled away from the raft, twisting through the air."
@@ -1102,27 +1113,37 @@ label start:
     narrator "I lay there and moaned and wept, snot and drool oozing down my chin.  I thought if I could have shot myself that I would have, just to make that awful pain stop."
     narrator "Then it did stop."
     narrator "Everything..."
-    narrator " Stopped."
+    narrator "Stopped."
 
     #the nightmare
+    stop music fadeout 8.0
+    scene black with fade
+    pause 4.5
     
-    scene cg nightmare with fade 
-    
-    narrator "Her bedroom was warm. Not too hot or cold, just so."
-    narrator "Her arms curled around me and I felt the heat of a flame in my belly, reaching out and caressing my skin and my heart."
-    narrator "I let my fingers drip over the curve of her side and down to her back."
+    narrator "The room was warm. She was warm."
+    narrator "Her arms curled around me."
+    narrator "I felt the heat of a flame in my belly, reaching out and caressing my skin. My heart."
+    narrator "I let my fingers drip over the curve of her side and down her back."
     narrator "Our hands met and we meshed together."
-    narrator "I gave her a wet kiss and we giggled, me with some embarrassment, she with a low heat and delight, and I gave her another."
-    narrator "I let myself be messy and pure and me. Me."
+    narrator "I gave her a wet kiss and we giggled, me with some embarrassment, she with a low heat and delight. I gave her another."
+    narrator "I let myself be messy, and pure, and me. Me."
+
+    play music "music/Heart of the Beast.mp3" fadein 5.0
+    scene cg nightmare with fade
+
     narrator "I felt something wet between us and I felt a growing nausea."
     narrator "My body was suddenly tissue, so much light, feathery paper."
     narrator "I tore. My body ripped open."
-    narrator "I turned to tell her I was sick, that I needed help, and then I realized it was she who had peeled me open."
+    narrator "I turned to tell her I was sick, that I needed help, and then I realized it was she who had peeled me apart."
     narrator "I saw the flash of her white, moonlit teeth as they sunk into my leg."
 
+    stop music fadeout 5.0
+    scene black with fade
+    pause 5.0
+
     # robin passes out and wakes up later that night
-    
-    scene bg jungle night
+    play music "jungle ambience 1.flac" fadein 3.0
+    scene bg jungle night with fade
     
     narrator "The pain shocked me awake. I gave a wet, coughing sob. I coughed so hard that I gagged. I closed my eyes."
     narrator "I wanted desperately to go back to sleep and stop hurting, but the fire was low. I was shivering from the cold, not just the pain and exhaustion."
