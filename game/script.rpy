@@ -54,6 +54,8 @@ transform light_pan:
 
 image light_animation = Fixed(At("god rays", light_pan), At("god rays", light_pan))
 
+image rain = SnowBlossom("rain.png", count=100, xspeed=(-270, -500), yspeed=(4700, 5000), fast=True)
+
 
 # Images
 image robin_eyes_neutral:
@@ -212,7 +214,6 @@ label start:
     play music "music/Leaving Home.mp3" fadein 8.0
 
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
-
     scene bg beach with fade
     show robin sick at midright with dissolve
     narrator "The smell reached the back of my throat and I couldn’t help wincing at the sting in my nostrils."
