@@ -23,6 +23,38 @@ transform midright:
 define robin = Character("Robin", callback=robin_beep)
 define fridai = Character("FrIDAI", callback=fridai_beep)
 
+# VFX
+# Source: https://lemmasoft.renai.us/forums/viewtopic.php?t=67359
+transform light_pan:
+    alpha 1.0 xoffset 0
+    block:
+        parallel:
+            choice:
+                ease 1.2 xoffset 25
+            choice:
+                ease 0.8 xoffset 15
+        parallel:
+            choice:
+                linear 1.2 alpha 0.5
+            choice:
+                linear 0.8 alpha 0.75
+    block:
+        parallel:
+            choice:
+                ease 1.2 xoffset -30
+            choice:
+                ease 0.8 xoffset -10
+        parallel:
+            choice:
+                linear 1.2 alpha 0.5
+            choice:
+                linear 0.8 alpha 0.75
+    linear 1.0 alpha 1.0 xoffset 0
+    repeat
+
+image light_animation = Fixed(At("god rays", light_pan), At("god rays", light_pan))
+
+
 # Images
 image robin_eyes_neutral:
     "Characters/Expressions/robin_neutral_1.png"
@@ -176,6 +208,7 @@ layeredimage robin:
 # The game starts here.
 
 label start:
+    
     play music "music/Leaving Home.mp3" fadein 8.0
 
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
