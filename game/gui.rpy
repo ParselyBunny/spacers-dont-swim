@@ -90,6 +90,10 @@ define gui.title_text_size = 75
 define gui.main_menu_background = "gui/main_menu.png"
 define gui.game_menu_background = "gui/game_menu.png"
 
+define config.mouse = {
+    "default" : [("gui/cursor.png", 0, 0)],
+    }
+
 
 ## Dialogue ####################################################################
 ##
