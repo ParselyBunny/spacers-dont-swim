@@ -1,8 +1,4 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
+﻿# Script initalization
 init python:
     def robin_beep(event, **kwargs):
         if event == "show":
@@ -16,12 +12,16 @@ init python:
         elif event == "slow_done" or event == "end":
             renpy.music.stop(channel="sound")
 
+# Characters
+define robin = Character("Robin", callback=robin_beep)
+define fridai = Character("FrIDAI", callback=fridai_beep)
+
+# Custom transforms & transitions
 transform midright:
     xalign 0.9
     yalign 0.5
 
-define robin = Character("Robin", callback=robin_beep)
-define fridai = Character("FrIDAI", callback=fridai_beep)
+define slowdissolve = Dissolve(1.5)
 
 # VFX
 # Source: https://lemmasoft.renai.us/forums/viewtopic.php?t=67359
@@ -57,6 +57,17 @@ image light_animation = Fixed(At("god rays", light_pan), At("god rays", light_pa
 image rain = SnowBlossom("rain.png", count=100, xspeed=(-270, -500), yspeed=(4700, 5000), fast=True)
 
 # Images
+image smoke:
+    "bg smoke 1" with slowdissolve
+    pause 5
+    "bg smoke 2" with slowdissolve
+    pause 5
+    "bg smoke 3" with slowdissolve
+    pause 5
+    "bg smoke 4" with slowdissolve
+    pause 5
+    repeat
+
 image robin_eyes_neutral:
     "Characters/Expressions/robin_neutral_1.png"
     choice:
@@ -216,6 +227,7 @@ label start:
 
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
     scene bg beach with fade
+    show smoke with fade
     show robin sick at midright with dissolve
     narrator "The smell reached the back of my throat and I couldn’t help wincing at the sting in my nostrils."
     show robin pain with dissolve
