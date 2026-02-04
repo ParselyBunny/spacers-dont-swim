@@ -5,6 +5,15 @@
 
 # Attribution
 
+## Shaders
+Wave Shader Ren'Py Module
+2022 Daniel Westfall <SoDaRa2595@gmail.com>
+
+http://twitter.com/sodara9
+http://opensource.org/licenses/mit-license.php
+Github: https://github.com/SoDaRa/RenpyWaveShader
+itch.io: https://wattson.itch.io/renpy-wave-shader
+
 ## Sounds
 Summer waves at Charmouth beach in Dorset by konakaboom -- https://freesound.org/s/203156/ -- License: Attribution NonCommercial 4.0
 102610_summertime_bugs.wav by moxobna -- https://freesound.org/s/107521/ -- License: Creative Commons 0

@@ -56,7 +56,6 @@ image light_animation = Fixed(At("god rays", light_pan), At("god rays", light_pa
 
 image rain = SnowBlossom("rain.png", count=100, xspeed=(-270, -500), yspeed=(4700, 5000), fast=True)
 
-
 # Images
 image robin_eyes_neutral:
     "Characters/Expressions/robin_neutral_1.png"
@@ -207,7 +206,9 @@ layeredimage robin:
     always:
         "robin_hair"
 
-# The game starts here.
+# Can make an image wavey by adding a block that calls WaveFunction like so
+# show img with dissolve:
+#     function WaveShader(amp = 0, melt="both", melt_params=(20,1.0,0.1))
 
 label start:
     
@@ -1151,7 +1152,7 @@ label start:
 
     #the nightmare
     stop music fadeout 8.0
-    scene black with fade
+    scene black
     pause 4.5
     
     narrator "The room was warm. She was warm."
@@ -1163,11 +1164,20 @@ label start:
     narrator "I let myself be messy, and pure, and me. Me."
 
     play music "music/Heart of the Beast.mp3" fadein 5.0
-    scene cg nightmare with fade
+    show cg nightmare with fade:
+        alpha 0.3
+        function WaveShader(speed = 0.9, amp = .45, melt="both", melt_params=(10,0.5,0.05))
+
 
     narrator "I felt something wet between us and I felt a growing nausea."
+    show cg nightmare:
+        alpha 0.55
+        function WaveShader(speed = 1.5, amp = 0.55, melt="both", melt_params=(10,0.5,0.05))
     narrator "My body was suddenly tissue, so much light, feathery paper."
     narrator "I tore. My body ripped open."
+    show cg nightmare:
+        alpha 0.75
+        function WaveShader(speed = 2.0, amp = 1, melt="both", melt_params=(20,1.0,0.25))
     narrator "I turned to tell her I was sick, that I needed help, and then I realized it was she who had peeled me apart."
     narrator "I saw the flash of her white, moonlit teeth as they sunk into my leg."
 
