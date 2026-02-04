@@ -249,6 +249,7 @@ label start:
     narrator "My hair and scalp was uncomfortably hot, the way it got when I'd used the dryer on ‘HI’ for too long."
     narrator "Something brushed the fine hairs on my neck and I flinched. I felt it again. A draft? The fingers of the world reached out as if to stroke me piteously, muttering ‘there there, these things happen.’"
     
+    show robin pain with dissolve
     narrator "I ran a gloved hand over my neck to brush away the feeling and somehow only then realized my helmet was gone. Of course it was gone. In spite of my suit, I felt truly naked without it."
     robin "Shit."
     narrator "I inhaled and held it, waiting for the alien world's atmosphere to kill me. Held until my lungs were fit to burst. I let the air out with a gasp. I supposed it would have killed me by now if it was poisonous."
@@ -256,7 +257,10 @@ label start:
     narrator "Not being a biologist, I didn't have a notion of if this world's microbes would overwhelm me or the other way around. Maybe it was like trying to plug the wrong data adapters together and nothing would happen, good or bad."
     narrator "So I'm either going to get 200 diseases at once and die in agony as fever boils my organs, I'm a walking bioweapon who's doomed an entire world by breathing on it, or exploring alien worlds is far less treacherous than I thought."
     narrator "If I do manage to survive this, I ought to hire a lawyer. Not familiar with the ethical legislature on this particular issue."
-    narrator "Feeling a little better, I carefully tried to pull myself to my feet again. My world whirled again, but not quite so badly this time, and I managed to wobble unsteadily before spilling back to the ground."
+    show robin neutral with dissolve
+    narrator "Feeling a little better, I carefully tried to pull myself to my feet again."
+    show robin sick with dissolve
+    narrator "My world whirled again, but not quite so badly this time, and I managed to wobble unsteadily before spilling back to the ground."
     robin "Damn. Damn it."
     narrator "I wasn’t new to this feeling. It was a symptom of what folks call ‘gravity sickness', a syndrome that occurs when adapting to standard gravity after a long period of living in null or micro gravity."
     narrator "After dozens of long-haul jobs, with the occasional luxury of a stay at stations under fractional G at most, I was well acquainted with the feeling."
@@ -266,8 +270,10 @@ label start:
     narrator "My blood ran cold as my training took over and I mentally catalogued all of the hundreds of irreplaceable things that had probably been shattered into useless scraps."
     narrator "Since I was doing inventory, I fired off a mental command that my implants picked up and translated into a request for a comms diagnostic."
     narrator "The results came back as a coded impulse of emotion and sensation that experience taught me to translate as `All OK`."
-    narrator "Comms OK, landing went well, and not a word from FridAI. I tore my eyes away from the {i}Selkirk{/i}, looking for something else to think about."
-    show robin neutral with dissolve
+    narrator "Comms OK, crash went as well as it could, and not a word from FridAI. I tore my eyes away from the {i}Selkirk{/i}, looking for something else to think about."
+    
+    play music "beach ambience.wav" fadein 4.0
+
     narrator "Behind me, sparse, bright greenery and trees sprung up from the sand. The forest grew steadily thicker beyond the outskirts until it burst into a huge body of dense trees and brush. It was astonishing."
     narrator "I’d never seen such huge plants before except in pictures and video fics. It was another reminder of many now that knowing something and experiencing it are two different things."
     narrator "As I looked at that tangled, green mass I had begun to feel uneasy. I don't know why I looked up, but every other direction I could look was making my upset. expecting to see the comforting sight of stars."
@@ -282,6 +288,7 @@ label start:
     narrator "If we do make it home, it’s doubtful we’d ever get another job. Not after an incident like this."
     narrator "This kind of fuckup was beyond unheard of. I buried my face in my hands as if there was someone to hide from, and gripped my hair hard enough to hurt. I deserved it."
     narrator "Inside, my thoughts were racing. Outside, I was totally still, save for a few breaths as I tried to collect myself."
+    show robin neutral with dissolve
     narrator "I listened to the alien water gently slosh around me. After a few minutes I started to calm down and carefully, piece by piece, opened myself back up again."
     narrator "I noticed an edge of thirst. Seeing the abundance of water before me, I considered trying some of it to drink. I thought some scary thoughts about brain-eating amoebas and decided it’d be best not to tempt fate."
     narrator "I pressed a switch, prompting a nozzle to spring from my collar. I tucked my chin in and bit the plastic nipple, sucking down water that my suit's integrated rehydration pack had recycled."
@@ -294,7 +301,7 @@ label start:
     robin "Fry?"
     show robin surprise
     narrator "I jumped a little, startled at the unfamiliar croak of my voice. I coughed hard once, twice, then tried again."
-    show robin pain
+    show robin pain with dissolve
     robin "FridAI? FridAI, I need you. Please tell me you’re OK."
     fridai "{i}Exiting emergency low power mode.{/i}"
     show robin happy
@@ -307,6 +314,7 @@ label start:
     narrator "Its usually flat affect is tinged with relief."
     robin "Good to hear you too. You okay?"
     fridai "I could be better, but all things considered I am well. The {i}Selkirk{/i}, however... Honestly, after what I have seen in the logs thus far, I am afraid to look further."
+    show robin pain with dissolve
     narrator "I could feel myself breathing harder."
     robin "Shit. Well, let's just get it over with."
     fridai "The damage is extensive. The hull is compromised from the collision with the surface of this world and most compartments are partially flooded."
@@ -323,26 +331,32 @@ label start:
     robin "Okay... So we were in the trade lane when we went down, right? So we can’t be more than a few light minutes away from the center of the lane, plus or minus a few minutes to account for drift..."
     robin "Even on a high-traffic lane like this one, it could be months before someone passes close enough to hear us. No time to wait that long, clearly. But at least if we can’t manage a takeoff, then I can secure the reactor and wait it out."
     fridai "I am afraid that it is not a few {i}light minutes{/i}, it’s a few {i}parsecs{/i}."
+    show robin surprise with dissolve
     robin "Ah..."
     robin "I’m sorry. Don’t think I heard you right."
     fridai "I ran some quick calculations on the way down, while I still had a decent picture of the constellations around us, and found we drifted far beyond standard error."
     fridai "We were over two and a half parsecs from the center of the trade lane. If we’re lucky, our first visitor will hear us in-"
     robin "About six and a half years..."
+    show robin sick with dissolve
     narrator "The icy terror gave way to a lukewarm blanket of static over everything. I felt lightheaded, my hands and feet were barely there. I felt like a ghost."
     robin "Even the most- Most optimistic crew-"
+    show robin angry with dissolve
     narrator "Beneath it all, a hot buzz of muffled rage wells up inside. Why us? Why me?!"
     robin "They won’t even bother to wave at us out the damn window after seeing a six-year-old timestamp. Fuck. Fuck!"
     narrator "The carousel of emotions swinging through me starts to slow down, and cold nausea begins to twist my guts into knots."
+    show robin sick with dissolve
     robin "I think I’m gonna be sick."
     narrator "I do get sick. Right into the water."
     fridai "I- I am sorry, Robin..."
     robin "It’s, uh..."
+    show robin pain with dissolve
     narrator "I finish gagging and spit. Spit again. I don’t want to waste any more precious water rinsing my mouth out so I just sit there. Tasting bile."
     robin "Don’t apologize. It’s- It’s my fault anyway."
     fridai "You do not know that."
     robin "My shift, my responsibility."
     fridai "The astrogation computer is just as fallible as you."
     narrator "It wasn’t, but I decided beating myself up wasn’t going to help things either."
+    show robin neutral with dissolve
     robin "OK. I’m- Okay, I’ll- We’ll-"
     robin "Uh, yeah, something..."
 
@@ -371,20 +385,19 @@ label start:
     narrator "My toe caught on something hard and I nearly fell flat on my face. I reminded myself that I was still relearning how to balance, but it was cold comfort."
     robin "Breaking my damn ankle is exactly what I don’t need right now."
     narrator "I resolved to slow my pace and proceed with more care. I dropped my eyes to the ground, seeing the rock I tripped over."
-    narrator "Something caught my eye. Beside that rock was some dull red sphere I hadn’t seen before."
-    narrator "I reached down and picked it up."
-    robin "Oh! Heavy little guy."
-    narrator "It’s a roundish thing with pointed ends that’s almost as large as my head, like a really oversized nut."
-    narrator "I give it a gentle squeeze and my fingertips sink into it easily. A little something leaks out and stains my gloves. Even through the gloves I can feel that the juices are sticky. A sweet scent wafts into my nose."
-    narrator "I could feel my mouth starting to water."
-    robin "This, uh, this... fruit?"
-    fridai "Oh, did you find something?"
-    robin "Yeah. It’s some kinda soft-skinned fruit, I think."
+    narrator "Something else caught my eye. It was round and dull red, about the size of my head."
+    narrator "I reached down and clutched it with one hand to lift it. It had a surprising heft to it."
+    narrator "Its shape curved into two dull ends, like an egg with two tips."
+    robin "Please don't {i}actually{/i} be an egg."
+    narrator "I give it a gentle squeeze and my fingertips sink into it easily. A little something leaks out and stains my gloves. I can feel my gloved fingers sticking to the surface."
+    narrator "A sweet scent wafts into my nose. I could feel my mouth starting to water."
+    fridai "Did you find something?"
+    robin "Yeah. It’s some kinda fruit, I think."
     fridai "Are you sure? It could be an egg. Some animals are known to have eggs with malleable skins."
     narrator "The hairs on my neck stood on end as I thought about what kind of creature could lay something like this."
     narrator "I didn’t like the idea of being trapped on a planet with anything crawling around on it, let alone something that could squeeze out an egg this huge."
-    narrator "Imagining a horrible, slavering monster lurking above me, I looked up into the trees and spotted more clutches of the same round, red thing hanging from the branches. I let out the breath I didn’t know I was holding."
-    robin "No, looks like it’s definitely fruit. Thanks for that lovely image, though."
+    narrator "Imagining a horrible, slavering monster lurking above me, I looked up into the trees and spotted more clutches of the same round, red fruits hanging from the branches. I let out the breath I didn’t know I was holding."
+    robin "No, looks like it’s definitely fruit. Unless trees lay eggs here. Thanks for that lovely image, though."
     fridai "Any time."
     robin "So, can I eat this?"
     fridai "I do not know. Perhaps you could try it."
