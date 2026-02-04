@@ -21,6 +21,10 @@ transform midright:
     xalign 0.9
     yalign 0.5
 
+transform hop:
+    easein 0.1 yoffset -50
+    easeout 0.1 yoffset 0
+
 define slowdissolve = Dissolve(1.5)
 
 # VFX
@@ -117,18 +121,18 @@ image robin_eyes_happy:
     repeat
 
 image robin_eyes_surprised:
-    "Characters/Expressions/robin_surprised_1.png"
+    "Characters/Expressions/robin_surprise_1.png"
     choice:
         pause 1.75
     choice:
         pause 2.5
     choice:
         pause 3.75
-    "Characters/Expressions/robin_surprised_2.png"
+    "Characters/Expressions/robin_surprise_2.png"
     pause 0.05
-    "Characters/Expressions/robin_surprised_3.png"
+    "Characters/Expressions/robin_surprise_3.png"
     pause 0.125
-    "Characters/Expressions/robin_surprised_4.png"
+    "Characters/Expressions/robin_surprise_4.png"
     pause 0.035
     repeat
 
@@ -222,7 +226,7 @@ layeredimage robin:
 #     function WaveShader(amp = 0, melt="both", melt_params=(20,1.0,0.1))
 
 label start:
-    
+    jump break
     play music "music/Leaving Home.mp3" fadein 8.0
 
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
@@ -298,8 +302,9 @@ label start:
     narrator "The pack would refill itself over the next few hours, faster if I was working hard. It wasn’t 100\% efficient, so I’d need to supplement my water intake somehow."
     
     narrator "I forced myself to look back at the {i}Selkirk{/i}. With a thought, I keyed my comms and sent a broadcast out to FridAI on the usual channel. The only channel we needed on these long, lonely voyages."
+    label break:
     robin "Fry?"
-    show robin surprise
+    show robin surprised at hop
     narrator "I jumped a little, startled at the unfamiliar croak of my voice. I coughed hard once, twice, then tried again."
     show robin pain with dissolve
     robin "FridAI? FridAI, I need you. Please tell me you’re OK."
@@ -331,7 +336,7 @@ label start:
     robin "Okay... So we were in the trade lane when we went down, right? So we can’t be more than a few light minutes away from the center of the lane, plus or minus a few minutes to account for drift..."
     robin "Even on a high-traffic lane like this one, it could be months before someone passes close enough to hear us. No time to wait that long, clearly. But at least if we can’t manage a takeoff, then I can secure the reactor and wait it out."
     fridai "I am afraid that it is not a few {i}light minutes{/i}, it’s a few {i}parsecs{/i}."
-    show robin surprise with dissolve
+    show robin surprised at hop
     robin "Ah..."
     robin "I’m sorry. Don’t think I heard you right."
     fridai "I ran some quick calculations on the way down, while I still had a decent picture of the constellations around us, and found we drifted far beyond standard error."
@@ -356,14 +361,17 @@ label start:
     robin "My shift, my responsibility."
     fridai "The astrogation computer is just as fallible as you."
     narrator "It wasn’t, but I decided beating myself up wasn’t going to help things either."
-    show robin neutral with dissolve
+    show robin bored with dissolve
     robin "OK. I’m- Okay, I’ll- We’ll-"
     robin "Uh, yeah, something..."
 
     narrator "There’s a long silence. The water moved up the sand, down the sand. Up, down. It wrapped around my boots. I felt myself sinking a little with each passing wave."
     narrator "I recognized that sensation of depression, it was threatening to freeze me in place, so I did the only thing I could do. I started moving."
-    narrator "I walked. Slowly at first, then briskly. Trying to get my thoughts moving too. I jump a little when FridAI suddenly starts talking again."
+    narrator "I walked. Slowly at first, then briskly. Trying to get my thoughts moving too."
+    show robin surprised at hop
+    narrator "I jump a little when FridAI suddenly starts talking again."
     fridai "I am currently considering the best course of action, but I need some time."
+    show robin neutral with dissolve
     fridai "I am afraid the damage to the reactor is cramping my style."
     narrator "I stop walking."
     robin "I’m sorry, where in the world did you learn that expression?"
