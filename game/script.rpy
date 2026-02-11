@@ -232,7 +232,6 @@ label start:
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
     scene bg beach with fade
     show smoke with dissolve
-    show rain with dissolve
     show robin sick at midright with dissolve
     narrator "The smell reached the back of my throat and I couldn’t help wincing at the sting in my nostrils."
     show robin pain with dissolve
@@ -1431,6 +1430,9 @@ label start:
     narrator "It was over."
     #fade to black...
 
+    scene black with fade
+    play music "music/Leaving Home.mp3" fadein 8.0
+
     # epilogue. there should be a weighty, patient transition to linger on the fact that Harper’s fate is unknown
     narrator "I reckoned it had only been a couple weeks on the island, and then about 6 months back aboard the grounded {i}Selkirk{/i} before I was able to get her spaceworthy again."
     narrator "Now, back in space, it felt good to be away from the strangling hold of gravity. I drifted through the halls, wearing a bored expression, doing my rounds."
@@ -1449,6 +1451,7 @@ label start:
     narrator "Every day I told myself, today is the day I’d punch in the wakeup command. Harper had finished recompiling days ago, but I woke up the displays and checked it anyway. It was still ready."
     # final scene
     
+
     scene cg end with fade
     
     narrator "My heart was in my mouth as my finger hovered over the control that would key the reboot macro I’d written by hand."
