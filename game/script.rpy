@@ -25,6 +25,11 @@ transform hop:
     easein 0.1 yoffset -50
     easeout 0.1 yoffset 0
 
+transform shiver:
+    yoffset -25
+    yoffset 25
+    repeat
+
 define slowdissolve = Dissolve(1.5)
 
 # VFX
@@ -226,7 +231,8 @@ layeredimage robin:
 #     function WaveShader(amp = 0, melt="both", melt_params=(20,1.0,0.1))
 
 label start:
-    #jump break
+    stop music
+    jump break
     play music "music/Leaving Home.mp3" fadein 8.0
 
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
@@ -276,7 +282,8 @@ label start:
     narrator "The results came back as a coded impulse of emotion and sensation that experience taught me to translate as `All OK`."
     narrator "Comms OK, crash went as well as it could, and not a word from Harper. I tore my eyes away from the {i}Selkirk{/i}, looking for something else to think about."
     
-    play music "beach ambience.wav" fadein 4.0
+    stop music fadeout 8.0
+    play audio "beach ambience.mp3" fadein 6.0 loop
 
     narrator "Behind me, sparse, bright greenery and trees sprung up from the sand. The forest grew steadily thicker beyond the outskirts until it burst into a huge body of dense trees and brush. It was astonishing."
     narrator "I’d never seen such huge plants before except in pictures and video fics. It was another reminder of many now that knowing something and experiencing it are two different things."
@@ -302,7 +309,6 @@ label start:
     narrator "The pack would refill itself over the next few hours, faster if I was working hard. It wasn’t 100\% efficient, so I’d need to supplement my water intake somehow."
     
     narrator "I forced myself to look back at the {i}Selkirk{/i}. With a thought, I keyed my comms and sent a broadcast out to Harper on the usual channel. The only channel we needed on these long, lonely voyages."
-    label break:
     robin "Harp?"
     show robin surprised at hop
     narrator "I jumped a little, startled at the unfamiliar croak of my voice. I coughed hard once, twice, then tried again."
@@ -386,10 +392,21 @@ label start:
     narrator "A low buzz of anxiety still hums beneath everything. But now, instead of paralyzing me, it electrifies me."
     narrator "Suddenly, I’m back in control. Every little discomfort weighs on me. I do a quick inventory, then snap my head up towards the jungle."
     robin "Well... We gotta think. And you can’t exactly think on an empty stomach."
+
+    stop audio fadeout 4.0
+    scene black with fade
+    pause 4.0
     harper "Glad to have you back, Rob."
 
-
     # new scene
+    play audio "beach ambience.mp3" fadein 4.0 loop
+    scene bg beach with fade
+    show smoke with dissolve
+    show robin neutral at midright with dissolve
+    play sound "trudge sand.mp3"
+    pause 5.0
+
+    show robin surprised at hop
     narrator "My toe caught on something hard and I nearly fell flat on my face. I reminded myself that I was still relearning how to balance, but it was cold comfort."
     robin "Breaking my damn ankle is exactly what I don’t need right now."
     narrator "I resolved to slow my pace and proceed with more care. I dropped my eyes to the ground, seeing the rock I tripped over."
@@ -431,6 +448,7 @@ label start:
     narrator "I spent the time gathering more of the fruits. Some are so soft they fell apart in my hands."
     narrator "Slowly, the pile of fruit grew."
     narrator "I bent to pick up another and something skittered out from under it!"
+    show robin surprised at hop
     robin "WAGH!"
     narrator "I jumped so high I found myself partway up a tree. It swayed gently from  side to side under my weight."
     narrator "I realized Harper was talking to me."
@@ -531,9 +549,15 @@ label start:
     narrator "I tried my best to get as much of the gunk off of my skin as possible, but as soon as I thought I was finished, there always seemed to be more."
     narrator "It was impossible to get rid of every grain, and when I finally zipped my suit up again the feeling of it pressing specks of grit into my skin is already driving me mad with discomfort."
     narrator "The day was wearing on, and I still needed to find a reliable source of fresh water. I turned towards the jungle and set off to explore it more thoroughly."
+    label break:
 
-    play music "jungle ambience 1.flac" fadein 3.0
+    stop audio fadeout 4.0
+    scene black with fade
+    pause 4.0
+
+    play audio "jungle ambience 1.mp3" fadein 4.0 loop
     scene bg jungle day with fade
+    show robin neutral at midright with dissolve
 
     # water search scene
     narrator "As the shadows were growing long and the sky turned red, I pushed through the overgrowth. The outskirts of the jungle gave way to a deep, thick carpet of green, forming impassable walls in places."
@@ -542,11 +566,13 @@ label start:
     narrator "Then, just at that moment, something cold splashed onto my head. I leapt back in shock, wiping my forehead and looking up to see what hit me."
     narrator "I saw something dripping from above. There was a little water trickling down from one of the trees overhead."
     narrator "Excited, I removed a glove and carefully reached up above me, feeling around to find the source. My fingers ran over some large leaves and came away wet."
+    play sound "water handling.mp3"
     narrator "I tipped the leaf gently and let a little fluid spill into my cupped palm, bringing it up to my eyes to see."
     narrator "It looked like perfect, cool, clear rain water. Not your ordinary water, mined from ice buried in filthy rock that you slopped out of a tap. This was the kind of water you see in ads."
     narrator "Perfect, pure, artisanal water imported from only the finest underground springs back on Earth." 
     narrator "My hand shook as I fought against the overwhelming urge to gulp it down. I forced myself to use some caution. What if it had soaked up invisible poison from the surface of the leaves?"
     narrator "The reclaimer in my suit could filter out anything dangerous, but the designers didn’t envision this use case. There was no way to directly add water to the system."
+    play sound "water handling.mp3"
     narrator "The best I could do is pour the water into my suit, let it soak into the liner as my sweat would, and hope that it filtered out anything dangerous."
     narrator "If the leaf was coated in some toxic residue, surely it’d be better off on my skin than in my stomach?"
     narrator "After consulting Harper, it pointed out that the system was bottlenecked by throughput."
@@ -555,8 +581,9 @@ label start:
     narrator "This spot was cooler than the beach due to the thick overhead cover from the trees, intertwined and overlapping. There was even a light breeze, and the cool lick of a breeze on my face felt incredible."
     narrator "It reminded me of the end of a work day, standing in a state of undress in front of the A/C after a long shift."
 
-    play music "jungle ambience 1.flac" fadein 3.0
-    scene bg jungle night with fade
+    scene bg jungle night with dissolve
+    show robin neutral at midright with dissolve
+    play audio "jungle ambience 1.mp3" fadein 4.0 loop
 
     robin "Not a bad place to bed down..."
     narrator "I took a short break, then hiked back to where I’d stashed the fruit and took some time moving them to my new camp. After that tough swim, even this effort revived the burning sensation in my muscles."
@@ -570,7 +597,15 @@ label start:
     narrator "I managed to gather a mere handful of leaves before I gave up, too exhausted to accomplish even this small task."
     narrator "With one last burst of effort I forced my deadened arms to brush the larger rocks and pebbles aside before I began to slip away into sleep."
     
+    show black with dissolve
+    stop audio fadeout 4.0
+    pause 5.0
+
+    show bg jungle night with dissolve
+
+    show robin neutral at hop
     harper "Robin? Robin, you need to stay awake."
+    show robin pain at shiver
     robin "I- I can barely move. There’s nothing more I can do about water today."
     harper "That is one concern, yes. I understand that it is currently daytime, and I am worried about how you’ll cope with the low temperatures during the night on this world."
     narrator "I felt a shiver ripple through me."
@@ -635,6 +670,8 @@ label start:
     # day 2
     play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day with fade
+    show robin neutral at midright with dissolve
+    show rain with slowdissolve
     
     narrator "I woke to a pattering sound. I groaned and pulled myself to my knees to look around. Warm, red light shafted through the canopy overhead. I had slept through until morning."
     narrator "As I looked up, I noticed the leaves overhead bouncing and I could see waterfalls of rain had formed all around me."
@@ -736,6 +773,7 @@ label start:
     
     play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day fire with fade
+    show robin neutral at midright with dissolve
     
     narrator "One brisk walk later and I’d returned to the well with a leafy branch that I had lit in my original, rekindled camp fire."
     narrator "I dropped the flaming branch into the fuel and waited for the flames to catch. Meanwhile, I found a few fist-sized stones and dropped them as near to the flames as I could manage."
@@ -760,6 +798,7 @@ label start:
     # show previous background
     
     scene bg beach with fade
+    show robin neutral at midright with fade
     
     narrator "The humidity under the jungle canopy was starting to get to me, so I resolved to take my expedition back towards the beach where I could at least take in a breeze."
     narrator "As I reached the border between the jungle and the sand of the beach, I walked along the edge of it to take advantage of the shade of the occasional tree."
@@ -807,6 +846,7 @@ label start:
     
     play music "jungle ambience 1.flac" fadein 3.0
     scene bg jungle day with fade
+    show robin neutral at midright with fade
     
     narrator "Something in my spirit broke. I tried to summon up frustration, anger, something. But my mind was numb. I only felt my body."
     narrator "My feet hurt. My limbs were heavy, sore, and tired. And my head was pounding. I tried looking for some kind of sign of where it had gone, but it left no traces, not in the failing red light of the sun."
