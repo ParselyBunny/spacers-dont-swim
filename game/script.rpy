@@ -870,8 +870,9 @@ label start:
     narrator "I forced myself to gather more fuel and stoke the dying fire. I added some wood scraps, nudged it tenderly with a branch, nurturing it into a roaring flame that would burn through the night."
     narrator "The hunger gnawing at me made it hard to fall asleep that night. I lay sprawled out, my face to the sky. The glare from the fire turned the sky into a dark wet smear; not a single star."
 
-    play music "jungle ambience 1.flac" fadein 3.0
+    play music "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
+    show robin neutral at midright with dissolve
 
     # day 3
     narrator "Morning came. Dull, insistent pangs in my stomach woke me. I was dizzy and shivering. There was a mouth chewing at my insides, hollowing me out. Not sure if it was just from hunger, or if the beetles were a little toxic."
@@ -889,6 +890,7 @@ label start:
     # transition
     
     scene bg highlands day with fade 
+    show robin bored at midright with dissolve
     
     narrator "My walk took me deeper inland than I had been before. The ground grew hard, the trees giving way to low, scrubby brush as they struggled to push their roots into dry, rocky soil."
     narrator "The signs became more obvious still, until the spare tracks of a single doglike merged into pairs, then grew into a gaggle, a herd."
@@ -905,6 +907,7 @@ label start:
     narrator "Soon, I could hear the grunting and snuffling of something ahead. I peered between the leaves."
     
     scene bg highlands day den with fade
+    show robin neutral at midright with dissolve
     
     narrator "I was back far enough that I could only really see them when they moved, but the doglikes were there."
     narrator "As I drew near, I could see there were about six or seven of them milling around the narrow opening of their den."
@@ -932,8 +935,10 @@ label start:
     narrator "I ran, panting with the effort. The cub wriggled as it slowly came back to its senses. I shut my eyes and wrung it in my hands until something popped and it stopped moving. I felt a sob bubble up from my throat."
     narrator "Sure now that I wasn’t being followed, I slowed to a stop and dropped to my knees, panting. I tried not to look at it, but I couldn’t ignore the limp weight spilling over my arms. Hot tears streamed down my face and stained my cheeks."
 
-    play music "jungle ambience 1.flac" fadein 3.0
+    play music "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
+    show robin neutral at midright with dissolve
+
     # later
     narrator "As I walked back to camp, Harper speculated about how to actually go about preparing and eating the creature I’d caught. I didn't say anything, but if Harper noticed, it had the grace not to mention it."
     narrator "After a long walk back, I felt the exhaustion setting in once more. The hunger pangs returned with a vengeance. I settled on Harper's suggestion to make a shallow cut in the skin to see how things were arranged inside."
@@ -953,8 +958,9 @@ label start:
     narrator "The fire was burnt down but still smoking a little. I reached my hand out and felt that the ashes were still hot."
     narrator "I turned and stirred the ash and saw the coals glowing underneath. I was amazed that it had stayed hot through the entire day. I took advantage of the heat to get another fire going quickly."
     
-    play music "jungle ambience 1.flac" fadein 3.0
+    play audio "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day fire with fade
+    show robin neutral at midright with dissolve
     
     narrator "I gathered up the pile of morsels I had made and started spearing them on thin sticks and arranging them around the fire to cook."
     narrator "I figured I’d let them char just to be absolutely sure they were cooked all the way through. After all this hard work I wasn’t going to take any chances on getting killed by food poisoning."
@@ -968,8 +974,9 @@ label start:
 
 
     # making cord
-    play music "jungle ambience 1.flac" fadein 3.0
+    play audio "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
+    show robin neutral at midright with dissolve
     
     narrator "The day wore on, and after a meal and a drink I felt revived. I needed a rest, so I sat down in front of the bundle of grass I'd gathered and started playing with it."
     narrator "First, I tried ripping it to get a thread started, but that frayed the ends and left me little length to work with. I looked at the torn end of a blade of grass, saw the skin around the threads I wanted. How to get rid of the skin?"
@@ -1036,8 +1043,9 @@ label start:
     narrator "I brought that tree down and decided to take a break after that. I deserved it."
 
     # transition
-    
+    play audio "beach ambience.mp3" fadein 3.0 loop
     scene bg beach night yeslights noreef with fade
+    show robin neutral at midright with dissolve
     
     narrator "As twilight was coming on, I dragged the log down to the beach. I needed to see if it would float."
     narrator "I almost didn’t want to do it. After all this work, I nearly couldn’t bear to know if it was all a waste of time."
@@ -1056,11 +1064,17 @@ label start:
     # days pass
     # robin gaunt
     
+    play audio "beach ambience.mp3" fadein 4.0 loop
     scene bg beach with fade
+    show robin neutral gaunt at midright with dissolve
     
-    narrator "After a few days of foraging, carving, and braiding, I had several coils of good, strong cordrope and a respectable row of logs, all roughly the same diameter and length, lined up at the head of the beach like soldiers."
+    narrator "Days passed. Knowing how much time I'd wasted only depressed me so I let go. Stopped keeping track. I judged the time by the ache in my joints, the position of the sun."
+    narrator "Foraging, chopping, carving, braiding. More hunting, more scrabbling for scraps, more food. My stomach drove everything. I was always hungry."
+    narrator "I dreamt of mess hall meals served on dull gray trays, edges still sharp since they were fresh from the printers. I would fall down and pray to any god who'd listen if I could get just one slab of greasy, processed convenience grub."
+    narrator "No helping it. Back to cutting wood."
+    narrator "I had to make myself another adze after the first one split. Finally, I had several coils of good, strong cordrope and a respectable row of logs, all roughly the same diameter and length, lined up at the head of the beach like soldiers."
     narrator "My adze held up well, though I had to replace the cordage recently. All the branches and leaves I got from delimbing the trees made for a great supply of fuel and I had a reserve of fuel for the first time since I was on this island."
-    narrator "My hands and feet were hard from the work, and my face and neck darkened by the sun. I spent most of my time finding food to eat."
+    narrator "My hands and feet were hard from the work, and my face and neck burnt by the sun. I spent most of my time finding food to eat."
     narrator "I’d hunted another doglike since my first kill, and discovered some roots and nuts that were safe to eat, though they were not as abundant as the redfruit and needed much more preparation."
     narrator "In spite of my effort, I was clearly fighting a losing battle. My stomach was sunken; the suit’s smart rubber sagged where it was still slowly refitting itself to keep up with the rate I was losing weight."
     narrator "Each day I had less energy than the last. I panted unselfconsciously as I dragged another log down to the beach. The last one I’d need, I figured. It was about time."
@@ -1083,8 +1097,9 @@ label start:
     narrator "The pain was angry, thin, and everywhere. I itched and it just turned the itching into more raw and sore and crawling itch."
     narrator "Tragically sobered from my feverish fit by the cool water, enveloped in a skittering agony that teased my body into strange contortions that somehow helped me fight the urge to scratch, I waded out of the sea and trudged my way back to camp."
     
-    play music "jungle ambience 1.flac" fadein 3.0
+    play audio "jungle ambience 1.mp3" fadein 3.0 loop
     scene bg jungle day with fade
+    show robin neutral at midright with dissolve
     
     robin "I’m fucking miserable."
     harper "That makes two of us. Like peas in a pod."
@@ -1177,7 +1192,8 @@ label start:
     # drowning
     
     stop music
-    scene cg drowning with fade
+    scene cg drowning with fade:
+        function WaveShader(speed = 0.2, amp = .45, melt="both", melt_params=(10,0.5,0.05))
     
     narrator "The sun was blocked out by a wall of water as I was hurled away from the raft, twisting through the air."
     narrator "I hit the water and there was nothing but a confused flurry of sensations. A rush of colors. My limbs were jerked and twisted as I spun through the whirling currents."
@@ -1185,19 +1201,29 @@ label start:
     narrator "Either I closed my eyes or I hit my head, because everything went black. In the next instant light came rushing back in and I was already flailing and clawing my way to the surface."
     narrator "The water that had shot its way down my throat made a home in my guts and chest like so much lead."
 
+    scene black with fade
+    stop music fadeout 4.0
+    pause 5.0
+
     #scene break to add tension
 
     # ocean
-    
+    play audio "beach ambience.mp3" fadein 4.0 loop
     scene bg open wreck with fade
+    pause 3.0
+    #TODO: splash SFX
+    show robin surprise at midright
+    show robin surprise at hop 
     
     narrator "I hurled myself up to the surface, coughing and throwing up mouthfuls of seawater between gasps of air. My vision was blurry, but I could see I was near the shore."
+    show robin pain with dissolve
     narrator "I moved my right leg to take a step and felt a weird, flapping sensation. It felt like a piece of seaweed was stuck to my leg. The next instant my foot touched the ground and, as I felt my leg take the weight of my body, my leg shivered, threatening to buckle."
     narrator "I let myself fall forward into the chest-high water to take the weight off my injured right leg. It wasn’t painful yet and I shoved it out of my mind before I could think about it too closely."
     narrator "I paddled my left leg and arms experimentally. I felt a weird sensation in some of my fingers, but I put that aside too and focused on getting out of the water. I could see pinkish blooms spreading around me as I bled into the water."
     narrator "Favoring my left leg, I limped my way out of the water and onto the sand. I couldn’t see anything out of my right eye and for one gut-wrenching instant I thought I might have been blinded."
     
     scene bg beach with fade
+    show robin pain with dissolve
     
     narrator "After gingerly probing my face with my good fingers I realized I just had blood in my eyes from a gash on my head."
     narrator "I looked back behind me and wiped my eyes, looking for the raft. It was drifting away and for an instant I had a suicidal impulse to swim out to it and rescue it."
@@ -1224,7 +1250,7 @@ label start:
     narrator "Stopped."
 
     #the nightmare
-    stop music fadeout 8.0
+    stop audio fadeout 8.0
     scene black
     pause 4.5
     
@@ -1259,17 +1285,23 @@ label start:
     pause 5.0
 
     # robin passes out and wakes up later that night
-    play music "jungle ambience 1.flac" fadein 3.0
+    play music "jungle ambience 1.mp3" fadein 3.0 loop
     scene bg jungle night with fade
+    show robin surprise at midright
+    show robin surprise at hop
     
     narrator "The pain shocked me awake. I gave a wet, coughing sob. I coughed so hard that I gagged. I closed my eyes."
+    show robin pain at shiver with dissolve
     narrator "I wanted desperately to go back to sleep and stop hurting, but the fire was low. I was shivering from the cold, not just the pain and exhaustion."
     narrator "I groaned and wormed pathetically towards the wood pile. Even without my injuries, wearing the suit backwards would have made it awkward to walk."
     narrator "It was all I could do to get within arm’s reach of a thin branch. By then I was panting. My body was covered in a cold sweat from the exertion."
     narrator "I dropped my hand onto a branch with a gasp, then willed my hand to close around it. I clumsily dropped sticks into the embers."
     narrator "Not having the energy to place them carefully, the fire was uneven and spilling from the barrier of rocks I’d built around it."
     
+    play music "jungle ambience 1.mp3" fadein 3.0 loop
+    play audio "fire crackle.mp3" fadein 3.0 loop
     scene bg jungle night fire with fade
+    show robin pain with dissolve
     
     narrator "Luck was with me as the fire grew nevertheless. Slowly, the heat seeped into my body, and I stopped shivering. Yet another danger had passed."
     narrator "I must have fallen unconscious the moment my guard dropped, because one instant I was warm, the next I could smell burning hair. I saw my arm being kissed by the flames before I felt it burning."
@@ -1284,7 +1316,10 @@ label start:
     
     # the night sky
     
+    play music "jungle ambience 1.mp3" fadein 3.0 loop
+    play audio "fire crackle.mp3" fadein 3.0 loop
     scene cg nightsky with fade
+    show robin bored at midright with dissolve
     
     narrator "I’d been awake during the night before, of course, but the glare of the fire always masked my surroundings."
     narrator "Now, in the dark and with my eyes adjusted for the first time I saw the sky as it really was. Lit by the bright moons and stars overhead, it glittered brighter than any orbital."
@@ -1332,8 +1367,11 @@ label start:
     harper "Are you looking?"
     robin "Ah-huh. Yeah."
     harper "OK, just keep looking."
-    narrator "I looked. A few heartbeats passed. Then, I saw flickering as the {i}Selkirk{/i}’s running lights blinked to life, one at a time."
-    narrator "The lights winked on and off in rhythmic, playful patterns. I’d never have been able to see them in the daytime, but here they shone as brilliantly as any star. It was beautiful."
+    narrator "I looked. A few heartbeats passed."
+    # TODO: show the lights lighting up
+    # TODO: animate lights winking
+    narrator "Then, I saw flickering as the {i}Selkirk{/i}’s running lights blinked to life, one at a time."
+    narrator "The lights throbbed in and out of the night. Soft, even, and sure. I’d never have been able to see them in the daytime, but here they shone as brilliantly as any star. It was beautiful."
     narrator "I could feel a lump in my throat, and my voice quavered."
     robin "You didn’t have to do that..."
     harper "Of course I didn’t. That’s the point. I didn’t want to say anything, but, for a human, you’re awfully bad at this whole ‘emotion’ thing aren’t you?"
@@ -1347,7 +1385,9 @@ label start:
 
     # the next morning
     
+    play audio "beach ambience.mp3" fadein 4.0 loop
     scene bg beach with fade
+    show robin neutral at midright with dissolve
     
     narrator "The next day, I didn’t feel much better than before. But I was fresh, I had some strength back, and a new determination. I knew my energy would go quickly because of my injury. Hunger gnawed at my stomach."
     narrator "Crawling around my camp, I finished the last of the meat and water I’d saved. I was still peckish, but it would have to do."
@@ -1377,6 +1417,7 @@ label start:
     
     robin "Harper, are you there?"
     narrator "I had a sickening thought, and I turned."
+    # TODO: but cant robin not see the lights during the day?
     narrator "I looked towards the {i}Selkirk{/i}, as if I could reach out and touch its mind with my own."
     robin "You’re not OK, are you?"
     narrator "I stared out there at the darkened wreck, waiting patiently for an answer."
@@ -1390,7 +1431,10 @@ label start:
 
     #that night
     
-    scene bg beach night nolights reef with fade
+    play audio "fire crackle.mp3" fadein 4.0 loop
+    play music "beach ambience.mp3" fadein 4.0
+    scene bg beach night nolights reef with 
+    show robin bored at midright with dissolve
     
     narrator "I sat by the fire as it burned the last of my fuel down to angry, glowing coals. Night had fallen, and just like before, the bioluminescent coral gleamed through the surface of the water."
     narrator "I nibbled anxiously on a strand of ropegrass, feeling it fray and come undone in my mouth, letting the tickling sensation distract me."
