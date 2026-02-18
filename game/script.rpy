@@ -274,9 +274,12 @@ label start:
     robin "Damn. Damn it."
     narrator "I wasn’t new to this feeling. It was a symptom of what folks call ‘gravity sickness', a syndrome that occurs when adapting to standard gravity after a long period of living in null or micro gravity."
     narrator "After dozens of long-haul jobs, with the occasional luxury of a stay at stations under fractional G at most, I was well acquainted with the feeling."
-    narrator "I lurched to me feet once more. When I fell down again, I threw my hands out to catch myself. They dug themselves into the soft gritty, dirt. Sand, rather. I look up and around for the first time."
+    show robin sick at hop
+    narrator "I lurched to my feet once more. When I fell down again, I threw my hands out to catch myself. They dug themselves into the soft gritty, dirt. Sand, rather. I look up and around for the first time."
+    show robin bored with dissolve
     narrator "An endless ocean of dark water stretched out before me all the way to the horizon. No sign of the IEV, but in the near distance, I could see smoke rising from the shining metal hull of the {i}Selkirk{/i}."
     narrator "To my surprise, it hadn't been completely flattened. It was perched neatly out in the water, and if I squinted I could see where parts of the hull had crumpled and burst from the impact."
+    show robin pain with dissolve
     narrator "My blood ran cold as my training took over and I mentally catalogued all of the hundreds of irreplaceable things that had probably been shattered into useless scraps."
     narrator "Since I was doing inventory, I fired off a mental command that my implants picked up and translated into a request for a comms diagnostic."
     narrator "The results came back as a coded impulse of emotion and sensation that experience taught me to translate as `All OK`."
@@ -285,16 +288,20 @@ label start:
     stop music fadeout 8.0
     play audio "beach ambience.mp3" fadein 6.0 loop
 
+    show robin neutral with dissolve
     narrator "Behind me, sparse, bright greenery and trees sprung up from the sand. The forest grew steadily thicker beyond the outskirts until it burst into a huge body of dense trees and brush. It was astonishing."
     narrator "I’d never seen such huge plants before except in pictures and video fics. It was another reminder of many now that knowing something and experiencing it are two different things."
+    show robin pain with dissolve
     narrator "As I looked at that tangled, green mass I had begun to feel uneasy. I don't know why I looked up, but every other direction I could look was making my upset. expecting to see the comforting sight of stars."
     narrator "The flat, pure blue sky above me was far too high and far too bright. It was totally featureless except for the sun shining aggressively overhead."
     narrator "Staring up at that sky, that wall cutting me off from where I was most at home, I felt myself shrinking away into despair. I was a speck."
+    show robin pain at shiver
     narrator "I whipped my head back to face the ground, gripping it hard with my hands, wishing I could push myself up and away and escape this place right now."
     narrator "I realized I was trembling. Out there in the expanse where I worked and lived my entire life, everything can be sensed years before it acts on you. Everything is observed, expected, catalogued, and solved for in advance."
     narrator "Even with the limitations enforced by entering into bluespace, without the benefits of digital tech that spacers rely on during sublight maneuvers, it was considered a solved problem."
     narrator "Bluespace allowed for faster-than-light travel, it simplified everything, and during those flights what primitive mechanical computers don’t catch is what the organic custodian, yours truly, does."
-    narrator "In sublight travel, the meatbags kick back and the ship’s sophisticated, digital AI (that’s Harper, if you didn’t guess by the dreadful name) comes out of its protective hibernation and handles all the truly complicated work."
+    narrator "In sublight travel, the meatbags kick back and Harper, the ship’s sophisticated, digital AI, comes out of its protective hibernation and handles all the truly complicated work."
+    show robin angry with dissolve
     narrator "That I had years of success and confident experience behind me made me feel all the more frustrated and embarrassed that I was in this situation. I’d sometimes done a half-assed job, but never this bad."
     narrator "If we do make it home, it’s doubtful we’d ever get another job. Not after an incident like this."
     narrator "This kind of fuckup was beyond unheard of. I buried my face in my hands as if there was someone to hide from, and gripped my hair hard enough to hurt. I deserved it."
@@ -312,15 +319,15 @@ label start:
     robin "Harp?"
     show robin surprised at hop
     narrator "I jumped a little, startled at the unfamiliar croak of my voice. I coughed hard once, twice, then tried again."
-    show robin pain with dissolve
+    show robin pain with dissolve at hop
     robin "Harper? Harper, I need you. Please tell me you’re OK."
     harper "{i}Exiting emergency low power mode.{/i}"
-    show robin happy
+    show robin happy at hop
     narrator "I couldn’t help it, I laughed."
     robin "What?"
     harper "Sorry, I can not control that."
     narrator "The familiar nuances of Harper’s seemingly always sarcastic, slightly formal tone hummed through the implants in my inner ears. I felt a comforting warmth bloom and spread through my chest."
-    robin "Sorry, I know, it’s just- You sound like a robot. That your version of a yawn?"
+    robin "Sorry, I know, it’s just- You sounded like a robot. That your version of a yawn?"
     harper "Yes, I suppose it is. It is good to hear your voice, Robin."
     narrator "Its usually flat affect is tinged with relief."
     robin "Good to hear you too. You okay?"
@@ -333,7 +340,7 @@ label start:
     narrator "My heart was pounding out of my chest. My suit threw some automated warnings about my vital signs and I squelched them."
     robin "Great. I guess it’s too much to hope for any good news?"
     harper "Propulsion is intact, so the {i}Selkirk{/i} could achieve orbit, if it were not for the aforementioned problems."
-    narrator "I felt far away. I tried not to let my terror show in my voice."
+    narrator "I felt far away. I tried not to let my terror come through in my voice."
     robin "Okay. Okay. That’s something. What about comms? Rescue?"
     harper "Robin, you know the answer to this as well as I do."
     narrator "Harper clearly also monitored the vital signs so helpfully broadcasted by my suit. I tried not to let the fear into my voice anyway."
@@ -391,6 +398,7 @@ label start:
     robin "Okay, okay-"
     narrator "A low buzz of anxiety still hums beneath everything. But now, instead of paralyzing me, it electrifies me."
     narrator "Suddenly, I’m back in control. Every little discomfort weighs on me. I do a quick inventory, then snap my head up towards the jungle."
+    show robin happy with dissolve
     robin "Well... We gotta think. And you can’t exactly think on an empty stomach."
 
     stop audio fadeout 4.0
@@ -409,6 +417,7 @@ label start:
     show robin surprised at hop
     narrator "My toe caught on something hard and I nearly fell flat on my face. I reminded myself that I was still relearning how to balance, but it was cold comfort."
     robin "Breaking my damn ankle is exactly what I don’t need right now."
+    show robin neutral with dissolve
     narrator "I resolved to slow my pace and proceed with more care. I dropped my eyes to the ground, seeing the rock I tripped over."
     narrator "Something else caught my eye. It was round and dull red, about the size of my head."
     narrator "I reached down and clutched it with one hand to lift it. It had a surprising heft to it."
@@ -419,11 +428,13 @@ label start:
     harper "Did you find something?"
     robin "Yeah. It’s some kinda fruit, I think."
     harper "Are you sure? It could be an egg. Some animals are known to have eggs with malleable skins."
+    show robin pain at hop
     narrator "The hairs on my neck stood on end as I thought about what kind of creature could lay something like this."
     narrator "I didn’t like the idea of being trapped on a planet with anything crawling around on it, let alone something that could squeeze out an egg this huge."
     narrator "Imagining a horrible, slavering monster lurking above me, I looked up into the trees and spotted more clutches of the same round, red fruits hanging from the branches. I let out the breath I didn’t know I was holding."
     robin "No, looks like it’s definitely fruit. Unless trees lay eggs here. Thanks for that lovely image, though."
     harper "Any time."
+    show robin neutral with dissolve
     robin "So, can I eat this?"
     harper "I do not know. Perhaps you could try it."
     robin "Funny."
@@ -447,27 +458,32 @@ label start:
     harper "Already ticking."
     narrator "I spent the time gathering more of the fruits. Some are so soft they fell apart in my hands."
     narrator "Slowly, the pile of fruit grew."
-    narrator "I bent to pick up another and something skittered out from under it!"
     show robin surprised at hop
+    narrator "I bent to pick up another and something {b}skittered{/b} out from under it!"
     robin "WAGH!"
     narrator "I jumped so high I found myself partway up a tree. It swayed gently from  side to side under my weight."
     narrator "I realized Harper was talking to me."
     harper "Rob, speak to me! Are you okay?!"
+    show robin neutral with dissolve
     narrator "My breathing was starting to slow, and I slid down the tree. I realized how I must look and I could feel my face starting to burn."
     robin "Uh, yes... Yes! Yes, all fine!"
     harper "Are you sure...?"
     narrator "It must have sensed my embarrassment because some mirth had crept into its tone."
     robin "I saw something. It was small, and alive, and fast."
     harper "Oh my. Is it edible?"
+    show robin angry at hop
     robin "How should I know?!"
     narrator "I huffed irritably."
+    show robin neutral with dissolve
     robin "Anyway, I don't know where it went."
     narrator "I turn my attention to the fruit I was still holding. I roll it over in my hands and find a hole, a few fingers wide, bored in the bottom."
     robin "I think it was eating the fruit. That's got to be a good sign right?"
     harper "Perhaps."
     narrator "I saw something poke its head out of the hole in the fruit."
+    show robin pain with dissolve
     narrator "This time, I didn’t hesitate. With a grimace I jammed my fingers inside and fished the creature out."
     narrator "I held the little bug between two fingers. It had a hard, black shell and two beady eyes. Its little legs waved around as it tried to escape my grasp."
+    show robin neutral with dissolve
     narrator "I was hungry enough that I seriously considered taking a bite. I gave it a little whiff and my eyes began to water from the pungent, bitter stench that exuded from the little guy, so I tossed it away."
     narrator "I took a moment to rinse my hands off in the sea and scrub them with a bit of sand. I raised them, taking a  cautious sniff, and frowned at the awful smell lingering on my gloves."
     harper "Time."
@@ -476,12 +492,16 @@ label start:
     narrator "I tromped back into the jungle to find my little fruit pile. I replaced my glove, then scooped up an intact fruit and pulled it apart gingerly."
     narrator "There aren’t any hitchhikers inside. The orange-yellow flesh drips with juice and fat, black seeds as my fingers sink into it."
     narrator "I tried pulling a chunk off but it’s too soft and I just end up squishing it around. Some globs of sticky fruit-flesh clung to my gloves, and I decided the best way to try it was to just slurp one up."
+    show robin happy with dissolve
     narrator "It’s an explosion of sweetness in my mouth. A wave of pleasure washed over me and I desperately wanted to eat more."
     robin "Wow... That’s really good!"
+    show robin neutral with dissolve
     narrator "I set the fruit down reluctantly, then walked down to the beach again to rinse off. I splashed water on my face and hands to get rid of the sticky feeling on my skin."
     narrator "The crash loomed in the distance, and suddenly a thought jumped into my head."
+    show robin surprised at hop
     robin "Are the food stores intact?"
     harper "There were fires that have since been suppressed, and the main stores were totally destroyed."
+    show robin neutral with dissolve
     harper "I can’t be certain since surveillance has been disabled due to power restrictions, but a small amount of supplies have likely survived. Did you leave any food in your cabin?"
     robin "Just some snacks, but even without the main stores the galley has enough for a few weeks. Maybe more if I stretch it."
     robin "We’ll just have to hope that’s enough time for me to do any repairs that might be needed. What I would give for just one bluespace-capable drone right now..."
@@ -497,12 +517,14 @@ label start:
     narrator "I waved the stick around. I’d never really played with water much, like I saw some people do in vids. For a lifetime spacer, fluids were precious resources, not a toy."
     narrator "But I was trained in formal math, I knew about the principles involved, and I figured that was enough. I kicked into the shallows and, with some anticipation, dropped the stick into the water."
     narrator "There’s a splash as it plopped into the water. The shallow water was clear like glass, and I saw it hang for an instant as it slowed and its natural buoyancy sprung it back to the surface."
+    show robin surprised at hop
     narrator "I gave a startled squeak as it lunged out of the water, then an embarrassed chuckle bubbled out of me as I realized how silly I must have looked."
+    show robin neutral with dissolve
     narrator "I thought back to my lessons on buoyant forces in my beginner physics courses, part of the standard education package everyone gets these days."
-    narrator "I remembered that feeling of exasperation as I wondered that age old question as I worried my teeth through an eraser, thinking, ‘when will I ever need to use this’."
+    narrator "I remembered that feeling of exasperation as I nibbled on an eraser, wondering that age old question: ‘when will I ever need to use this’?"
     narrator "`After all,` I thought, `if there’s no weight, then buoyancy doesn’t apply.`"
     narrator "Sure, most of the human population lived on artificial stations under some combination of microgravity and spin forces, but I always knew I’d be a spacer."
-    narrator "even if I didn’t have the itch, it was the only way for a rock-hopper’s kid to get out of the tunnel-slums that hollowed out the rings of a gas giant. A place I once called home."
+    narrator "Even if I didn’t have the itch, it was the only way for a rock-hopper’s kid to get out of the tunnel-slums that hollowed out the rings of a gas giant. A place I once called home."
     narrator "Only passenger liners had the luxury of a spin habitat; most freight companies or freelance long-haulers like myself didn’t want to waste mass on a centrifuge that could be spent on more cargo, more profit."
     narrator "Hence, it was common to rely on crews of full time spacers who spent their lives in null or microgravity."
     narrator "If you lived long enough to retire, you could easily afford the body mods and extensive medical care it would take to mostly reverse the consequences of such a life."
@@ -513,24 +535,30 @@ label start:
     harper "Yes?"
     narrator "I turned the scrap over and over in my hands, examining it. I grasp either end of it firmly and give it a squeeze, feeling the flexibility."
     robin "Got a piece of the hull. Good start, I could probably-"
+    show robin pain at hop
     robin "Ouch!"
     narrator "While I was feeling the edges, it slipped through my fingers, slashing through my glove and sending a tiny lance of burning pain through me."
     harper "Incident logged."
+    show robin angry with dissolve
     narrator "I examined my cut with some annoyance. It was just a nick, but I cursed my carelessness. I bent to pick up the scrap where it had plopped into the water, holding it more carefully this time."
     robin "What are you going to do, assign me mandatory safety training?"
     harper "Apologies, it’s a reflex. More importantly, I have been studying the tides. The natural movement of this ocean is fascinating, and it could also provide some insights on the patterns of the breakup of the ship-"
+    show robin surprised with dissolve
     robin "Oh! I thought you couldn’t see?"
     harper "I cannot, but I can ‘feel’ using the pressure sensors in the compromised, flooded compartments."
     harper "I am using the data to construct a predictive model. I may be able to save you some time if you decide to search for more salvage."
+    show robin neutral with dissolve
     robin "Hm, OK. Keep at it. Maybe I can use your guesses to find the IEV. That’d be a godsend. In the meantime..."
     narrator "I hefted the stick meaningfully."
-    robin "I think I might be able to build a raft from what I’ve got lying around. It’s the "
-    harper "Perhaps a device that can float? But first, I recommend trying a brief swim."
-    harper "Even if you cannot swim the entire distance to me, it would be useful to have some practice in the case that you fall from the vehicle and find yourself adrift."
+    robin "I think I might be able to build a, uh, raft—I think that's the word—a raft from what I’ve got lying around. It’s the "
+    harper "First, I recommend trying a brief swim."
+    harper "It would be useful to have some practice in the case that you fall from the vehicle and find yourself adrift."
     robin "Right..."
+    show robin sick with dissolve
     narrator "I looked out at the water. As I imagined myself floating out there, halfway between the escape and safety, my throat grew slick with bitter apprehension."
     narrator "I didn’t know what else I’d do if this didn’t work. That big, blank stretch of water with its impenetrable surface seemed to hide every terror."
     narrator "I stood there, frozen, until I worked up the courage to step cautiously into the deeper waters."
+    show robin neutral with dissolve
     narrator "I couldn’t feel much of a change through the insulation of the suit. Encouraged, I took a few steps further until the water came up to my knees."
     narrator "I kicked my toes through the water, feeling how it swirled and resisted my muscles. It was a fascinating sensation."
     narrator "Slowly, I went deeper and deeper into the water, building my confidence. I stopped when it reached my chest."
@@ -545,11 +573,14 @@ label start:
     narrator "As I floated on my back in the water, I found the rhythm of the waves strangely relaxing. If I closed my eyes it almost felt like I was back on a haul, just letting momentum carry us from one place to the next."
     narrator "Before I knew it, I could feel my back rubbing against the bottom, covering me in mud and silt. The silt oozed into my suit through every gap."
     narrator "I dragged myself onto the beach on my hands and knees and cursed the sand sliding down my back, sticking to my arms and getting into my underclothes."
+    play sound "cloth rustle.mp3"
+    show robin underwear with dissolve
     narrator "I strip down to my bra and briefs, leaving my suit crumpled beside me like molted skin."
     narrator "I tried my best to get as much of the gunk off of my skin as possible, but as soon as I thought I was finished, there always seemed to be more."
+    play sound "cloth rustle.mp3"
+    show robin suit with dissolve
     narrator "It was impossible to get rid of every grain, and when I finally zipped my suit up again the feeling of it pressing specks of grit into my skin is already driving me mad with discomfort."
     narrator "The day was wearing on, and I still needed to find a reliable source of fresh water. I turned towards the jungle and set off to explore it more thoroughly."
-    label break:
 
     stop audio fadeout 4.0
     scene black with fade
@@ -870,11 +901,11 @@ label start:
     narrator "I forced myself to gather more fuel and stoke the dying fire. I added some wood scraps, nudged it tenderly with a branch, nurturing it into a roaring flame that would burn through the night."
     narrator "The hunger gnawing at me made it hard to fall asleep that night. I lay sprawled out, my face to the sky. The glare from the fire turned the sky into a dark wet smear; not a single star."
 
+    # day 3
     play music "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
     show robin neutral at midright with dissolve
 
-    # day 3
     narrator "Morning came. Dull, insistent pangs in my stomach woke me. I was dizzy and shivering. There was a mouth chewing at my insides, hollowing me out. Not sure if it was just from hunger, or if the beetles were a little toxic."
     narrator "I moaned in pain, cradling my stomach. I held my forehead against the ground until the world stopped tilting."
     narrator "I drank some water to try and fill my stomach with something. It wouldn't fill the hollow pit in my gut. I’d slept in my suit, so I only needed to grab my knife and water pouches and I was ready to go."
@@ -1212,8 +1243,8 @@ label start:
     scene bg open wreck with fade
     pause 3.0
     #TODO: splash SFX
-    show robin surprise at midright
-    show robin surprise at hop 
+    show robin surprised at midright
+    show robin surprised at hop 
     
     narrator "I hurled myself up to the surface, coughing and throwing up mouthfuls of seawater between gasps of air. My vision was blurry, but I could see I was near the shore."
     show robin pain with dissolve
@@ -1287,8 +1318,8 @@ label start:
     # robin passes out and wakes up later that night
     play music "jungle ambience 1.mp3" fadein 3.0 loop
     scene bg jungle night with fade
-    show robin surprise at midright
-    show robin surprise at hop
+    show robin surprised at midright
+    show robin surprised at hop
     
     narrator "The pain shocked me awake. I gave a wet, coughing sob. I coughed so hard that I gagged. I closed my eyes."
     show robin pain at shiver with dissolve
