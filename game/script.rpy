@@ -668,7 +668,7 @@ label start:
 
 
     # day 2
-    play music "jungle ambience 1.flac" fadein 3.0
+    play music "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
     show robin neutral at midright with dissolve
     show rain with slowdissolve
@@ -771,7 +771,7 @@ label start:
     robin "Wait, okay, I see where you’re going with this. Hang on, I’ve got an idea."
     narrator "I dumped the water from the pouch into the little well and started scrounging up sticks and branches and other fuel. Soon I’d built a decently-sized fire only a few feet away."
     
-    play music "jungle ambience 1.flac" fadein 3.0
+    play music "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day fire with fade
     show robin neutral at midright with dissolve
     
@@ -844,7 +844,7 @@ label start:
     narrator "I was shaking with desire. I couldn't let the first real meal on this island escape me. My body lunged towards it."
     narrator "It scuttled into the brush in an instant. It escaped with such startling speed and alacrity, and so very easily, that I gave up before the chase even began."
     
-    play music "jungle ambience 1.flac" fadein 3.0
+    play music "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
     show robin neutral at midright with fade
     
@@ -864,7 +864,7 @@ label start:
     harper "Tapirs."
     robin "What?"
     harper "They are like pigs, but with longer noses. The calves can have very cute striped and spotted coats. I like watching them graze."
-    robin "How do they taste?"
+    robin "Mm. So how do they taste?"
     harper "I really could not say."
     narrator "While I spoke I slowly got to my feet and gathered up my things, pulling my clothes on slowly, groaning as I felt aches twang at my nerves. It was late and I was spent."
     narrator "I forced myself to gather more fuel and stoke the dying fire. I added some wood scraps, nudged it tenderly with a branch, nurturing it into a roaring flame that would burn through the night."
