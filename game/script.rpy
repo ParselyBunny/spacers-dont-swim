@@ -14,12 +14,12 @@ init python:
 
 # Characters
 define robin = Character("Robin", callback=robin_beep)
-define harper = Character("FrIDAI", callback=harper_beep)
+define harper = Character("Harper", callback=harper_beep)
 
 # Custom transforms & transitions
 transform midright:
     xalign 0.9
-    yalign 0.5
+    yalign 1.1
 
 transform hop:
     easein 0.1 yoffset -50
@@ -232,7 +232,7 @@ layeredimage robin:
 
 label start:
     stop music
-    jump break
+    # jump break
     play music "music/Leaving Home.mp3" fadein 8.0
 
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
@@ -319,7 +319,7 @@ label start:
     robin "Harp?"
     show robin surprised at hop
     narrator "I jumped a little, startled at the unfamiliar croak of my voice. I coughed hard once, twice, then tried again."
-    show robin pain with dissolve at hop
+    show robin pain at hop with dissolve
     robin "Harper? Harper, I need you. Please tell me you’re OK."
     harper "{i}Exiting emergency low power mode.{/i}"
     show robin happy at hop
@@ -1464,7 +1464,7 @@ label start:
     
     play audio "fire crackle.mp3" fadein 4.0 loop
     play music "beach ambience.mp3" fadein 4.0
-    scene bg beach night nolights reef with 
+    scene bg beach night nolights reef with fade
     show robin bored at midright with dissolve
     
     narrator "I sat by the fire as it burned the last of my fuel down to angry, glowing coals. Night had fallen, and just like before, the bioluminescent coral gleamed through the surface of the water."
