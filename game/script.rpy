@@ -11,6 +11,8 @@ init python:
             renpy.music.play("audio/voice2.mp3", channel="sound", loop=True)
         elif event == "slow_done" or event == "end":
             renpy.music.stop(channel="sound")
+    
+    renpy.music.register_channel("ambience", "sfx", loop=True)
 
 # Characters
 define robin = Character("Robin", callback=robin_beep)
@@ -286,7 +288,7 @@ label start:
     narrator "Comms OK, crash went as well as it could, and not a word from Harper. I tore my eyes away from the {i}Selkirk{/i}, looking for something else to think about."
     
     stop music fadeout 8.0
-    play audio "beach ambience.mp3" fadein 6.0 loop
+    play ambience "beach ambience.mp3" fadein 6.0 volume 2.0
 
     show robin neutral with dissolve
     narrator "Behind me, sparse, bright greenery and trees sprung up from the sand. The forest grew steadily thicker beyond the outskirts until it burst into a huge body of dense trees and brush. It was astonishing."
@@ -401,13 +403,13 @@ label start:
     show robin happy with dissolve
     robin "Well... We gotta think. And you can’t exactly think on an empty stomach."
 
-    stop audio fadeout 4.0
+    stop ambience fadeout 4.0
     scene black with fade
     pause 4.0
     harper "Glad to have you back, Rob."
 
     # new scene
-    play audio "beach ambience.mp3" fadein 4.0 loop
+    play ambience "beach ambience.mp3" fadein 4.0 loop
     scene bg beach with fade
     show smoke with dissolve
     show robin neutral at midright with dissolve
@@ -582,11 +584,11 @@ label start:
     narrator "It was impossible to get rid of every grain, and when I finally zipped my suit up again the feeling of it pressing specks of grit into my skin is already driving me mad with discomfort."
     narrator "The day was wearing on, and I still needed to find a reliable source of fresh water. I turned towards the jungle and set off to explore it more thoroughly."
 
-    stop audio fadeout 4.0
+    stop ambience fadeout 4.0
     scene black with fade
     pause 4.0
 
-    play audio "jungle ambience 1.mp3" fadein 4.0 loop
+    play ambience "jungle ambience 1.mp3" fadein 4.0 loop
     scene bg jungle day with fade
     show robin neutral at midright with dissolve
 
@@ -614,7 +616,7 @@ label start:
 
     scene bg jungle night with dissolve
     show robin neutral at midright with dissolve
-    play audio "jungle ambience 1.mp3" fadein 4.0 loop
+    play ambience "jungle ambience 1.mp3" fadein 4.0 loop
 
     robin "Not a bad place to bed down..."
     narrator "I took a short break, then hiked back to where I’d stashed the fruit and took some time moving them to my new camp. After that tough swim, even this effort revived the burning sensation in my muscles."
@@ -629,7 +631,7 @@ label start:
     narrator "With one last burst of effort I forced my deadened arms to brush the larger rocks and pebbles aside before I began to slip away into sleep."
     
     show black with dissolve
-    stop audio fadeout 4.0
+    stop ambience fadeout 4.0
     pause 5.0
 
     show bg jungle night with dissolve
@@ -699,7 +701,7 @@ label start:
 
 
     # day 2
-    play music "jungle ambience 1.mp3" fadein 3.0
+    play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
     show robin neutral at midright with dissolve
     show rain with slowdissolve
@@ -802,7 +804,7 @@ label start:
     robin "Wait, okay, I see where you’re going with this. Hang on, I’ve got an idea."
     narrator "I dumped the water from the pouch into the little well and started scrounging up sticks and branches and other fuel. Soon I’d built a decently-sized fire only a few feet away."
     
-    play music "jungle ambience 1.mp3" fadein 3.0
+    play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day fire with fade
     show robin neutral at midright with dissolve
     
@@ -875,7 +877,7 @@ label start:
     narrator "I was shaking with desire. I couldn't let the first real meal on this island escape me. My body lunged towards it."
     narrator "It scuttled into the brush in an instant. It escaped with such startling speed and alacrity, and so very easily, that I gave up before the chase even began."
     
-    play music "jungle ambience 1.mp3" fadein 3.0
+    play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
     show robin neutral at midright with fade
     
@@ -902,7 +904,7 @@ label start:
     narrator "The hunger gnawing at me made it hard to fall asleep that night. I lay sprawled out, my face to the sky. The glare from the fire turned the sky into a dark wet smear; not a single star."
 
     # day 3
-    play music "jungle ambience 1.mp3" fadein 3.0
+    play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
     show robin neutral at midright with dissolve
 
@@ -966,7 +968,7 @@ label start:
     narrator "I ran, panting with the effort. The cub wriggled as it slowly came back to its senses. I shut my eyes and wrung it in my hands until something popped and it stopped moving. I felt a sob bubble up from my throat."
     narrator "Sure now that I wasn’t being followed, I slowed to a stop and dropped to my knees, panting. I tried not to look at it, but I couldn’t ignore the limp weight spilling over my arms. Hot tears streamed down my face and stained my cheeks."
 
-    play music "jungle ambience 1.mp3" fadein 3.0
+    play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
     show robin neutral at midright with dissolve
 
@@ -989,7 +991,7 @@ label start:
     narrator "The fire was burnt down but still smoking a little. I reached my hand out and felt that the ashes were still hot."
     narrator "I turned and stirred the ash and saw the coals glowing underneath. I was amazed that it had stayed hot through the entire day. I took advantage of the heat to get another fire going quickly."
     
-    play audio "jungle ambience 1.mp3" fadein 3.0
+    play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day fire with fade
     show robin neutral at midright with dissolve
     
@@ -1005,7 +1007,7 @@ label start:
 
 
     # making cord
-    play audio "jungle ambience 1.mp3" fadein 3.0
+    play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
     show robin neutral at midright with dissolve
     
@@ -1074,7 +1076,7 @@ label start:
     narrator "I brought that tree down and decided to take a break after that. I deserved it."
 
     # transition
-    play audio "beach ambience.mp3" fadein 3.0 loop
+    play ambience "beach ambience.mp3" fadein 3.0 loop
     scene bg beach night yeslights noreef with fade
     show robin neutral at midright with dissolve
     
@@ -1095,7 +1097,7 @@ label start:
     # days pass
     # robin gaunt
     
-    play audio "beach ambience.mp3" fadein 4.0 loop
+    play ambience "beach ambience.mp3" fadein 4.0 loop
     scene bg beach with fade
     show robin neutral gaunt at midright with dissolve
     
@@ -1128,7 +1130,7 @@ label start:
     narrator "The pain was angry, thin, and everywhere. I itched and it just turned the itching into more raw and sore and crawling itch."
     narrator "Tragically sobered from my feverish fit by the cool water, enveloped in a skittering agony that teased my body into strange contortions that somehow helped me fight the urge to scratch, I waded out of the sea and trudged my way back to camp."
     
-    play audio "jungle ambience 1.mp3" fadein 3.0 loop
+    play ambience "jungle ambience 1.mp3" fadein 3.0 loop
     scene bg jungle day with fade
     show robin neutral at midright with dissolve
     
@@ -1239,7 +1241,7 @@ label start:
     #scene break to add tension
 
     # ocean
-    play audio "beach ambience.mp3" fadein 4.0 loop
+    play ambience "beach ambience.mp3" fadein 4.0 loop
     scene bg open wreck with fade
     pause 3.0
     #TODO: splash SFX
@@ -1281,7 +1283,7 @@ label start:
     narrator "Stopped."
 
     #the nightmare
-    stop audio fadeout 8.0
+    stop ambience fadeout 8.0
     scene black
     pause 4.5
     
@@ -1316,7 +1318,7 @@ label start:
     pause 5.0
 
     # robin passes out and wakes up later that night
-    play music "jungle ambience 1.mp3" fadein 3.0 loop
+    play ambience "jungle ambience 1.mp3" fadein 3.0 loop
     scene bg jungle night with fade
     show robin surprised at midright
     show robin surprised at hop
@@ -1416,7 +1418,7 @@ label start:
 
     # the next morning
     
-    play audio "beach ambience.mp3" fadein 4.0 loop
+    play ambience "beach ambience.mp3" fadein 4.0 loop
     scene bg beach with fade
     show robin neutral at midright with dissolve
     
@@ -1463,7 +1465,7 @@ label start:
     #that night
     
     play audio "fire crackle.mp3" fadein 4.0 loop
-    play music "beach ambience.mp3" fadein 4.0
+    play ambience "beach ambience.mp3" fadein 4.0
     scene bg beach night nolights reef with fade
     show robin bored at midright with dissolve
     
