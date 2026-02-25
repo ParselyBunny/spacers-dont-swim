@@ -832,6 +832,7 @@ label start:
 
     # show previous background
     
+    play ambience "beach ambience.mp3" fadein 3.0
     scene bg beach with fade
     show robin neutral at midright with fade
     
@@ -924,6 +925,7 @@ label start:
 
     # transition
     
+    play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg highlands day with fade 
     show robin bored at midright with dissolve
     
@@ -941,6 +943,7 @@ label start:
     narrator "As I crept through the brush, I carefully placed each footstep and stopped to push the brush aside and lower it gently back into place to avoid noise."
     narrator "Soon, I could hear the grunting and snuffling of something ahead. I peered between the leaves."
     
+    play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg highlands day den with fade
     show robin neutral at midright with dissolve
     
@@ -953,19 +956,19 @@ label start:
     narrator "Before I could devise some kind of tactic, one of the cubs came stumping straight for me, grunting guilelessly. It hadn’t seen me, and for now its parents were busy with the other cubs."
     narrator "I cocked my throwing arm and waited, letting it get nearer. Sweat beaded on my forehead and threatened to drip into my eyes and spoil my aim."
     narrator "A screech of alarm rang out, cutting through my skull like a migraine. One of the adults had noticed me somehow, by smell, sight, or sound I didn’t know, and had pealed a warning."
-    # sfx throw
+    # TODO: sfx throw
     narrator "In the same instant, the cub froze in its tracks as I popped upright with a bounce and whipped my stone at it."
     narrator "I could tell my aim was off. My shoulder throbbed from the force of the toss. But the cub, in its panic, crabbed to one side, right into the path of my shot."
-    # sfx thwack
-    # sfx animal squeal
+    # TODO: sfx thwack
+    # TODO: sfx animal squeal
     narrator "The stone struck it square in the face with a satisfying thud, and the creature fell, twitching. I felt a whoop jump out of my throat."
-    # sfx crash through leaves
+    # TODO: sfx crash through leaves
     narrator "Excitement jolted through my limbs and I threw myself into the open, lunging towards the cub to finish it off."
-    # sfx animal screech
+    # TODO: sfx animal screech
     narrator "I heard another wild screech and looked to see one of the adults barreling straight towards me."
     narrator "I threw my knife into my strong hand and bent, intending to scoop the cub up into the crook of my left arm but snatched my hand away as the parent snapped at my fingers as it skidded to a halt, standing over the child."
     narrator "I cocked my leg back, back, and snapped my leg out in a sledgehammer of a kick."
-    # sfx thud
+    # TODO: sfx thud
     narrator "My toes caught the doglike under its chin, sending it careening into the rest of the pack as they scattered and retreated towards the burrow. Before they could rally and come at me again, I grabbed the cub and ran off into the cover of the brush."
     narrator "I ran, panting with the effort. The cub wriggled as it slowly came back to its senses. I shut my eyes and wrung it in my hands until something popped and it stopped moving. I felt a sob bubble up from my throat."
     narrator "Sure now that I wasn’t being followed, I slowed to a stop and dropped to my knees, panting. I tried not to look at it, but I couldn’t ignore the limp weight spilling over my arms. Hot tears streamed down my face and stained my cheeks."
@@ -1134,7 +1137,7 @@ label start:
     
     play ambience "jungle ambience 1.mp3" fadein 3.0 loop
     scene bg jungle day with fade
-    show robin neutral at midright with dissolve
+    show robin neutral gaunt at midright with dissolve
     
     robin "I’m fucking miserable."
     harper "That makes two of us. Like peas in a pod."
@@ -1331,8 +1334,8 @@ label start:
     narrator "I dropped my hand onto a branch with a gasp, then willed my hand to close around it. I clumsily dropped sticks into the embers."
     narrator "Not having the energy to place them carefully, the fire was uneven and spilling from the barrier of rocks I’d built around it."
     
-    play music "jungle ambience 1.mp3" fadein 3.0 loop
-    play audio "fire crackle.mp3" fadein 3.0 loop
+    play ambience "jungle ambience 1.mp3" fadein 3.0 loop
+    play music "fire crackle.mp3" fadein 3.0 loop
     scene bg jungle night fire with fade
     show robin pain with dissolve
     
@@ -1349,8 +1352,8 @@ label start:
     
     # the night sky
     
-    play music "jungle ambience 1.mp3" fadein 3.0 loop
-    play audio "fire crackle.mp3" fadein 3.0 loop
+    play ambience "jungle ambience 1.mp3" fadein 3.0 loop
+    play music "fire crackle.mp3" fadein 3.0 loop
     scene cg nightsky with fade
     show robin bored at midright with dissolve
     
@@ -1363,6 +1366,10 @@ label start:
     narrator "My chin worried a little furrow into the sand as I dragged my head around, looking for the {i}Selkirk{/i}."
     # bam. ocean GLOWING. CG goes here
     
+    stop music
+    stop ambience fadeout 3.0
+    $ renpy.music.pump()
+    play ambience "beach ambience.mp3" fadein 3.0
     scene bg beach night nolights reef with fade
     
     narrator "Something was glowing up through the water, everywhere. Like a lamp seen through an ear, the color was dull but striking. It looked so close to the surface, like I could touch it."
@@ -1465,10 +1472,9 @@ label start:
 
     #that night
     
-    play audio "fire crackle.mp3" fadein 4.0 loop
     play ambience "beach ambience.mp3" fadein 4.0
     scene bg beach night nolights reef with fade
-    show robin bored at midright with dissolve
+    show robin bored gaunt at midright with dissolve
     
     narrator "I sat by the fire as it burned the last of my fuel down to angry, glowing coals. Night had fallen, and just like before, the bioluminescent coral gleamed through the surface of the water."
     narrator "I nibbled anxiously on a strand of ropegrass, feeling it fray and come undone in my mouth, letting the tickling sensation distract me."
@@ -1492,6 +1498,7 @@ label start:
     narrator "The small waves splashing into me didn’t do anything to help my balance, and my muscles burnt with the effort of keeping me upright."
     narrator "As I got further from the shore, a feeling of dread crept its way into my heart."
     narrator "I imagined myself getting too tired or too hurt to go on. The water inching its way up to my neck, past my lips, spilling into my lungs, suffocating me."
+    show bg ocean wreck with dissolve
     narrator "Morning came. The flat, hot blade of the sun slid its way up the horizon like a flaming guillotine preparing to fall."
     narrator "I knew someone once, a waterworks maintenance technician. Had a job working inside a station’s sump. Before he went inside the tank they swore up and down that it was isolated from the rest of the plumbing."
     narrator "He was doing some tack welding, minding his own business, when the tank started flooding with him in it."
@@ -1501,6 +1508,8 @@ label start:
     # reaching the ship
     # bg ship exterior
     
+    stop music
+    play ambience "beach ambience.mp3" fadein 4.0 volume 2.0
     scene cg wreck with fade
     
     narrator "I would have bashed my head right into the hull if it weren’t for the expanding shadow implying the looming hull of the {i}Selkirk{/i}."
@@ -1516,6 +1525,8 @@ label start:
     narrator "The wicked ribs of the ship ripped bloody gouges into my face and shoulders as I pulled myself forward relentlessly, eyes squeezed shut, unable to turn or wiggle backwards."
     narrator "I moaned in a desperate, primal terror as I shivered my way through the tangled wreckage."
     
+    stop music
+    play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
     scene bg ship corridor with fade
     
     narrator "Finally, the barbed and twisted metal gave way and I fell into thin air, flopping with a great splash onto the waterlogged deck. I trembled and shook from the cold of the water seeping into my suit."
@@ -1548,8 +1559,10 @@ label start:
     narrator "It was over."
     #fade to black...
 
-    scene black with fade
+    stop ambience fadeout 2.0
+    scene bg starfield with fade
     play music "music/Leaving Home.mp3" fadein 8.0
+    pause 5.0
 
     # epilogue. there should be a weighty, patient transition to linger on the fact that Harper’s fate is unknown
     narrator "I reckoned it had only been a couple weeks on the island, and then about 6 months back aboard the grounded {i}Selkirk{/i} before I was able to get her spaceworthy again."
@@ -1570,7 +1583,10 @@ label start:
     # final scene
     
 
+    stop music fadeout 8.0
+    play ambience "ship ambience 2.mp3" fadein 4.0 volume 2.0
     scene cg end with fade
+    pause 4.0
     
     narrator "My heart was in my mouth as my finger hovered over the control that would key the reboot macro I’d written by hand."
     narrator "AI don’t get shut down partway and then rebooted. It simply wasn’t done. I had to write the procedures myself."
@@ -1580,6 +1596,13 @@ label start:
     narrator "The fear built to a crescendo as I channeled all of my will into a fingertip. Slowly, I forced it down. Pressed the control. A gentle chime confirmed my input."
     narrator "The silence, afterward, was deafening."
     narrator "Then..."
+
+    stop ambience
+    
+    show black
+    pause 4.0
+    narrator "END"
+    #TODO: credits
 #harper "Robin?"
 
 #end
