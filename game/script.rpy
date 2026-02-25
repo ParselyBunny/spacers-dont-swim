@@ -634,9 +634,11 @@ label start:
     stop ambience fadeout 4.0
     pause 5.0
 
-    show bg jungle night with dissolve
-
+    hide black
+    play ambience "jungle ambience 1.mp3" loop
+    show bg jungle night
     show robin neutral at hop
+    play sound "cloth rustle.mp3" volume 2.0
     harper "Robin? Robin, you need to stay awake."
     show robin pain at shiver
     robin "I- I can barely move. There’s nothing more I can do about water today."
