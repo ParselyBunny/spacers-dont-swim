@@ -1240,11 +1240,9 @@ label start:
     stop music fadeout 4.0
     pause 5.0
 
-    #scene break to add tension
-
     # ocean
     play ambience "beach ambience.mp3" fadein 4.0 loop
-    scene bg open wreck with fade
+    scene bg open ocean with fade
     pause 3.0
     #TODO: splash SFX
     show robin surprised at midright
@@ -1403,6 +1401,7 @@ label start:
     robin "Ah-huh. Yeah."
     harper "OK, just keep looking."
     narrator "I looked. A few heartbeats passed."
+    show bg beach night yeslights reef with dissolve
     # TODO: show the lights lighting up
     # TODO: animate lights winking
     narrator "Then, I saw flickering as the {i}Selkirk{/i}’s running lights blinked to life, one at a time."
