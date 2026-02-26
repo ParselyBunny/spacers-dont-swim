@@ -297,7 +297,7 @@ screen navigation():
         spacing gui.navigation_spacing
 
         if renpy.get_screen("main_menu"):
-            xoffset 960
+            xoffset 0
             textbutton _("Start") action Start()
 
         else:
