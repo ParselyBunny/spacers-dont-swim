@@ -1248,18 +1248,18 @@ label start:
     scene bg open ocean with fade
     pause 3.0
     #TODO: splash SFX
-    show robin surprised at midright
-    show robin surprised at hop 
+    show robin surprised gaunt at midright
+    show robin surprised gaunt at hop 
     
     narrator "I hurled myself up to the surface, coughing and throwing up mouthfuls of seawater between gasps of air. My vision was blurry, but I could see I was near the shore."
-    show robin pain with dissolve
+    show robin pain gaunt with dissolve
     narrator "I moved my right leg to take a step and felt a weird, flapping sensation. It felt like a piece of seaweed was stuck to my leg. The next instant my foot touched the ground and, as I felt my leg take the weight of my body, my leg shivered, threatening to buckle."
     narrator "I let myself fall forward into the chest-high water to take the weight off my injured right leg. It wasn’t painful yet and I shoved it out of my mind before I could think about it too closely."
     narrator "I paddled my left leg and arms experimentally. I felt a weird sensation in some of my fingers, but I put that aside too and focused on getting out of the water. I could see pinkish blooms spreading around me as I bled into the water."
     narrator "Favoring my left leg, I limped my way out of the water and onto the sand. I couldn’t see anything out of my right eye and for one gut-wrenching instant I thought I might have been blinded."
     
     scene bg beach with fade
-    show robin pain with dissolve
+    show robin pain gaunt with dissolve
     
     narrator "After gingerly probing my face with my good fingers I realized I just had blood in my eyes from a gash on my head."
     narrator "I looked back behind me and wiped my eyes, looking for the raft. It was drifting away and for an instant I had a suicidal impulse to swim out to it and rescue it."
@@ -1323,11 +1323,11 @@ label start:
     # robin passes out and wakes up later that night
     play ambience "jungle ambience 1.mp3" fadein 3.0 loop
     scene bg jungle night with fade
-    show robin surprised at midright
-    show robin surprised at hop
+    show robin surprised gaunt at midright
+    show robin surprised gaunt at hop
     
     narrator "The pain shocked me awake. I gave a wet, coughing sob. I coughed so hard that I gagged. I closed my eyes."
-    show robin pain at shiver with dissolve
+    show robin pain gaunt at shiver with dissolve
     narrator "I wanted desperately to go back to sleep and stop hurting, but the fire was low. I was shivering from the cold, not just the pain and exhaustion."
     narrator "I groaned and wormed pathetically towards the wood pile. Even without my injuries, wearing the suit backwards would have made it awkward to walk."
     narrator "It was all I could do to get within arm’s reach of a thin branch. By then I was panting. My body was covered in a cold sweat from the exertion."
@@ -1337,7 +1337,7 @@ label start:
     play ambience "jungle ambience 1.mp3" fadein 3.0 loop
     play music "fire crackle.mp3" fadein 3.0 loop
     scene bg jungle night fire with fade
-    show robin pain with dissolve
+    show robin pain gaunt with dissolve
     
     narrator "Luck was with me as the fire grew nevertheless. Slowly, the heat seeped into my body, and I stopped shivering. Yet another danger had passed."
     narrator "I must have fallen unconscious the moment my guard dropped, because one instant I was warm, the next I could smell burning hair. I saw my arm being kissed by the flames before I felt it burning."
@@ -1355,7 +1355,7 @@ label start:
     play ambience "jungle ambience 1.mp3" fadein 3.0 loop
     play music "fire crackle.mp3" fadein 3.0 loop
     scene cg nightsky with fade
-    show robin bored at midright with dissolve
+    show robin bored gaunt at midright with dissolve
     
     narrator "I’d been awake during the night before, of course, but the glare of the fire always masked my surroundings."
     narrator "Now, in the dark and with my eyes adjusted for the first time I saw the sky as it really was. Lit by the bright moons and stars overhead, it glittered brighter than any orbital."
@@ -1428,7 +1428,7 @@ label start:
     
     play ambience "beach ambience.mp3" fadein 4.0 loop
     scene bg beach with fade
-    show robin neutral at midright with dissolve
+    show robin neutral gaunt at midright with dissolve
     
     narrator "The next day, I didn’t feel much better than before. But I was fresh, I had some strength back, and a new determination. I knew my energy would go quickly because of my injury. Hunger gnawed at my stomach."
     narrator "Crawling around my camp, I finished the last of the meat and water I’d saved. I was still peckish, but it would have to do."
