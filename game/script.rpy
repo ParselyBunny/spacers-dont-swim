@@ -598,11 +598,13 @@ label start:
     narrator "I sucked on my hydration pack, but all I got was a mouthful of air. As the hike wore on, my mouth had gone from gummy and thick to dry and papery. Even just a little water would be a godsend."
     narrator "Then, just at that moment, something cold splashed onto my head. I leapt back in shock, wiping my forehead and looking up to see what hit me."
     narrator "I saw something dripping from above. There was a little water trickling down from one of the trees overhead."
+    show robin happy at hop
     narrator "Excited, I removed a glove and carefully reached up above me, feeling around to find the source. My fingers ran over some large leaves and came away wet."
     play sound "water handling.mp3"
     narrator "I tipped the leaf gently and let a little fluid spill into my cupped palm, bringing it up to my eyes to see."
     narrator "It looked like perfect, cool, clear rain water. Not your ordinary water, mined from ice buried in filthy rock that you slopped out of a tap. This was the kind of water you see in ads."
     narrator "Perfect, pure, artisanal water imported from only the finest underground springs back on Earth." 
+    show robin neutral with dissolve
     narrator "My hand shook as I fought against the overwhelming urge to gulp it down. I forced myself to use some caution. What if it had soaked up invisible poison from the surface of the leaves?"
     narrator "The reclaimer in my suit could filter out anything dangerous, but the designers didn’t envision this use case. There was no way to directly add water to the system."
     play sound "water handling.mp3"
@@ -622,9 +624,11 @@ label start:
     narrator "I took a short break, then hiked back to where I’d stashed the fruit and took some time moving them to my new camp. After that tough swim, even this effort revived the burning sensation in my muscles."
     narrator "I was forced to leave a few fruit behind that had some of those stinky nibblers hiding inside."
     narrator "I thought briefly about burying the ones I brought to avoid more losses, but the thought of eating sandy fruit made me discard the idea."
+    show robin neutral at hop
     narrator "I sat down and forced myself to eat another one of the red fruits. It was tasty, and kept my thirst at bay, but my stomach still felt tragically empty."
     narrator "I suddenly had a powerful craving for one of the meal replacement shakes that I had grown to loathe after years of using them to fuel myself on spacewalks."
     narrator "I sipped the little water that had been reclaimed since I last drank from the hydration pack, hoping to bury the hunger by filling my stomach with something, anything."
+    show robin bored with dissolve
     narrator "My eyes suddenly felt heavy as lead. The exhaustion from the day’s events had caught up with me. I slumped down onto my back and rested my head on the sand."
     narrator "I sluggishly turned my head, examining my surroundings, and considered gathering some nearby leaves or grass to make the rough, hard ground a little more comfortable."
     narrator "I managed to gather a mere handful of leaves before I gave up, too exhausted to accomplish even this small task."
@@ -712,8 +716,11 @@ label start:
     narrator "As I looked up, I noticed the leaves overhead bouncing and I could see waterfalls of rain had formed all around me."
     narrator "It was something I’d only ever seen or read about in fics. The water felt so warm on my skin that I didn’t even realize I was getting wet at first."
     narrator "I always thought it would be cold and stinging, I never thought it could be this soft, this gentle..."
+    play sound "cloth rustle.mp3" volume 2.0
+    show robin pain with dissolve
     narrator "I eased to my feet, my body still sore from yesterday, and looked for something to catch the rain. I remembered the leaf and that pure, beautiful water and in no time I’d gathered an armful of leaves."
     narrator "They had a natural curve and stiffness to them that made for a nice, shallow bowl."
+    show robin neutral with dissolve
     narrator "I went to a spot where there was a decently-sized clearing not far from my camp and dug a few rows of small divots in the sand. I placed a leaf carefully in each divot to keep it from rolling over."
     narrator "A couple of the leaves blew over in the breeze anyway, so I took a moment to weigh them down by dropping small rocks in the middle of each one."
     narrator "I grabbed another one of the red fruits. It was already starting to get mushy and, not wanting to waste the precious food, I ate everything I had left. I didn’t leave so much as a scrap behind."
@@ -722,6 +729,7 @@ label start:
     
     robin "Harper, I’m going to check the surrounding area for water, and while I’m doing that I need your help cataloging plants."
     harper "Of course."
+    show robin pain at hop
     narrator "I got to my feet and winced. My feet were raw from all the walking I did yesterday and I could feel a few fat blisters that had sprung up on different parts of my feet."
     narrator "It took a moment for the initial pain to fade enough that I felt I could gather my tools and start walking."
     narrator "I was afraid to venture far from my camp. The island was fairly flat and if I were to wander into the overgrowth, I wouldn’t have any reference or landmarks to navigate by."
@@ -733,11 +741,14 @@ label start:
     harper "Ominous... Good luck, Robin."
 
     #transition
+    play sound "walk sand.mp3" volume 1.5
     narrator "I hadn’t been walking long before I saw something new. Not far inland, tall, stemmy grass sprouted up from the ground."
     narrator "I stopped when I noticed some places where the grass seemed different. I looked closer, and saw the injured ends of the grass were frayed."
+    show robin surprised with dissolve
     robin "Huh, something fed here..."
     harper "An animal?"
     robin "Hopefully it's just insects... Little ones..."
+    show robin neutral with dissolve
     narrator "I bent to grab an untouched patch of grass, and it took some effort to rip it out of the ground."
     narrator "I looked closely at the individual blades of grass, each one a little shorter than my arm, and thought about what kind of creature must have been grinding its teeth through this stuff."
     narrator "I saw some fraying again where I’d ripped the grass and I teased at it a bit with one finger."
@@ -750,25 +761,33 @@ label start:
     harper "Logged. A very creative name I must say."
     robin "I’d love to see you do better. Too bad I can’t eat sarcasm."
     harper "Indeed. I do have a lot of that in supply."
+    play sound "cloth rustle.mp3" volume 2.0
+    show robin neutral at hop
     narrator "As I played with the grass, I crouched to get a little more comfortable - only to wobble as the ground squished under my shifting weight."
+    show robin pain with dissolve
     narrator "Peering at my feet, muddy water oozed up around my boots as if I was standing on a big sponge."
     narrator "I stepped away, and I could see water puddling in my footprints."
     narrator "The ropegrass forgotten, I dropped to my knees and plunged my hands into the soft ground, throwing aside globs of sticky earth."
     narrator "I dug a little hole, only a few hands deep and just as wide, and waited patiently. Slowly, almost imperceptibly, the hole filled as groundwater percolated through its walls. An intoxicating joy mulled my brain."
+    show robin surprised with dissolve
     robin "It’s water! Filthy, nasty puddle-water, but it’s water!"
     harper "That is excellent to hear, Robin."
     narrator "I still had a stupid grin smeared across my face when it occurred to me I had nothing to carry the water with. Rather than souring my mood, the thought nudged it into a good-natured puzzlement."
+    show robin neutral with dissolve
     narrator "This seemed a much simpler problem, and my brow creased with thought as I crouched over the puddle, hugging my shoulders and humming tunelessly as I waited for insight to rise from the mud like a golem."
     narrator "An idea came to me, and my stomach turned a few flips at the thought."
     robin "Harp... Is there a procedure for cannibalizing the water reclaimer?"
     narrator "There was the briefest hint of an instant of a pause. It could have been that Harper was taking a touch longer to perform the usual searches because it was rationing power, but hesitation wasn’t exactly off-spec."
     harper "I do not recommend it."
+    show robin surprised with dissolve
     robin "Is it possible?"
     harper "That should not be the first question you ask."
+    show robin neutral with dissolve
     robin "How else am I supposed to purify the raw water I find?"
     harper "You can boil it."
     robin "Don’t have anything to carry it in, unless I use the bladders from the reclaimer."
     harper "You cannot sacrifice your only reliable source of water."
+    show robin pain with dissolve
     narrator "I grimaced a little in frustration."
     robin "Harp, my head is pounding. I can’t find reliable alternatives if I’m dying from dehydration."
     narrator "Another one of those brief pauses."
