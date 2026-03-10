@@ -191,6 +191,27 @@ image robin_eyes_pain:
     pause 0.07
     repeat
 
+image robin_eyes_neutralClosed:
+    "Characters/Expressions/robin_neutral_3.png"
+
+image robin_eyes_boredClosed:
+    "Characters/Expressions/robin_bored_3.png"
+
+image robin_eyes_happyClosed:
+    "Characters/Expressions/robin_happy_3.png"
+
+image robin_eyes_surprisedClosed:
+    "Characters/Expressions/robin_surprise_3.png"
+
+image robin_eyes_angryClosed:
+    "Characters/Expressions/robin_angry_3.png"
+
+image robin_eyes_sickClosed:
+    "Characters/Expressions/robin_sick_3.png"
+
+image robin_eyes_painClosed:
+    "Characters/Expressions/robin_pain_3.png"
+
 layeredimage robin:
     group outfit:
         attribute suit default:
@@ -220,6 +241,13 @@ layeredimage robin:
         attribute angry
         attribute sick
         attribute pain
+        attribute neutralClosed
+        attribute boredClosed
+        attribute happyClosed
+        attribute surprisedClosed
+        attribute angryClosed
+        attribute sickClosed
+        attribute painClosed
     group satiety:
         attribute none default:
             "robin_none"
@@ -1621,8 +1649,8 @@ label start:
     show black
     pause 4.0
     narrator "END"
+    #harper "Robin?"
     #TODO: credits
-#harper "Robin?"
 
 #end
 
