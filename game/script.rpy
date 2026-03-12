@@ -1321,13 +1321,13 @@ label start:
     narrator "Inertia is unforgiving in a null-g and a frictionless vacuum. The really retro pressure suits would automatically cut an injured limb off at the joint to save the rest of you. Harsh arithmetic."
     narrator "My suit was a little kinder and it could tighten sections of the material selectively to compress the body and control blood flow. In this way, it could be used like a compression bandage to staunch bleeding."
     narrator "My adrenaline was wearing off and my leg was pounding now; my entire body shook so hard it frightened me. Finally, I forced myself to look at it."
-    narrator "My suit and my calf underneath it was laid open, enough that I could see the fat under my skin. Not a strip of thick, sticky seaweed but skin, still attached by a thread, flapped against my ankle."
-    narrator "When I saw the blood gushing out in sheets I nearly fainted."
-    narrator "All of this happened in an instant, as I put my suit on backwards, sticking my wounded right leg in the intact left leg sleeve of the suit, and leaving the torso segment to flop around my waist."
+    narrator "My suit and my calf underneath it was laid open, enough that I could see the fat under my skin. Not a strip of thick, sticky seaweed but skin, still attached by a thread of flesh, flapped against my ankle."
+    narrator "When I saw the blood gushing out in sheets I felt my heart drop. My head tingled with static and my face turned cold."
+    narrator "All of this happened in an instant, even as I put my suit on backwards, sticking my wounded right leg in the intact left leg sleeve of the suit, and leaving the torso segment to flop around my waist."
     narrator "Harper must have inferred the situation from the data transmitted by my implants because the suit instantly began to tighten before I gave it any commands."
     narrator "I screamed as it constricted my leg, wrapping tight, tight, and tighter still around me. Fresh blood oozed up from the leg of the suit and pooled around my hips, but it soon stopped."
     narrator "Seeing the wound somehow made the pain a thousand times worse. The sharp hand of death grabbed fistfuls of fascia and twisted, peeling each nerve one by one with its wicked fingertips."
-    narrator "I lay there and moaned and wept, snot and drool oozing down my chin.  I thought if I could have shot myself that I would have, just to make that awful pain stop."
+    narrator "I lay there and moaned and wept, snot and drool oozing down my chin. I wanted nothing more than to make that awful pain stop."
     narrator "Then it did stop."
     narrator "Everything..."
     narrator "Stopped."
@@ -1373,29 +1373,41 @@ label start:
     show robin surprised gaunt at midright
     show robin surprised gaunt at hop
     
-    narrator "The pain shocked me awake. I gave a wet, coughing sob. I coughed so hard that I gagged. I closed my eyes."
-    show robin pain gaunt at shiver with dissolve
-    narrator "I wanted desperately to go back to sleep and stop hurting, but the fire was low. I was shivering from the cold, not just the pain and exhaustion."
-    narrator "I groaned and wormed pathetically towards the wood pile. Even without my injuries, wearing the suit backwards would have made it awkward to walk."
-    narrator "It was all I could do to get within arm’s reach of a thin branch. By then I was panting. My body was covered in a cold sweat from the exertion."
-    narrator "I dropped my hand onto a branch with a gasp, then willed my hand to close around it. I clumsily dropped sticks into the embers."
+
+    narrator "Then, I was back, on the beach, screaming and convulsing as the gash in my calf sent electric shocks of pain shooting up my body."
+    show robin painClosed gaunt at shiver with dissolve
+    narrator "A small part of me noticed the lost time. My voice was already hoarse, so I must have been crying out in my sleep."
+    narrator " My entire world was hurt. Every movement brought the pain roaring back to new heights. I couldn't stop myself from writhing."
+    narrator "Through hot tears I focused every ounce of my will on keeping my injured leg still. I channeled that compulsion to move into my hands and dug my bare fingers into the sand, squeezing and feeling the grit cut into my skin."
+    narrator "This was helping. My hands were starting to go raw but my legs were only shivering now and that hurt far less. I heard a wet, coughing sob bubble up from inside me. I guess I'd stopped screaming at some point."
+    narrator "I wished desperately to go back to sleep, to fall unconscious. I looked at the burning embers, what was left of the fire. I could shove my hand in those coals."
+    narrator "Yeah, if I grabbed a handful of hot coals, maybe it would hurt so much that I'd pass out. I gazed so long and so lovingly at those coals."
+    narrator "The fire. The fire was low. I realized I wasn't just shivering from the pain and the exhaustion."
+    narrator "I groaned and wormed pathetically towards the firewood pile, trying to move using only my arms. It was awkward and agonizingly slow."
+    narrator "I was close. By then I was panting. My body was covered in a cold sweat from the exertion."
+    narrator "I dropped my hand onto a branch with a gasp, then willed my hand to close around it. One by one, I clumsily dropped sticks into the embers."
     narrator "Not having the energy to place them carefully, the fire was uneven and spilling from the barrier of rocks I’d built around it."
     
     play ambience "jungle ambience 1.mp3" fadein 3.0 loop
     play music "fire crackle.mp3" fadein 3.0 loop
-    scene bg jungle night fire with fade
+    scene bg jungle night fire with dissolve
     show robin pain gaunt with dissolve
     
-    narrator "Luck was with me as the fire grew nevertheless. Slowly, the heat seeped into my body, and I stopped shivering. Yet another danger had passed."
-    narrator "I must have fallen unconscious the moment my guard dropped, because one instant I was warm, the next I could smell burning hair. I saw my arm being kissed by the flames before I felt it burning."
-    narrator "In one move I yanked my arm back and kicked away from the flames with a shriek of pain, sending a spray of sand over the fire and plunging me into darkness."
-    narrator "I lay there, whimpering, clutching my arm where I’d been singed and cursing my mistakes."
-    narrator "Since I’d put my suit on backwards to tourniquet my leg, my arms were out of the suit. I wore only a short-sleeved shirt underneath, and my bare skin was a dull red where the flame had scorched me."
-    narrator "I curled into a ball, hot tears flowing freely as the pain reached new, agonizing heights, and opened my mouth wide in a soundless scream."
-    narrator "I couldn’t save the fire, but the coals were still hot. With feeble motions of my good leg and the single-minded determination of a desperate woman, I managed to shovel a layer of sand onto the remains of the fire, enough to protect my skin."
-    narrator "I crawled onto the buried coals, letting them heat the sand and warm my body."
-    narrator "Warm though I was, with a lullaby of throbbing pains to torture me, sleep would not come. I don’t know how long I lay there."
-    narrator "With nothing else to do, I eased my eyes open, casting about me for something, anything to distract me. I was stunned."
+    narrator "Slowly, the heat seeped into my body. The shivering slowed, then stopped."
+    narrator "Something happened. I don't know when. I was still breathing, still squirming, squeezing fistfuls of sand. Could see it."
+    narrator "Pain. It was there, but muffled. Like it had gone into another room."
+    narrator "My head was dull. There was a static sensation, like my skull was full of carbonated water."
+    narrator "The pungent smell of burning hair cut through it all. I saw my bare arm being kissed by the flames. Don't know how I didn't notice it before. I nearly laughed it was so idiotic."
+    narrator "I thought, consciously, \"that's dangerous\". The thought went so slowly, I could see it bubble up through my brain; feel it crawl lazily down the highway of nerves to have a chat with my arm."
+    narrator "My arm responded and, almost reluctantly, moved away from the fire. The skin where the flame had touched me was already turning red and swelling. It throbbed, but it didn't hurt. Nothing hurt anymore."
+    narrator "My hand was clutching something that was not sand."
+    narrator "I looked and saw it. It held the way out. I could be away from here, and never have to go back to this pain."
+    narrator "I could hear the waves crashing in my ears to the beat of my heart."
+    narrator "They would understand."
+    narrator "I lifted my hand to my throat."
+    narrator "They would forgive me."
+    narrator "There's no reason why I have to watch."
+    narrator "I turned my head to look at anything else. My eyes were suddenly full of stars."
     
     # the night sky
     
@@ -1407,10 +1419,11 @@ label start:
     narrator "I’d been awake during the night before, of course, but the glare of the fire always masked my surroundings."
     narrator "Now, in the dark and with my eyes adjusted for the first time I saw the sky as it really was. Lit by the bright moons and stars overhead, it glittered brighter than any orbital."
     narrator "For one moment, all the feeling flew out of me. I was outside myself, in the world. Seeing the place for the first time. It was beautiful, all of it. The awe washed me out to sea, cast away in the waters of a universe."
-    narrator "Suddenly, I remembered."
+    narrator "I remembered what it was like to be there, where I belonged, between worlds. Just me and-"
     robin "Harper?"
-    narrator "It felt like a hundred years since I’d heard its voice. I felt worry worm its way into my heart."
-    narrator "My chin worried a little furrow into the sand as I dragged my head around, looking for the {i}Selkirk{/i}."
+    narrator "I felt a pang of something dreadful. I could feel its fingerprints on my heart. Something fell from my hand."
+    narrator "Harper. It felt like a hundred years since I’d heard its voice. I felt worry worm its way into my stomach."
+    narrator "My chin dug a little furrow into the sand as I dragged my head around, looking for the {i}Selkirk{/i}."
     # bam. ocean GLOWING. CG goes here
     
     stop music
