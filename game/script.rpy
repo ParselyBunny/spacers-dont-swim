@@ -28,8 +28,8 @@ transform hop:
     easeout 0.1 yoffset 0
 
 transform shiver:
-    easein 0.05 yoffset -5
-    easein 0.05 yoffset 5
+    easein 0.1 yoffset -5
+    easein 0.1 yoffset 5
     repeat
 
 define slowdissolve = Dissolve(1.5)
