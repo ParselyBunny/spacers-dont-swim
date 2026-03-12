@@ -1348,18 +1348,18 @@ label start:
     play music "music/Heart of the Beast.mp3" fadein 5.0
     show cg nightmare with fade:
         alpha 0.3
-        function WaveShader(speed = 0.9, amp = .45, melt="both", melt_params=(10,0.5,0.05))
+        function WaveShader(speed = 0.09, amp = 20, melt="both", melt_params=(10,0.5,0.05))
 
 
     narrator "I felt something wet between us and I felt a growing nausea."
     show cg nightmare:
         alpha 0.55
-        function WaveShader(speed = 1.5, amp = 0.55, melt="both", melt_params=(10,0.5,0.05))
+        function WaveShader(speed = 0.15, amp = 10, melt="both", melt_params=(10,0.5,0.05))
     narrator "My body was suddenly tissue, so much light, feathery paper."
     narrator "I tore. My body ripped open."
     show cg nightmare:
         alpha 0.75
-        function WaveShader(speed = 2.0, amp = 1, melt="both", melt_params=(20,1.0,0.25))
+        function WaveShader(speed = 0.01, amp = 2, melt="both", melt_params=(20,1.0,0.25))
     narrator "I turned to tell her I was sick, that I needed help, and then I realized it was she who had peeled me apart."
     narrator "I saw the flash of her white, moonlit teeth as they sunk into my leg."
 
