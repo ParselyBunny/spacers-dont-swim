@@ -1406,7 +1406,7 @@ label start:
     narrator "They would understand."
     narrator "I lifted my hand to my throat."
     narrator "They would forgive me."
-    narrator "There's no reason why I have to watch."
+    narrator "{i}There's no reason why I have to watch.{/i}"
     narrator "I turned my head to look at anything else. My eyes were suddenly full of stars."
     
     # the night sky
