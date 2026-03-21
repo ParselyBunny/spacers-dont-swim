@@ -305,7 +305,9 @@ label start:
     narrator "I wasn’t new to this feeling. It was a symptom of what folks call ‘gravity sickness', a syndrome that occurs when adapting to standard gravity after a long period of living in null or micro gravity."
     narrator "After dozens of long-haul jobs, with the occasional luxury of a stay at stations under fractional G at most, I was well acquainted with the feeling."
     show robin sick at hop
-    narrator "I lurched to my feet once more. When I fell down again, I threw my hands out to catch myself. They dug themselves into the soft gritty, dirt. Sand, rather. I look up and around for the first time."
+    narrator "I lurched to my feet once more. Through my skinsuit, I could feel my toes digging into the soft ground."
+    narrator "In all that chaos I'd not only lost my helmet, but I'd forgotten to put my boots on as well."
+    narrator "I took a shaky step forward. I could feel myself falling again, and I threw my hands out to catch myself. My fingers plunged into the soft gritty, sand. Catching my breath for another go, I take a moment to look around properly."
     show robin bored with dissolve
     narrator "An endless ocean of dark water stretched out before me all the way to the horizon. No sign of the IEV, but in the near distance, I could see smoke rising from the shining metal hull of the {i}Selkirk{/i}."
     narrator "To my surprise, it hadn't been completely flattened. It was perched neatly out in the water, and if I squinted I could see where parts of the hull had crumpled and burst from the impact."
@@ -408,7 +410,7 @@ label start:
     robin "OK. I’m- Okay, I’ll- We’ll-"
     robin "Uh, yeah, something..."
 
-    narrator "There’s a long silence. The water moved up the sand, down the sand. Up, down. It wrapped around my boots. I felt myself sinking a little with each passing wave."
+    narrator "There’s a long silence. The water moved up the sand, down the sand. Up, down. It wrapped around my feet. I felt myself sinking a little with each passing wave."
     narrator "I recognized that sensation of depression, it was threatening to freeze me in place, so I did the only thing I could do. I started moving."
     narrator "I walked. Slowly at first, then briskly. Trying to get my thoughts moving too."
     show robin surprised at hop
@@ -543,7 +545,7 @@ label start:
     narrator "I looked around until I found a sapling. I tried to snap a piece off, but it was surprisingly hard wood."
     narrator "With a little digging in the loose, sandy soil using my hands it was easy enough to uproot, though I was quickly starting to pour with sweat due to the heat and effort."
     narrator "I tore the branches away until I was left with a shaft that fit nicely in my fist. It was long, stiff, and had a nice heft to it. It made a satisfying thunk when I whacked it against a boulder."
-    narrator "As I walked the short distance back to the beach, I’m not surprised to find my soft spacer’s feet starting to ache."
+    narrator "As I walked the short distance back to the beach, I’m not surprised to find my soft spacer’s feet starting to ache. I found myself wishing for my boots again."
     narrator "I waved the stick around. I’d never really played with water much, like I saw some people do in vids. For a lifetime spacer, fluids were precious resources, not a toy."
     narrator "But I was trained in formal math, I knew about the principles involved, and I figured that was enough. I kicked into the shallows and, with some anticipation, dropped the stick into the water."
     narrator "There’s a splash as it plopped into the water. The shallow water was clear like glass, and I saw it hang for an instant as it slowed and its natural buoyancy sprung it back to the surface."
@@ -793,7 +795,7 @@ label start:
     show robin neutral at hop
     narrator "As I played with the grass, I crouched to get a little more comfortable - only to wobble as the ground squished under my shifting weight."
     show robin pain with dissolve
-    narrator "Peering at my feet, muddy water oozed up around my boots as if I was standing on a big sponge."
+    narrator "Peering at my feet, muddy water oozed up around my feet as if I was standing on a big sponge."
     narrator "I stepped away, and I could see water puddling in my footprints."
     narrator "The ropegrass forgotten, I dropped to my knees and plunged my hands into the soft ground, throwing aside globs of sticky earth."
     narrator "I dug a little hole, only a few hands deep and just as wide, and waited patiently. Slowly, almost imperceptibly, the hole filled as groundwater percolated through its walls. An intoxicating joy mulled my brain."
@@ -1628,10 +1630,22 @@ label start:
     scene bg ship corridor with fade
 
     narrator "The world came back into gentle focus. I felt heavy, and terribly damp. I didn't feel rested, but my mind was definitely sharp once more."
-    narrator "My mouth was dry and my stomach had that familiar empty feeling. I eyed the pouch on the wall where I normally kept snacks and licked my cracked lips."
-    narrator "I tested my limbs gingerly, prompting waves of aching, soreness, and stinging pain all over. I freed myself from the inside of the sleeper bag and pulled my feet under me with a groan."
-    narrator "I nearly cried out from the searing pain in my feet. It had somehow gotten even worse than before. My feet felt heavy, the skin tight. I didn't dare remove my suit to get a better look until I'd dealt with the cut on my leg."
-    #TODO: she eats some food
+    narrator "My mouth was dry and my stomach had that familiar empty feeling. I eyed the pouch on the wall near my bunk where I normally stashed snacks and licked my cracked lips."
+    narrator "I tested my limbs gingerly, prompting waves of aching, soreness, and stinging pain all over. I peeled the sleeper bag away, slick with sweat and seawater, and pulled my legs under me with a groan."
+    narrator "My feet touched the ground, and I nearly cried out from the searing pain. It had somehow gotten even worse than before. I dropped back to sitting with a hiss of pain."
+    narrator "Everything below my ankle felt heavy and swollen, the skin stretched tight. I didn't dare remove my suit to get a better look until I'd dealt with the gash on my leg."
+    narrator "I dragged myself over instead, and reached up to pluck the pouch from the wall. I jerked it open and spilled a variety of meal replacement tubes and no-spill flavored drink packs into my lap."
+    narrator "I ripped into them with my teeth and devoured one after the other greedily. I'd never particularly enjoyed ready foods, but after the time I'd had this was practically gourmet."
+    narrator "After I'd sucked them all down I went back to the empty tubes and squeezed them out once more, trying to get every last bit."
+    narrator "I tore open each of the individually sealed drink packs and meticulously licked the insides clean."
+    narrator "I felt my satisfied for the first time in a long while. I sat there for a moment, enjoying the feeling of fullness, feeling spoiled."
+    narrator "Out of habit I policed up the empty packaging and neatly packed the trash back into the pouch, sticking it back on its place on the wall."
+    narrator "I sat against the wall, staring at my feet. Even through the skinsuit I could see how swollen they were."
+    narrator "Dragging myself along the floor, I sorted through my things until I found the first aid kit and a utility knife. I took a moment to appreciate the elegance and beauty of the tool."
+    narrator "The first aid kit contained meager supplies. Pair of sterile gloves, few packets of antiseptic gel (\"do not apply to open wounds\"), tin of plasters for nicks, painkillers suitable for a headache, small roll of gauze, anti-nausea meds..."
+    narrator "I dry swallowed the painkillers and smeared antiseptic on some of the worse cuts on my shoulders and hips. I peeled open a plaster and stuck it over a nick on my arm. It was so sad I couldn't help but laugh dryly to myself."
+
+
     #TODO: she patches herself up
 
     # ending rework
