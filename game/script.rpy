@@ -1377,7 +1377,7 @@ label start:
     narrator "Then, I was back, on the beach, screaming and convulsing as the gash in my calf sent electric shocks of pain shooting up my body."
     show robin painClosed gaunt at shiver with dissolve
     narrator "A small part of me noticed the lost time. My voice was already hoarse, so I must have been crying out in my sleep."
-    narrator " My entire world was hurt. Every movement brought the pain roaring back to new heights. I couldn't stop myself from writhing."
+    narrator "My entire world was hurt. Every movement brought the pain roaring back to new heights. I couldn't stop myself from writhing."
     narrator "Through hot tears I focused every ounce of my will on keeping my injured leg still. I channeled that compulsion to move into my hands and dug my bare fingers into the sand, squeezing and feeling the grit cut into my skin."
     narrator "This was helping. My hands were starting to go raw but my legs were only shivering now and that hurt far less. I heard a wet, coughing sob bubble up from inside me. I guess I'd stopped screaming at some point."
     narrator "I wished desperately to go back to sleep, to fall unconscious. I looked at the burning embers, what was left of the fire. I could shove my hand in those coals."
@@ -1583,7 +1583,7 @@ label start:
     narrator "I gripped the edges of the gash and pressed myself into the gap, kicking and shoving my way through."
     narrator "The jagged edges of ceramic and metal dragged at my face and shoulders, and I exhaled and held my breath to keep from impaling myself."
     narrator "The wicked ribs of the ship ripped bloody gouges into my face and shoulders as I pulled myself forward relentlessly, eyes squeezed shut, unable to turn or wiggle backwards."
-    narrator "I moaned in a desperate, primal terror as I shivered my way through the tangled wreckage."
+    narrator "I moaned in a desperate, primal terror as I shivered my way through the tangled wreckage. The light slowly faded as I crawled blindly forward."
     
     stop music
     play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
@@ -1592,34 +1592,87 @@ label start:
     narrator "Finally, the barbed and twisted metal gave way and I fell into thin air, flopping with a great splash onto the waterlogged deck. I trembled and shook from the cold of the water seeping into my suit."
     narrator "The deck was canted at a significant angle, sloping away from me and threatening to send me tumbling against the far wall."
     narrator "Even on this somewhat kinder ground my feet still felt like they were full of glass. I felt I’d surely cracked a few bones from the harsh walk."
-    narrator "Blood sheeted down my face and arms. I wiped my face and threw myself at the nearest hatch with a grunt."
-    narrator "I cranked it open manually, passed through along with a deluge of water, and sealed it behind me to prevent more flooding."
-    narrator "In this manner I made my way through the cold, darkened halls of the {i}Selkirk{/i} to my quarters by feel and memory alone. My hands shook from chill and excitement, fingers refused to obey."
-    narrator "I could only manage to roughly pull drawers out and sift through my things with my palms until I caught a handful of chemical hand warming packets I’d stashed."
-    narrator "I squeezed pathetically, trying desperately to crack one with the little strength I had left, then resorted to grabbing a hardcover manual that I had lying around and smashed them ruthlessly."
-    narrator "As I felt the packets growing warm, then hot, I shoveled them into my suit, squeezing them under my armpits and under my chin."
-    narrator "With a shaking hand I yanked the sheets from my bed and rolled into a clumsy ball to wait for the shivering to stop."
-    robin "Harp..."
+    narrator "Blood sheeted down my face and arms. I wiped my eyes and threw myself at the nearest hatch with a grunt. Of course the electrics were down, and the door didn't throw itself open automatically as it normally would have."
+    narrator "I sighed and groped in the dark briefly, until my hands found the emergency access panel. I fingered the catch and it popped open with a satisfying click. How I'd missed those sounds."
+    narrator "The panel swung open, revealing a small, unassuming valve helpfully labeled \"MANUAL ACCESS - TURN CLOCKWISE\". I unfolded the small handle attached to the rim of the valve and began cranking it."
+    narrator "Slowly, very slowly, the door eased open. Water trickled, then poured through the widening opening to flood the hallway beyond."
+    narrator "As soon as the opening was wide enough I squeezed through, then used the valve on the opposite side to seal it behind me to prevent more flooding."
+    narrator "I turned with a limp, feet splashing in the puddle by the hatchway. I gasped at the pain that shot through my ruined feet and fell against a nearby wall to stay upright."
+    narrator "I was panting hard. My breath steamed in the frigid air of the ship. I looked, but I could see only vague shadows. Even the emergency lighting was shot."
+    narrator "I slid along the wall, one arm outstretched, hand flat against the hull, feeling my way forwards. Thankfully the flooding seemed not to have reached this area, and my shivering began to slow."
+    narrator "My hand fell away into the dark. An opening."
+    narrator "I placed my good hand against the mouth of the opening and felt the regular shapes of molded metal, a thin, rough seam where a precise weld was made. Felt like a hatchway."
+    narrator "Stepped closer, prepared to duck through. My fingers rested on a particularly smooth part of the hatch frame. Someplace worn from the thousands of times I'd touched that exact spot."
+    robin "Can't be..."
+    narrator "I went inside and groped along the wall again. By some miracle, the light switch worked, and the room was bathed in red light. My berth."
+    narrator "Nearly everything was stowed, just like I'd left it. Most things were neatly tucked away in sealed, transparent pouches stuck to the walls."
+    narrator "Most every surface and item was covered in strips of rough touch fastener; lets you stick anything to anything so nothing comes loose when you're underway."
+    narrator "Even through the tears blurring my vision, I could see that the floor was scattered with a handful of items that had broken free."
+    narrator "One of my beloved plush dolls, this one worn with use. A magazine I'd read a hundred times. Familiar tools I must have been using in the days before we came down."
+    narrator "My hands shook from chill and excitement, then I finally collapsed as a wave of relief flooded my body. I was home."
+    narrator "I felt around for somethign to warm myself. My fingers had gone weird. Wouldn't close right. I could only manage to roughly pull drawers out and sift through my things with my palms until I caught a handful of chemical hand warming packets I’d stashed."
+    narrator "I squeezed pathetically, trying desperately to crack one with the little strength I had left, then resorted to seizing a hardcover manual that I had stuck to a patch of touch fasteners and smashed them ruthlessly."
+    narrator "As I felt the packets growing warm, then hot, I shoveled them into my suit, squeezing them under my armpits and pinching one beneath my chin."
+    narrator "With a shaking hand I yanked my sleeper bag from its place on the wall and crawled inside to wait for the shaking to stop."
     narrator "I could feel myself slipping away. My body wanted to sleep, to heal. But it wasn’t over yet."
     robin "I’m coming..."
     narrator "I stared at the overhead lights, waiting for them to wink at me."
     robin "Do you hear?"
-    narrator "But the lights remained dark."
-    narrator "My mind raced. I needed to make sure it hadn’t done anything stupid just to keep me alive."
-    narrator "I reached for the tablet that teetered on the edge of my workstation. My fingertips caught the edge of it and tipped it to the floor with a crash."
-    narrator "With trembling fingers I booted the tablet up. It sensed my implants and logged me in automatically. I brought up the command line in admin mode and checked Harper’s status."
-    robin "Damn you. I knew it..."
-    narrator "It had started a hard shutdown sequence to save power. Power I’d need to bring the reactor back up to baseline."
-    narrator "It was the smart thing to do. If the reactor was allowed to shut down completely we would never get it back online."
-    narrator "With no power Harper’s personality, memory, and entire self, would be lost forever. An AI can’t be restored from backup any more than a human brain could."
-    narrator "So I decided to take a chance of my own. I didn’t bother checking if there was enough power to hold Harper in memory {i}and{/i} reboot the reactor."
-    narrator "I punched in the command to cancel Harper’s hard shutdown. Maybe, just maybe, I had caught it before its memory lost power."
-    narrator "My fingers were numb as I hit the reactor restart sequence next. As I confirmed the commands, the tablet slipped from my fingers, and I soon followed it as I dropped to the deck."
-    narrator "Completely and utterly spent, I slipped into a fitful sleep."
-    narrator "It was over."
-    #fade to black...
 
+    stop music fadeout 3.0
+    show black with fade
+
+    wait 5.0
+
+    play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
+    scene bg ship corridor with fade
+
+    narrator "The world came back into gentle focus. I felt heavy, and terribly damp. I didn't feel rested, but my mind was definitely sharp once more."
+    narrator "My mouth was dry and my stomach had that familiar empty feeling. I eyed the pouch on the wall where I normally kept snacks and licked my cracked lips."
+    narrator "I tested my limbs gingerly, prompting waves of aching, soreness, and stinging pain all over. I freed myself from the inside of the sleeper bag and pulled my feet under me with a groan."
+    narrator "I nearly cried out from the searing pain in my feet. It had somehow gotten even worse than before. My feet felt heavy, the skin tight. I didn't dare remove my suit to get a better look until I'd dealt with the cut on my leg."
+    #TODO: she eats some food
+    #TODO: she patches herself up
+
+    # ending rework
+    # 1. Robin patches herself up in detail
+    # injuries and illness:
+    #     leg laceration
+    #     possible broken bones in feet
+    #     massive swelling and bruising of the feet
+    #     bottoms of feet peeling and abraded
+    #     superficial cuts on face, shoulders, hips
+    #     coral stings on hand
+    #     hypothermia
+    #     malnourishment
+    # 2. Robin takes stock of her food supplies; plenty of food and water for time being, and some light pain meds
+    # 3. Robin assesses the damage and determines if the Selkirk can launch
+    #     - the flooding is bad, and there's not really a way to fix it; the gash in the side is massive, and large segments of the ship have crumpled and failed catastrophically
+    #     - the torch is damaged, but it can spark and light
+    #     - the bluespace drive is working
+    #     - at least one escape pod is intact
+    #     - Harper's core is intact, but must stay connected to power
+    # 4. Robin goes over options:
+    #     - The Selkirk can't light the main torch without causing an explosion; probably would kill us
+    #     - The escape pod doesn't have the thrust to break orbit, and doesn't have enough power for Harper
+    #     - Firing up the bluespace drive would do something very, very bad, and there are failsafes
+    # 5. Robin settles on a plan:
+    #     - deliberately flood the ship to use the water as a shield?
+    #     - the radiation shield for the torch will deflect most of the blast
+    #     - flooding the cargo section 
+
+    # - the ending is a nice opportunity to show how important Harper is
+    # - Robin has to manually do everything it would normally be doing
+    # - I mentioned flooding. Pumping out all the water would be a serious obstacle
+    # - Water doesn't play nice with hot engine exhaust
+
+
+    stop music fadeout 2.0
     stop ambience fadeout 2.0
+    show black with fade
+
+    wait 5.0
+
     scene bg starfield with fade
     play music "music/Leaving Home.mp3" fadein 8.0
     pause 5.0
