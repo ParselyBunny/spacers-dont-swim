@@ -1641,10 +1641,15 @@ label start:
     narrator "I felt my satisfied for the first time in a long while. I sat there for a moment, enjoying the feeling of fullness, feeling spoiled."
     narrator "Out of habit I policed up the empty packaging and neatly packed the trash back into the pouch, sticking it back on its place on the wall."
     narrator "I sat against the wall, staring at my feet. Even through the skinsuit I could see how swollen they were."
+    narrator "I experimentally tugged at the suit. I pulled it away from my hips, past my knees, but no further; it still had a firm grip on my leg. Probably for the best until I had another way to stop the bleeding."
     narrator "Dragging myself along the floor, I sorted through my things until I found the first aid kit and a utility knife. I took a moment to appreciate the elegance and beauty of the tool."
-    narrator "The first aid kit contained meager supplies. Pair of sterile gloves, few packets of antiseptic gel (\"do not apply to open wounds\"), tin of plasters for nicks, painkillers suitable for a headache, small roll of gauze, anti-nausea meds..."
-    narrator "I dry swallowed the painkillers and smeared antiseptic on some of the worse cuts on my shoulders and hips. I peeled open a plaster and stuck it over a nick on my arm. It was so sad I couldn't help but laugh dryly to myself."
-
+    narrator "The first aid kit contained meager supplies. Pair of sterile gloves, few packets of antiseptic gel (\"do not apply to open wounds\"), tin of plasters for nicks, painkillers suitable for a headache, roll of gauze, sterile wound wash..."
+    narrator "Not what I was hoping for."
+    narrator "I dry swallowed the painkillers and smeared antiseptic gel on my worse cuts and the stinging rash on my hand. I peeled open a plaster and stuck it over a nick on my arm. It was so sad I couldn't help but laugh dryly to myself."
+    narrator "I thought for a moment, then opened another pouch and withdrew an elastic exercise band. I draped it over my leg, just above the knee."
+    narrator "I stretched it tight, and tighter, flexing my arms and shoulders to leverage all my strength, and wrapped it around and around my leg."
+    narrator "When I ran out of length, I tucked the end of it beneath the wrap to keep it in place."
+    narrator "I "
 
     #TODO: she patches herself up
 
@@ -1655,10 +1660,7 @@ label start:
     #     possible broken bones in feet
     #     massive swelling and bruising of the feet
     #     bottoms of feet peeling and abraded
-    #     superficial cuts on face, shoulders, hips
     #     coral stings on hand
-    #     hypothermia
-    #     malnourishment
     # 2. Robin takes stock of her food supplies; plenty of food and water for time being, and some light pain meds
     # 3. Robin assesses the damage and determines if the Selkirk can launch
     #     - the flooding is bad, and there's not really a way to fix it; the gash in the side is massive, and large segments of the ship have crumpled and failed catastrophically
