@@ -1624,7 +1624,7 @@ label start:
     stop music fadeout 3.0
     show black with fade
 
-    wait 5.0
+    pause 5.0
 
     play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
     scene bg ship corridor with fade
