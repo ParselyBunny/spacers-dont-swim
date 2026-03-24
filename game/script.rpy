@@ -249,7 +249,7 @@ layeredimage robin:
         attribute sickClosed
         attribute painClosed
     group satiety:
-        attribute none default:
+        attribute healthy default:
             "robin_none"
         attribute gaunt:
             "robin_gaunt"
