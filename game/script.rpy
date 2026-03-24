@@ -826,6 +826,8 @@ label start:
     narrator "It was my idea, but my stomach still churned at the idea of salvaging the filtration unit."
     narrator "It’d mean cutting into the liner of my suit too. It did a pretty good job of keeping me cool and cutting it would compromise that."
     narrator "I grit my teeth, choking back the doubts. I knew I needed water, nothing is more important than that right now."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin underwear at shiver
     narrator "I started taking off my suit. I’d done my own suit’s maintenance a thousand times, so I only needed a little guidance from Harp before I knew exactly where to start."
     narrator "Using the scrap knife, I made conservative incisions as I dissected my suit. The tip slid soundlessly through the rubbery, synthetic liner, like so much whale blubber."
     narrator "Feeling blindly with my fingers, trying not to tear the liner, I teased out the suit’s innards. I laid the filtration system out on the suit liner to protect it from the dirt."
@@ -833,45 +835,67 @@ label start:
     narrator "The system was capable of storing a total of a liter of potable water in a pair of flat, plastic pouches that conformed to the contours of the suit."
     narrator "One pouch was embossed with the word ‘INTAKE’ and the other ‘OUTTAKE’. Each was small and had an awkward, folded shape when laid out flat. It looked like a set of deflated lungs."
     narrator "I found the sets of fluid tube connections on the pouches, there being one tube for inlet and another for outlet on each pouch, and slashed them down to finger-length stubs."
+    show robin at hop
     narrator "I tugged firm, but easily undone, knots into each stub, so there could be no leaks."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin suit at hop
     narrator "I dragged my suit back on, then used lengths of scrap tube to fashion a sling for each pouch."
     narrator "They’d be easy to fill and drink from since each tube had a plastic neck and could be decoupled, so the tubes or pouches could be replaced, I guessed."
+    play sound "water handling.mp3" volume 1.5
     narrator "I dipped each pouch into the hole and pressed it down below the surface of the water to let gravity fill it up."
     narrator "More water trickled willingly into the hole even as I took my fill. When the pouch was full however, I could see the water level was lower than before. I might have to dig the hole deeper later."
     narrator "The water I’d gathered was surprisingly clear, but still cloudy. Looking at the filtration components I’d left on the ground, I didn’t see a simple way to use those."
+    show robin neutralClosed with dissolve
     narrator "I’d have to boil the water, but heating the pouch over the fire would just melt the plastic."
+    show robin pain with dissolve
     narrator "My mouth was dry and my head throbbed with an ache that was hard to ignore. The thirst had been getting to me for the better part of the past few hours."
     narrator "I didn’t want to think about how long I could go on feeling this way."
     
     robin "Alright, so... How do I boil water without a bowl?"
     harper "Why do you need a bowl?"
+    show robin sick with dissolve
     narrator "It was a frustrating question."
     robin "Why else? So I can bring the water to the fire and heat it up."
     harper "I do not see why you cannot heat the water in the hole."
+    show robin neutralClosed with dissolve 
     narrator "I was perplexed and annoyed at Harper’s naive idea."
+    show robin angry at hop
     robin "How the hell would that even work? I can’t just drop burning wood in the puddle."
     harper "Of course, that’s why you should use a medium to store and transfer the heat. Something conductive."
+    show robin neutralClosed with dissolve
     narrator "The simplicity of the idea shocked me."
+    show robin neutral with dissolve
     robin "Wait, okay, I see where you’re going with this. Hang on, I’ve got an idea."
+    play sound "water handling.mp3" volume 1.5
     narrator "I dumped the water from the pouch into the little well and started scrounging up sticks and branches and other fuel. Soon I’d built a decently-sized fire only a few feet away."
     
     play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day fire with fade
     show robin neutral at midright with dissolve
     
+    play sound "walk sand.mp3" volume 1.5
     narrator "One brisk walk later and I’d returned to the well with a leafy branch that I had lit in my original, rekindled camp fire."
+    play sound "fire crackle.mp3" volume 1.5
     narrator "I dropped the flaming branch into the fuel and waited for the flames to catch. Meanwhile, I found a few fist-sized stones and dropped them as near to the flames as I could manage."
     narrator "While the stones were heating, I looked for a sapling. I used my hands to snap the stem away and then plucked off all the thin branches."
+    show robin pain at hop
     narrator "I set my the blade of my scrap knife into the end of the sapling, then drove it home with a blow from a rock, splitting the stem into a pair of makeshift tongs."
     narrator "Once the rocks were glowing red hot, I used the tongs to snatch them up and drop them one at a time into the puddle with a wicked hiss."
     narrator "By the time I dropped the third rock in, the puddle was bubbling so fiercely I had to back away to avoid getting splashed."
+    play sound "water handling.mp3" volume 1.5
     narrator "I dipped each pouch in with the tongs to disinfect it. I waited patiently for the water to stop steaming, meanwhile building up the fire to prepare another batch, then dipped my pouch in once more to fill it."
+    show robin sick with dissolve
     narrator "The water was still, disappointingly, cloudy. But apparently safe."
+    play sound "water handling.mp3" volume 1.5
+    show robin painClosed with dissolve
     narrator "I raised the pouch to my lips and gave it a cautious sip. I made a face. It was lukewarm, with a slightly metallic, musty aftertaste. I drank it greedily in spite of that, not wasting a drop."
+    show robin at hop
     narrator "I repeated this a couple times until I drank my fill. Afterwards, the hole was more or less dry and my pouch was about half full with drinkable water."
+    show robin neutral with dissolve
     narrator "Just as I’d filled one need, another came to the surface. All that work left me feeling hungry, and I hadn’t a thing to eat. I set my eyes on the bush surrounding me before plunging off to find something to eat."
 
     # search for food
+    play sound "walk sand.mp3" volume 1.5
     narrator "After all this time I’d spent exploring  I was starting to get a good understanding of the terrain."
     narrator "I stopped briefly to make a little diorama in the sand, just to cement the idea in my head."
     scene cg diorama with fade
@@ -885,16 +909,26 @@ label start:
     scene bg beach with fade
     show robin neutral at midright with fade
     
+    play sound "walk sand.mp3" volume 1.5
     narrator "The humidity under the jungle canopy was starting to get to me, so I resolved to take my expedition back towards the beach where I could at least take in a breeze."
     narrator "As I reached the border between the jungle and the sand of the beach, I walked along the edge of it to take advantage of the shade of the occasional tree."
+    show robin neutralClosed with dissolve
     narrator "The sun was setting, warming the horizon to a comforting orange glow. My hair was matted with sweat and so the caress of the breeze felt all the more cooling. The sensation was incredible on my flushed skin."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin neutral underwear with dissolve
     narrator "I looked around shamefully, as if there was anyone who could have seen me, and carefully set down my water pouches so they wouldn’t spill, then threw off my suit and underwear both."
+    play sound "walk sand.mp3" volume 1.5
     narrator "I turned and faced the sea, spreading my legs and arms wide so the wind could slide over every part of me."
+    show robin happyClosed with dissolve
     narrator "The relief was astounding as I turned and turned, letting the breeze reach into me and caress every hidden spot on my body. I felt the heat leaving me like one long sigh."
     narrator "My clothes had been squishy with sweat and, even as someone who was used to suffering for hours in my suit on an EVA with no relief, the discomfort was maddening."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin neutral with dissolve
     narrator "So I spread the suit out wide and turned out the liner, hoping to dry it out some in the wind."
     narrator "I held my scrap knife for a moment, considering keeping it for defense. In the end, I set that down next to my suit as well."
+    show robin neutral at hop
     narrator "I stood again and, feeling refreshed, set out to walk the beach while my things dried."
+    play sound "walk sand.mp3" volume 1.5
     narrator "I walked, and walked. I was excited to see that the tide had washed more scrap ashore, and I took some time to snag the more useful pieces I came across."
     narrator "I found a couple pieces of concave, hard plastic that were almost as wide as my shoulders, and another large piece of jagged metal scrap."
     robin "Never thought I'd be so happy to be picking garbage..."
@@ -903,20 +937,26 @@ label start:
     narrator "Rather than haul them back to where I’d left my suit, I stopped to lean the scrap upright against a tree where they would be conspicuous and easy to find again."
     narrator "As I was walking I'd been looking up into these same trees, hoping to see more of that juicy, redfruit. Every one I passed was tragically bare, the ripe redfruit having fallen to be preyed on by swarms of the stink beetles."
     narrator "Every redfruit I turned over had a hole chewed into it and at least one beetle inside chewing away, gnawing away any hope I had of finding something to eat."
+    play sound "walk sand.mp3" volume 1.5
+    show robin pain at hop
     narrator "I tried fishing the beetles out of some of the more intact redfruits and rinsing the flesh in sea water to try and get the stink to go away."
     narrator "After some cautious testing, I found the bitter taste not only remained, but was made even worse by the overpowering taste of salt."
     narrator "I tried the same sort of test with the beetle itself, but the smell was so foul that I couldn’t even hold it up to my face. I had to walk down to the beach again and rinse my hands over and over until the smell was bearable."
+    show robin at shiver
     robin "It’s impressive how good these guys are at not being eaten."
-
+    show robin surprised at hop
     narrator "That’s when it occurred to me, that this was a {i}defense{/i}. You only need a defense if there’s a threat, I thought, and I suddenly missed my knife."
     narrator "If there are defenses, there must be predators. That could mean food for me. But how would I find them?"
+    show robin neutralClosed with dissolve
     narrator "If I was a creature that ate beetles, wouldn’t this time, when the ripe fruit fell and the beetles came out of their hiding places to feast, be the perfect time to find prey?"
+    show robin sick with dissolve
     narrator "A small, frightened part of me asked: what if this defense is so potent that all their predators have gone extinct? That means nothing to eat for me."
     narrator "The cold, logical part of me argued back: these trees are everywhere, so there must be something that eats enough of the beetles that the trees can survive and breed."
     narrator "The trees live on with no obvious defense, so there must be a predator."
     
     scene cg doglike with fade
     
+    play sound "doglike yaps mild.mp3" volume 1.0
     narrator "That's when I saw it, a small, bulbous creature with a fat, innocent face. It reminded me of a dog the way its eyes were wide and wet with emotion."
     narrator "It stood on two spindly legs and had rubbery, moist flesh like a frog. It was surprisingly brightly colored, with large, irregularly-shaped spots all over."
     narrator "Though it must have heard me gasp when I saw it, it wasn't paying the slightest attention to me."
@@ -927,12 +967,14 @@ label start:
     narrator "It wasn’t facing directly towards me, and to my ears I was silent, but somehow, it knew. It turned and rolled its eyes toward me, its snout snuffling curiously."
     narrator "Did it read the murderous intent in my posture? Can it smell the hunger on my sweat?"
     narrator "I was shaking with desire. I couldn't let the first real meal on this island escape me. My body lunged towards it."
+    play sound "walk sand.mp3" volume 1.5
     narrator "It scuttled into the brush in an instant. It escaped with such startling speed and alacrity, and so very easily, that I gave up before the chase even began."
     
     play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
     show robin neutral at midright with fade
     
+    show robin sick
     narrator "Something in my spirit broke. I tried to summon up frustration, anger, something. But my mind was numb. I only felt my body."
     narrator "My feet hurt. My limbs were heavy, sore, and tired. And my head was pounding. I tried looking for some kind of sign of where it had gone, but it left no traces, not in the failing red light of the sun."
     narrator "I looked at the bugs again, wishing I could understand how that dogthing could swallow them without choking. Something in its saliva? Its stomach?"
@@ -941,16 +983,21 @@ label start:
     harper "Animals?"
     narrator "I described the creatures for Harper."
     harper "Oh! That is wonderful! They sound adorable. I wish you could snap a photo."
+    show robin bored with dissolve
     robin "Why in the world would you want to look at a walking scrotum?"
     harper "Your vile turns of phrase are delightful. I must admit that I find their hideousness charming."
     robin "Do you have a favorite animal?"
     harper "Humans."
+    show robin sick with dissolve
     robin "Be serious."
     harper "Tapirs."
+    show robin bored with dissolve
     robin "What?"
     harper "They are like pigs, but with longer noses. The calves can have very cute striped and spotted coats. I like watching them graze."
     robin "Mm. So how do they taste?"
     harper "I really could not say."
+    play sound "walk sand.mp3" volume 1.5
+    show robin neutralClosed with dissolve
     narrator "While I spoke I slowly got to my feet and gathered up my things, pulling my clothes on slowly, groaning as I felt aches twang at my nerves. It was late and I was spent."
     narrator "I forced myself to gather more fuel and stoke the dying fire. I added some wood scraps, nudged it tenderly with a branch, nurturing it into a roaring flame that would burn through the night."
     narrator "The hunger gnawing at me made it hard to fall asleep that night. I lay sprawled out, my face to the sky. The glare from the fire turned the sky into a dark wet smear; not a single star."
@@ -960,8 +1007,10 @@ label start:
     scene bg jungle day with fade
     show robin neutral at midright with dissolve
 
+    show robin painClosed at shiver
     narrator "Morning came. Dull, insistent pangs in my stomach woke me. I was dizzy and shivering. There was a mouth chewing at my insides, hollowing me out. Not sure if it was just from hunger, or if the beetles were a little toxic."
     narrator "I moaned in pain, cradling my stomach. I held my forehead against the ground until the world stopped tilting."
+    show robin sick with dissolve
     narrator "I drank some water to try and fill my stomach with something. It wouldn't fill the hollow pit in my gut. I’d slept in my suit, so I only needed to grab my knife and water pouches and I was ready to go."
     narrator "I wasted no time; I marched back to where the doglike creature had been grazing."
     narrator "The morning light was far better to search by, and there were no creatures, harsh winds, or other forces to interfere with signs."
