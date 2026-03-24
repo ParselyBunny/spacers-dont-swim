@@ -1687,7 +1687,7 @@ label start:
     stop ambience fadeout 2.0
     show black with fade
 
-    wait 5.0
+    pause 5.0
 
     scene bg starfield with fade
     play music "music/Leaving Home.mp3" fadein 8.0
