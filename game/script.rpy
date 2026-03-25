@@ -249,7 +249,7 @@ layeredimage robin:
         attribute sickClosed
         attribute painClosed
     group satiety:
-        attribute none default:
+        attribute healthy default:
             "robin_none"
         attribute gaunt:
             "robin_gaunt"
@@ -1744,7 +1744,7 @@ label start:
     stop music fadeout 3.0
     show black with fade
 
-    wait 5.0
+    pause 5.0
 
     play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
     scene bg ship corridor with fade
@@ -1807,7 +1807,7 @@ label start:
     stop ambience fadeout 2.0
     show black with fade
 
-    wait 5.0
+    pause 5.0
 
     scene bg starfield with fade
     play music "music/Leaving Home.mp3" fadein 8.0
