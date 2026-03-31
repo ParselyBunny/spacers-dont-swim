@@ -2,13 +2,13 @@
 init python:
     def robin_beep(event, **kwargs):
         if event == "show":
-            renpy.music.play("audio/voice1.mp3", channel="sound", loop=True)
+            renpy.music.play("audio/robin talk.wav", channel="sound", loop=True)
         elif event == "slow_done" or event == "end":
             renpy.music.stop(channel="sound")
 
     def harper_beep(event, **kwargs):
         if event == "show":
-            renpy.music.play("audio/voice2.mp3", channel="sound", loop=True)
+            renpy.music.play("audio/harper talk.wav", channel="sound", loop=True)
         elif event == "slow_done" or event == "end":
             renpy.music.stop(channel="sound")
     
