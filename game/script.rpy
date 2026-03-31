@@ -1016,10 +1016,13 @@ label start:
     play sound "water handling.mp3" volume 1.0
     show robin sick with dissolve
     narrator "I drank some water to try and fill my stomach with something. It wouldn't fill the hollow pit in my gut. I’d slept in my suit, so I only needed to grab my knife and water pouches and I was ready to go."
+    play sound "walk sand.mp3" volume 1.5
+    show robin at hop
     narrator "I wasted no time; I marched back to where the doglike creature had been grazing."
     narrator "The morning light was far better to search by, and there were no creatures, harsh winds, or other forces to interfere with signs."
     narrator "I approached the spot, taking a wide curve around until I could reach it without scuffing the doglike’s tracks."
     narrator "It didn’t escape with any special care, it was focused on speed, so it {i}must{/i} have left some evidence, I thought."
+    show robin neutral with dissolve
     narrator "My eyes passed over the ground, searching. I realized I was looking mindlessly, without really thinking about what would be out of place."
     narrator "I looked at another patch of sandy undergrowth that I knew was undisturbed, and I etched it into my brain. I looked at how the grass lay, how the ripples in the sand were shaped, the curves of the leaves and low branches."
     narrator "When I turned back, small details began to emerge. A patch of bare sand where there should be leaf litter. Spots where the dirt was deeper than could have been dug by the elements."
@@ -1034,14 +1037,17 @@ label start:
     narrator "My walk took me deeper inland than I had been before. The ground grew hard, the trees giving way to low, scrubby brush as they struggled to push their roots into dry, rocky soil."
     narrator "The signs became more obvious still, until the spare tracks of a single doglike merged into pairs, then grew into a gaggle, a herd."
     narrator "The ground was packed and beaten flat by their little feet into a modest trail, like a scar on the earth."
+    show robin happy with dissolve
     narrator "Elated at my discovery, I almost stepped onto the trail to follow it, then thought better of it. My feet left evidence as easily as theirs did."
     narrator "I kept off the trail. It was much easier going than in the jungle, where I had to worry about leaves and branches striking my face and eyes if I moved carelessly."
     narrator "I sensed movement ahead. Just a shadow, a smear of color shifting, but it was enough."
+    show robin angry with dissolve
     narrator "Instantly, I dipped down out of sight. I crouched there for a moment, thinking, letting my breathing steady and slow, trying to suppress my excitement."
     narrator "I switched my scrap knife to my off hand and bent to snatch up a hard stone that fit neatly into my palm."
     narrator "If they let me get as close as last time, I felt confident I could hit one in the face. It might give me the opening I needed to-"
     narrator "What? Stab it? Cut its throat? I realized that I’d never killed anything before."
     narrator "I pushed myself forward before I could think about it too deeply."
+    play sound "walk sand.mp3" volume 1.0
     narrator "As I crept through the brush, I carefully placed each footstep and stopped to push the brush aside and lower it gently back into place to avoid noise."
     narrator "Soon, I could hear the grunting and snuffling of something ahead. I peered between the leaves."
     
@@ -1056,6 +1062,7 @@ label start:
     narrator "There were two adults watching the cubs tussle and whine, occasionally lifting a cub or two into its mouth if it got too rowdy or wandered too far."
     narrator "I crouched there in the brush for a moment, thinking of how to approach this. The burrow looked far too small for me. If they fled in there, I’d never get them out."
     narrator "Before I could devise some kind of tactic, one of the cubs came stumping straight for me, grunting guilelessly. It hadn’t seen me, and for now its parents were busy with the other cubs."
+    show robin angry with dissolve
     narrator "I cocked my throwing arm and waited, letting it get nearer. Sweat beaded on my forehead and threatened to drip into my eyes and spoil my aim."
     narrator "A screech of alarm rang out, cutting through my skull like a migraine. One of the adults had noticed me somehow, by smell, sight, or sound I didn’t know, and had pealed a warning."
     # TODO: sfx throw
@@ -1065,13 +1072,16 @@ label start:
     # TODO: sfx animal squeal
     narrator "The stone struck it square in the face with a satisfying thud, and the creature fell, twitching. I felt a whoop jump out of my throat."
     # TODO: sfx crash through leaves
+    show robin at hop
     narrator "Excitement jolted through my limbs and I threw myself into the open, lunging towards the cub to finish it off."
     # TODO: sfx animal screech
     narrator "I heard another wild screech and looked to see one of the adults barreling straight towards me."
     narrator "I threw my knife into my strong hand and bent, intending to scoop the cub up into the crook of my left arm but snatched my hand away as the parent snapped at my fingers as it skidded to a halt, standing over the child."
+    show robin at hop
     narrator "I cocked my leg back, back, and snapped my leg out in a sledgehammer of a kick."
     # TODO: sfx thud
     narrator "My toes caught the doglike under its chin, sending it careening into the rest of the pack as they scattered and retreated towards the burrow. Before they could rally and come at me again, I grabbed the cub and ran off into the cover of the brush."
+    show robin pain with dissolve
     narrator "I ran, panting with the effort. The cub wriggled as it slowly came back to its senses. I shut my eyes and wrung it in my hands until something popped and it stopped moving. I felt a sob bubble up from my throat."
     narrator "Sure now that I wasn’t being followed, I slowed to a stop and dropped to my knees, panting. I tried not to look at it, but I couldn’t ignore the limp weight spilling over my arms. Hot tears streamed down my face and stained my cheeks."
 
@@ -1080,22 +1090,28 @@ label start:
     show robin neutral at midright with dissolve
 
     # later
+    play sound "walk sand.mp3" volume 1.5
     narrator "As I walked back to camp, Harper speculated about how to actually go about preparing and eating the creature I’d caught. I didn't say anything, but if Harper noticed, it had the grace not to mention it."
     narrator "After a long walk back, I felt the exhaustion setting in once more. The hunger pangs returned with a vengeance. I settled on Harper's suggestion to make a shallow cut in the skin to see how things were arranged inside."
     narrator "I gazed at the creature where I’d lain it belly-up on the ground. I tried to convince myself it was just sleeping."
     narrator "Gripping my knife in one hand, I dipped the point into the skin at the creature’s throat and made a thin, red slit down to the groin."
+    show robin pain with dissolve
     narrator "The cut split and bulged at the seam I’d made, like a shirt stretched thin. I could see a thin, white membrane beneath the skin, holding everything together."
     narrator "I gingerly made a few slits and it popped open in sections like I was popping stitches. There was surprisingly little blood, and what there was was bright red. 'Just like yours,' a little voice said."
     narrator "I must have nicked an organ because as my blade reached the groin again, an evil, almost musty smell reached through my nostrils and into the back of my throat. I couldn’t help gagging."
     narrator "Breathing through my mouth this time, I leaned forward and looked carefully at the jumbled mass of flesh inside. A tangled, grey rope of an organ was evidently leaking something, contaminating the precious meat."
+    show robin at shiver
     narrator "I pawed through its insides, seeing and feeling how everything connected together and, unsure of what else to do, started cutting things out."
     narrator "I had a handful of large leaves that I’d rinsed and set aside. I placed the severed organs on these leaves as I cut each one away, sorting them neatly."
     narrator "Once I’d removed the organs, it started to become clearer how I would move forward. I could see the muscles, and there was a sensation of recognition as I realized for the first time where the meat I’d eaten my whole life came from."
     narrator "I felt a morbid fascination, and a pang of something confused and painful. I realized I was salivating."
+    show robin neutral at hop
     narrator "With some awkward jerking, I tugged the creature’s rubbery hide off of its body and put that aside."
     narrator "The carcass was still covered in strange, pungent fluid, so I walked down to the beach and dipped it in the water, rinsing it thoroughly."
+    play sound "trudge sand.mp3" volume 1.5
     narrator "I had a drink while I set the carcass in the sun to dry a little, then I returned to work and started the work of butchering the meat. It was delicate work, and I frequently tore or mangled the cuts I was making."
     narrator "The fire was burnt down but still smoking a little. I reached my hand out and felt that the ashes were still hot."
+    play sound "cloth rustle.mp3" volume 1.0
     narrator "I turned and stirred the ash and saw the coals glowing underneath. I was amazed that it had stayed hot through the entire day. I took advantage of the heat to get another fire going quickly."
     
     play ambience "jungle ambience 1.mp3" fadein 3.0
@@ -1105,11 +1121,17 @@ label start:
     narrator "I gathered up the pile of morsels I had made and started spearing them on thin sticks and arranging them around the fire to cook."
     narrator "I figured I’d let them char just to be absolutely sure they were cooked all the way through. After all this hard work I wasn’t going to take any chances on getting killed by food poisoning."
     narrator "While the meat cooked, I took a look at the organs. Turning them over with sticks, they didn’t seem to be the familiar shapes I’d seen in school."
+    show robin pain with dissolve
     narrator "Even if they were, assuming they behaved the same way based on a superficial resemblance felt wishful."
+    show robin painClosed with dissolve
     narrator "So, eating them myself was out since I wasn’t keen on biting into what turned out to be a liver. A mouthful of toxic metals wouldn’t do me any favors."
+    play sound "trudge sand.mp3" volume 1.5
     narrator "I thought about keeping them for bait, but I hadn’t noticed any signs of fish, and I wasn’t keen on attracting any land predators or deadly scavengers, so I buried the guts far from my camp."
+    show robin neutral with dissolve
     narrator "By the time I returned, the meat had cooked nicely. I plucked a skewer from the sand and turned it over and over, pulled the meat away with my fingers, felt the steam pour out of the inside and warm my face."
+    show robin happyClosed with dissolve
     narrator "It smelled incredible. I couldn't wait any longer."
+    show robin happy with dissolve
     narrator "I crammed the meat into my mouth, hardly chewing. It burned my tongue as it went down. It was delicious."
 
 
@@ -1119,10 +1141,13 @@ label start:
     show robin neutral at midright with dissolve
     
     narrator "The day wore on, and after a meal and a drink I felt revived. I needed a rest, so I sat down in front of the bundle of grass I'd gathered and started playing with it."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin bored with dissolve
     narrator "First, I tried ripping it to get a thread started, but that frayed the ends and left me little length to work with. I looked at the torn end of a blade of grass, saw the skin around the threads I wanted. How to get rid of the skin?"
     narrator "I rolled a bit of grass between my fingertips, scratched it with my fingernail. I saw something green come away under my hand."
     narrator "I snatched up my scrap knife and pinched the grass between the knife and a flat stone I used as an anvil. I drew the knife along the length of the grass, scraping the green skin away."
     narrator "It worked well. I did one blade of grass. Two. This pace would work great if I was making doll clothes."
+    show robin neutral with dissolve
     narrator "I grasped a handful of grass in my fist, lined up just so, then pinched one end under my anvil stone and pulled the bundle taught over the face of the rock. The peeling went a lot faster this time."
     narrator "At first I used too much pressure and ended up slicing the fibers and ruining them. I had to experiment a little to find the right amount of force to use."
     narrator "It was delicate, but eventually I nailed the technique. In only an hour I’d made a wet, greenish hairball about the size of my head."
@@ -1132,14 +1157,19 @@ label start:
     narrator "The training models could swap the gloves for trainers. They look like oven mitts, and you can't move or feel a thing with your hands while you're wearing them."
     narrator "Any spacer worth a damn can do the exercises with trainers on and visors blacked out, to prepare for the kind of injuries that are unfortunately common in our profession."
     narrator "We were taught to adapt by using bulky materials like electrical cords or steel cables, things that might be available on a space vessel and that could be easily manipulated without the use of your fingers."
+    show robin sick with dissolve
     narrator "After playing with the strands for a bit, I was beginning to feel it was impossible to have the precision I needed to braid such thin strands. My fingers were contorted awkwardly as I tried to grip the strands and cross them over and over."
     narrator "Getting the braid started was the hardest part since there was nothing to anchor it down. The sun was high, and I was beginning to overheat, so I stopped to peel off my suit."
     # naked
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin underwear with dissolve
     narrator "I sat down again, and I was brushing some of the sand from my toes, when I had an idea. I threaded the small braid I'd started between my toes and gripped them tightly."
     robin "Okay- Okay, this is good. This'll work."
     narrator "Before I even finished it I knew my first cord was a letdown. It was far too thin for what I needed. It seemed so obvious now, looking at the thin strands I was starting with. I sighed in frustration."
+    show robin neutralClosed with dissolve
     narrator "I held the cord for a moment, thinking. I could make another, and another, and then braid those together into a thicker piece that would be closer to what I want."
     narrator "I thought about how long that would take. I could feel dread settling over me, and I stood quickly as if to throw it off."
+    show robin neutral with dissolve
     narrator "The rope would come. It would come, I just needed to keep at it. If I used every moment of rest, every minute of firelight, every second I wasn’t foraging or surviving, then maybe, just maybe, this would work."
 
     # transition
@@ -1152,18 +1182,27 @@ label start:
     harper "Like an axe, but the cutting edge is perpendicular to the handle instead of parallel."
     narrator "I held the stone chisel in my hand and turned it in my fingers, imagining what Harper was telling me."
     robin "Well, I can use some of my cord to lash it to a stick, I’m just not confident it’ll be secure."
+    show robin bored with dissolve
     harper "I know what you need to do, I'm just not quite sure how to explain it. Get started on the tool head while I think about it."
     narrator "I still had some chunks of quartzite left over from when I made my firemaking flint. It might make for an adequate tool head."
+    play sound "cloth rustle.mp3" volume 1.0
     narrator "I knapped one of the larger rocks into a tall, narrow hunk. Each flake I hammered away left a razor sharp edge. I wanted it to have some weight to it, so it was large, a bit bigger than my fist."
     narrator "I couldn't have imagined that a person could work their hands this hard. It was amazing seeing my broken and red skin."
+    show robin pain with dissolve
     narrator "The only callouses I'd ever had were on the tops of my feet, where they wrapped around footholds to keep my body still in microgravity."
     narrator "I'd never thought about where tools come from before either. They were just there, fully formed. Sure, even a spacer has to improvise, but a lot of the techniques used are passed down in manuals, training, and stories."
+    show robin sick with dissolve
     narrator "Even with Harper acting as my living manual, there was still so much left to me. I had to work everything out from first principles."
+    show robin sickClosed with dissolve
     narrator "Thinking in such an original way was terrifying. So much is unknown, out of reach, and the only way to go forward is by plunging off headfirst with both eyes welded shut."
     narrator "It went against everything I'd been trained to do, the principles on which I was taught. It was exhausting."
     narrator "I looked around for something to make a handle out of and, seeing a nearby sapling, thick, tall, and healthy, I moved to get closer."
+    # thunk sfx here
+    show robin angry at hop
     narrator "Wrapping my hand around the trunk, I felt it fit perfectly in my hand. So I bent to the task, hefting the adze head in my hand and swinging it into the base of the sapling, sending flakes of wood flying with a thunk."
+    show robin painClosed with dissolve
     narrator "I winced as the blow sent shocks up my arm and into my shoulder. Having a handle would definitely do some good."
+    show robin neutral at hop
     narrator "I cut most of the way through the trunk, then used my hands to grasp and bend the sapling until it snapped away. I took a moment to roughly chop away the branches, tossing them into my fire for extra fuel."
     narrator "Next, I cut carefully at the staff I’d made, shortening it until I had a raw working item that was the length of my forearm."
     narrator "I fashioned the item from a section of the trunk such that one end of the item ended in a fork where a branch had begun to form. The result was a piece of stout wood, roughly in the shape of a seven. This would be my handle."
@@ -1171,15 +1210,24 @@ label start:
     narrator "I compared the shelf with the stone head of the tool and adjusted the length of the shelf (by chopping at it vigorously) until it was shorter than the tool head."
     narrator "The raw wood of the shelf was uneven, so I needed to do some chipping and carving to make it a little better for the purpose."
     narrator "Once the head was sitting on it nicely, it came time to attach the thing and secure it well."
+    show robin pain with dissolve
     narrator "My body wasn’t shy about reminding me that I’d been working for hours, and I took a break to get something to eat and boil a few portions of water. Then, with precious little daylight left, I went straight back to work."
+    play sound "trudge sand.mp3" volume 1.0
     narrator "I set the head on the shelf and lashed it there securely with some of the cord I’d made."
     narrator "I crossed back and forth over it, making a lopsided X shape with the lashings, to make sure the head couldn’t slide around. I tried wiggling it with my hand and it held firm."
+    show robin neutral with dissolve
     narrator "I had an adze. My first real tool. Made completely from scratch at that. Before I could feel too accomplished, I decided to take it for a test swing."
     narrator "I chose a young tree, one not much larger than one of the saplings but that I wouldn’t dare go at with just my hands."
+    # thunk sfx here
+    show robin sick with dissolve
     narrator "I had to swing over my head due to the orientation of the adze head, chopping at the trunk almost at eye level. The result was underwhelming."
     narrator "It was definitely an improvement over swinging a rock with my hands, but not quite as impressive as I’d imagined it in my mind."
+    # thunk sfx
+    show robin neutral at hop
     narrator "I wasn’t quite as majestic as the chiseled pioneer women from the propaganda posters that romanticized frontier life."
     narrator "I could use a few muscular women right about now, as much to watch them panting and sweating through their shirts as to have their help with the work."
+    play sound "trudge sand.mp3" volume 1.5
+    show robin surprisedClosed with dissolve
     narrator "I brought that tree down and decided to take a break after that. I deserved it."
 
     # transition
@@ -1188,17 +1236,23 @@ label start:
     show robin neutral at midright with dissolve
     
     narrator "As twilight was coming on, I dragged the log down to the beach. I needed to see if it would float."
+    show robin sick with dissolve
     narrator "I almost didn’t want to do it. After all this work, I nearly couldn’t bear to know if it was all a waste of time."
+    show robin angryClosed with dissolve
     narrator "I pulled from a deep reserve of determination, one I didn’t know I had, and rolled the log out into the water."
+    show robin happy at hop
     narrator "It floated magnificently! I gave a whoop and started dancing around like an idiot. Splashing and kicking and throwing my arms in the air."
     robin "Finally! One good thing! A good thing happened! Yes!"
     harper "Let me in on it, will you?"
+    show robin at hop
     robin "It floats! The fucking thing floats!"
     harper "That’s more than you could say for me."
     robin "Don’t worry pal, you’re next. I’ll strap logs to you and pull you onto this island with me so we can have a barbecue together. Any dietary restrictions?"
     harper "You know, after so long without any fuel, you’re starting to look pretty tasty."
+    show robin surprise at hop
     robin "You’d eat your own crewmate?!"
     harper "Humans are cannibals, you have no leg to stand on."
+    show robin sick with dissolve
     robin "You’re the one who doesn’t have any legs."
 
     # days pass
