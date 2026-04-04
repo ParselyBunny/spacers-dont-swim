@@ -276,7 +276,7 @@ label start:
     narrator "The dizziness grew into a horrible nausea and I groaned miserably, feeling my bile rise. I didn’t dare open my eyes for fear of making it worse."
     narrator "I laid there, letting the nausea subside. I was completely in my body in the worst way."
     narrator "The sickness oozed over and through me, until finally I was able to think. Remember the horrible, heart-stopping moment as the ground rushed up toward me."
-    narrator "Images flashed in my mind. I didn’t actually see the ground from inside the Individual Entry Vehicle that ejected me from my falling ship, but that terrifying sensation of acceleration painted a vivid picture in my mind."
+    narrator "Images flashed in my mind. I didn’t actually see the ground from inside the Individual Exit Vehicle that ejected me from my falling ship, but that terrifying sensation of acceleration painted a vivid picture in my mind."
     narrator "The white-hot IEV, flakes of ablative heat shielding blasting up and away like sparks from an archaic anvil as it rocketed towards the alien world below."
     narrator "I shook those flame-wreathed memories from my mind and reached further back. Remembered waking in a daze, alarms blaring."
     narrator "My shipmate, Harper, coolly reported over my comm implant that the ship had automatically dropped out of FTL when our plotted route strayed too close to a gravity well."
@@ -735,7 +735,6 @@ label start:
     harper "Well done, Rob. Get some rest now, you’ll need it."
     robin "Thanks, Harper... Goodnight..."
 
-
     # day 2
     play ambience "jungle ambience 1.mp3" fadein 3.0
     scene bg jungle day with fade
@@ -748,7 +747,13 @@ label start:
     narrator "I always thought it would be cold and stinging, I never thought it could be this soft, this gentle..."
     play sound "cloth rustle.mp3" volume 2.0
     show robin pain with dissolve
-    narrator "I eased to my feet, my body still sore from yesterday, and looked for something to catch the rain. I remembered the leaf and that pure, beautiful water and in no time I’d gathered an armful of leaves."
+    narrator "As I rose to stand up, I could feel painful pinpoints of pressure on the soles of my feet. I lifted one leg to feel the sole of my foot through the suitskin, and I could feel the large blisters that had formed on either foot."
+    narrator "I frowned. I'd had them on the tops of my feet before, from the friction of hooking my toes into railings to anchor myself during my workday. Never like this, though."
+    narrator "Once (and only once) I'd taken a passenger aboard our freighter. A dirtsider, someone who'd never left the gravity well they called home. The kind of person I didn't care to know or remember."
+    narrator "One thing I'll never forget, though, is the thick callouses she had on her feet from walking on the ground for 40 years standard. I was just as surprised as she was when, about a week underway, they sloughed off like gloves."
+    narrator "She never once complained about the nausea of weightlessness, the frustration of learning to move without walking, but when she saw how smooth her feet had become, she wept and moaned. I think she was ashamed."
+    narrator "I think, in some small way, I understand how she felt now."
+    narrator "Taking ginger steps, my body still sore from yesterday, I looked for something to catch the rain. I remembered the leaf and that pure, beautiful water and in no time I’d gathered an armful of leaves."
     narrator "They had a natural curve and stiffness to them that made for a nice, shallow bowl."
     show robin neutral with dissolve
     narrator "I went to a spot where there was a decently-sized clearing not far from my camp and dug a few rows of small divots in the sand. I placed a leaf carefully in each divot to keep it from rolling over."
@@ -759,9 +764,6 @@ label start:
     
     robin "Harper, I’m going to check the surrounding area for water, and while I’m doing that I need your help cataloging plants."
     harper "Of course."
-    show robin pain at hop
-    narrator "I got to my feet and winced. My feet were raw from all the walking I did yesterday and I could feel a few fat blisters that had sprung up on different parts of my feet."
-    narrator "It took a moment for the initial pain to fade enough that I felt I could gather my tools and start walking."
     narrator "I was afraid to venture far from my camp. The island was fairly flat and if I were to wander into the overgrowth, I wouldn’t have any reference or landmarks to navigate by."
     robin "Harper, are you still picking up my location through my implants?"
     harper "Yes, though, as you know, it is not very precise. The best I can do is tell you if you are getting closer or farther away."
@@ -770,7 +772,7 @@ label start:
     robin "I suppose if all else fails, I do know that the sun sets on the {i}Selkirk{/i}."
     harper "Ominous... Good luck, Robin."
 
-    #transition
+    #todo: transition
     play sound "walk sand.mp3" volume 1.5
     narrator "I hadn’t been walking long before I saw something new. Not far inland, tall, stemmy grass sprouted up from the ground."
     narrator "I stopped when I noticed some places where the grass seemed different. I looked closer, and saw the injured ends of the grass were frayed."
@@ -1745,35 +1747,56 @@ label start:
     narrator "I ripped into them with my teeth and devoured one after the other greedily. I'd never particularly enjoyed ready foods, but after the time I'd had this was practically gourmet."
     narrator "After I'd sucked them all down I went back to the empty tubes and squeezed them out once more, trying to get every last bit."
     narrator "I tore open each of the individually sealed drink packs and meticulously licked the insides clean."
-    narrator "I felt my satisfied for the first time in a long while. I sat there for a moment, enjoying the feeling of fullness, feeling spoiled."
+    narrator "I felt satisfied for the first time in a long while. I sat there for a moment, enjoying the feeling of fullness, feeling spoiled."
     narrator "Out of habit I policed up the empty packaging and neatly packed the trash back into the pouch, sticking it back on its place on the wall."
     narrator "I sat against the wall, staring at my feet. Even through the skinsuit I could see how swollen they were."
-    narrator "I experimentally tugged at the suit. I pulled it away from my hips, past my knees, but no further; it still had a firm grip on my leg. Probably for the best until I had another way to stop the bleeding."
-    narrator "Dragging myself along the floor, I sorted through my things until I found the first aid kit and a utility knife. I took a moment to appreciate the elegance and beauty of the tool."
-    narrator "The first aid kit contained meager supplies. Pair of sterile gloves, few packets of antiseptic gel (\"do not apply to open wounds\"), tin of plasters for nicks, painkillers suitable for a headache, roll of gauze, sterile wound wash..."
-    narrator "Not what I was hoping for."
-    narrator "I dry swallowed the painkillers and smeared antiseptic gel on my worse cuts and the stinging rash on my hand. I peeled open a plaster and stuck it over a nick on my arm. It was so sad I couldn't help but laugh dryly to myself."
-    narrator "I thought for a moment, then opened another pouch and withdrew an elastic exercise band. I draped it over my leg, just above the knee."
-    narrator "I stretched it tight, and tighter, flexing my arms and shoulders to leverage all my strength, and wrapped it around and around my leg."
-    narrator "When I ran out of length, I tucked the end of it beneath the wrap to keep it in place."
-    narrator "I "
+    narrator "I experimentally tugged at the suit. I pulled it away from my hips, past my knees, but it would move no further; it still had a firm grip on my calf. Probably for the best until I had another way to stop the bleeding."
+    narrator "Dragging myself along the floor, I sorted through my things until I found the first aid kit and my tool belt."
+    narrator "The first aid kit contained meager supplies. Pack of sterile gloves, an epinephrine autoinjector, lots of antiseptic gel (\"do not apply to open wounds\"), plasters for nicks, enough painkillers for a bad headache, rolls of gauze, sterile wound wash..."
+    narrator "I dry swallowed the painkillers and smeared antiseptic gel on my cuts and the stinging rash on my hand. I peeled open a plaster and stuck it over a nick on my arm. It was so sad I couldn't help but laugh dryly to myself."
+    narrator "I looked for something to tourniquet my leg. I thought for a moment, then opened another pouch and withdrew an elastic exercise band. I draped it over my leg, just above the knee."
+    narrator "I stretched it tight, and tighter, flexing my arms and shoulders to leverage all my strength, and wrapped it around and around my leg with a grunt. My lower leg started to tingle. A good sign I'd done it right."
+    narrator "When I ran out of length, I tucked the end of it beneath the wrap to keep the band in place."
+    narrator "I pulled my utility knife from my tool belt. I took a moment to appreciate the elegance and beauty of the tool. I flicked the catch and the blade sprung free from its scabbard."
+    narrator "I swept the blade along the suit, then dug my fingers into the gash and tore the suit away, freeing my legs and feet."
+    narrator "I forced myself to look at the cut on my leg. The edges were ragged, the flesh in and around it was wet with blood and clear fluid. I could see my muscles moving inside my leg. My vision swam. I laid on my back until I could bear to look again."
+    narrator "I put on a pair of sterile gloves for what would come next. A flap of skin clung to the edge of the wound by a strip of tissue. It was long enough that it hung down past my ankle."
+    narrator "I touched it gingerly with a fingertip and was rewarded with stinging pain."
+    narrator "I wiped down the tip of the utility blade with antiseptic gel, let it dry, then held my breath and severed the strip of skin from my leg. I bit back a cry of pain."
+    narrator "Next, I sprayed the sterile wound wash solution into the cut. I was surprised that the only sensation I felt was a deep, aching burn as I rinsed away globs of blood and sand."
+    narrator "I felt a cold sensation spreading at the back of my skull. I tried to ignore the tinny voice chattering from that fearful place, whispering about dead nerves that would never work again."
+    narrator "I have to close this up."
+    narrator "I dug through my supplies. Found a spool of fine synthetic thread, stuff normally used in the printers for fabrication."
+    narrator "I snatched up the autoinjector and worked a pair of pliers into a seam in the housing. It popped apart, sending a spring and bits of plastic spinning away, and exposing the injector hidden inside."
+    narrator "I drenched the thread and pliers in antiseptic, then pulled the needle free from the rest of the injector assembly."
+    narrator "I held the hollow needle close to my face where I could see the opening and carefully fed the sterile thread through. Gently, I bent the needle using my pliers to give it a slight curve."
+    narrator "Clutching my makeshift suture kit in my hands and a fistful of rubber suitskin between my teeth, I sunk the needle into my flesh and began stitching myself back together."
+    narrator "I had a few false starts. My skin was weak from malnourishment, and when I tried to pull the first stitch taught, the thread tore right through it. Starting the stitch further from the lip of the wound solved that."
+    narrator "The stitches were clumsy, ragged and uneven like my nerves, but my leg was closed up."
+    narrator "I smeared the wound in more burning antiseptic and loosened the tourniquet experimentally. My leg tingled as sensation slowly returned. Blood seeped from the wound, but it wasn't anything concerning."
+    narrator "Next, my feet. They were swollen, the skin was a raw, angry red. The blisters that had developed from my first day were massive, and some were dark red with blood. A few had torn open to expose the layer of skin beneath."
+    narrator "The skin was tender, and far more painful than my leg was. More wicked, fiery antiseptic. I soaked the needle again, then lanced each blister one at a time. The relief as I squeezed the fluid out was incredible."
+    narrator "I bandaged my leg, using tape to secure it, then wrapped both feet in thick layers of gauze. I threw on two pairs of clean socks and a spare set of boots over them."
+    narrator "Experimentally, I set my feet flat on the ground. I put a little weight on one foot, the other- Each step still ached like hell, but at least I could limp around."
+    narrator "I tidied the mess I'd made somewhat, then, armed with my toolbelt and a flashlight, I hopped back out into the corridor to find more to eat."
 
-    #TODO: she patches herself up
+    narrator "Part of the mess compartment had collapsed, but even with most of the supply cabinets crushed there was no shortage of food or water for the near term."
+    narrator "It might become a concern if we couldn't drop into bluespace and we had to go home at relativistic speeds, but one problem at a time."
+    narrator "Now I walked the corridors while chewing on a fruit bar, checking every compartment, taking stock of the damage."
+    narrator "The network being down, I used a marker with a fat chisel tip to scrawl notes on my arm or directly onto the hull beside each hatch."
+    narrator "Slowly, I built a picture of the state of the ship."
+    narrator "The gash in the side of the ship was catastrophic. The hatches had contained the worst of the flooding, but the arterial corridors were cut in places leaving large sections of the ship inaccessible."
+    narrator "The {i}Selkirk{/i} must have been tumbling as it came down; it landed tail first, its nose pointing out of the water."
+    narrator "This meant that the main engine was not only submerged, but suffered an unknown amount of damage it struck the water and whatever lay beneath it."
+    narrator "Three out of four of the Individual Exit Vehicles (IEVs) were unusable. One I'd lost during re-entry, two were crushed, and the last was intact."
+    narrator "The IEV wasn't all that useful. Its thrusters were intended for use in microgravity, so it didn't have any hope of escaping the atmosphere."
+
 
     # ending rework
-    # 1. Robin patches herself up in detail
-    # injuries and illness:
-    #     leg laceration
-    #     possible broken bones in feet
-    #     massive swelling and bruising of the feet
-    #     bottoms of feet peeling and abraded
-    #     coral stings on hand
-    # 2. Robin takes stock of her food supplies; plenty of food and water for time being, and some light pain meds
     # 3. Robin assesses the damage and determines if the Selkirk can launch
-    #     - the flooding is bad, and there's not really a way to fix it; the gash in the side is massive, and large segments of the ship have crumpled and failed catastrophically
+    #     - the flooding is bad, and there's not really a way to fix it;
     #     - the torch is damaged, but it can spark and light
     #     - the bluespace drive is working
-    #     - at least one escape pod is intact
     #     - Harper's core is intact, but must stay connected to power
     # 4. Robin goes over options:
     #     - The Selkirk can't light the main torch without causing an explosion; probably would kill us
