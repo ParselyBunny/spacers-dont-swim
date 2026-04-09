@@ -975,7 +975,7 @@ label start:
     narrator "It wasn’t facing directly towards me, and to my ears I was silent, but somehow, it knew. It turned and rolled its eyes toward me, its snout snuffling curiously."
     narrator "Did it read the murderous intent in my posture? Can it smell the hunger on my sweat?"
     narrator "I was shaking with desire. I couldn't let the first real meal on this island escape me. My body lunged towards it."
-    play sound "walk sand.mp3" volume 1.5
+    play sound "run sand.mp3" volume 1.5
     narrator "It scuttled into the brush in an instant. It escaped with such startling speed and alacrity, and so very easily, that I gave up before the chase even began."
     
     play ambience "jungle ambience 1.mp3" fadein 3.0
@@ -1266,31 +1266,45 @@ label start:
     
     narrator "Days passed. Knowing how much time I'd wasted only depressed me so I let go. Stopped keeping track. I judged the time by the ache in my joints, the position of the sun."
     narrator "Foraging, chopping, carving, braiding. More hunting, more scrabbling for scraps, more food. My stomach drove everything. I was always hungry."
+    show robin neutralClosed with dissolve
     narrator "I dreamt of mess hall meals served on dull gray trays, edges still sharp since they were fresh from the printers. I would fall down and pray to any god who'd listen if I could get just one slab of greasy, processed convenience grub."
     narrator "No helping it. Back to cutting wood."
+    show robin neutral with dissolve
     narrator "I had to make myself another adze after the first one split. Finally, I had several coils of good, strong cordrope and a respectable row of logs, all roughly the same diameter and length, lined up at the head of the beach like soldiers."
     narrator "My adze held up well, though I had to replace the cordage recently. All the branches and leaves I got from delimbing the trees made for a great supply of fuel and I had a reserve of fuel for the first time since I was on this island."
     narrator "My hands and feet were hard from the work, and my face and neck burnt by the sun. I spent most of my time finding food to eat."
     narrator "I’d hunted another doglike since my first kill, and discovered some roots and nuts that were safe to eat, though they were not as abundant as the redfruit and needed much more preparation."
     narrator "In spite of my effort, I was clearly fighting a losing battle. My stomach was sunken; the suit’s smart rubber sagged where it was still slowly refitting itself to keep up with the rate I was losing weight."
     narrator "Each day I had less energy than the last. I panted unselfconsciously as I dragged another log down to the beach. The last one I’d need, I figured. It was about time."
+    play sound "trudge sand.mp3" volume 1.5
+    show robin pain with dissolve
     narrator "I started lining the logs up, intending to make something roughly square-shaped. I didn’t really know what the best shape was for a raft. I figured a square would be as good as anything else."
     narrator "I’d only lined up a few of them before I stopped to think how I was going to lash them together."
     narrator "If I just lined them up side to side and tied them together, they would only be secured in one direction, and might slide up and down in an unpleasant way."
     narrator "I decided a frame would be best as a base for the craft. I lifted the logs up by the ends and walked them around until they lay on top of one other, then I lashed them together with some cordrope."
     narrator "It was a serious upgrade over the simple cordage I’d made before, and was the result of many long hours of weaving the simple twine cord I’d made initially into thick, powerful rope. Threads to twine, twine to rope, and rope to cables if need be."
+    play sound "trudge sand.mp3" volume 1.5
+    show robin at hop
     narrator "I hefted one side of the frame and shook it back and forth to make sure it was stable, and I found the joints had some play in them."
     narrator "Everything was secured tightly at the corners, but it was still able to skew and make the square shape of the frame go lopsided."
     narrator "I lined it up again so everything was nice and square, then I added a diagonal brace with another log, hoping that would fix the skewing. It did."
+    show robin at hop
     narrator "I hefted it again, sliding it back and forth, even dragging it a bit. It held together nicely this time."
     narrator "It was already beginning to get heavy so I decided to drag it until it was nearly touching the edge of the water."
     narrator "I was a little afraid that the tide would come in, scoop up my raft, and take it away, so I made some tall stakes from some of the thicker and straighter branches I had and pounded them into the sand inside the borders of the frame."
     narrator "With this setup, even if the raft started to float while I was away, the stakes would keep it docked on the beach."
+    show robin sick at shiver
     narrator "I was sweating and my hands were raw from all the work. My hair was matted and greasy from all this time without a wash."
+    show robin angry with dissolve
     narrator "My chest heaved. My limbs and muscles screamed. The pain was deep. The heat seeped through my skin, my bones, deep into my skull. I was drunk with that heat. My bones were hot and throbbing."
+    play sound "run sand.mp3" volume 1.5
+    show robin underwear at hop
     narrator "I had a sudden, terrible vision of my bones warming and turning to soft butter, or lead. They would sag and bend under my own weight, and sag more. That frightened me. I tore my clothes away with a gasp and strode into the water."
+    show robin neutralClosed with dissolve
     narrator "The cool water shocked me, brought my mind screaming back into the real. It felt so soothing that I let out a moan, even as the salt found the nicks and scrapes on my soft flesh and whipped them screaming raw."
+    show robin painClosed with dissolve
     narrator "The pain was angry, thin, and everywhere. I itched and it just turned the itching into more raw and sore and crawling itch."
+    show robin pain with dissolve
     narrator "Tragically sobered from my feverish fit by the cool water, enveloped in a skittering agony that teased my body into strange contortions that somehow helped me fight the urge to scratch, I waded out of the sea and trudged my way back to camp."
     
     play ambience "jungle ambience 1.mp3" fadein 3.0 loop
@@ -1301,20 +1315,29 @@ label start:
     harper "That makes two of us. Like peas in a pod."
     robin "Pod?"
     harper "Oh. Right, you’ve never actually seen where food comes from, you just eat it."
+    show robin bored with dissolve
     robin "Yeah, I eat it. I don’t research it."
     harper "I can’t know anything without researching it. At least, not the kinds of things {i}people{/i} know about."
+    play sound "trudge sand.mp3" volume 1.5
+    show robin at hop
     narrator "I groaned, as much at its tease as with the itches and aches as I flopped down next to the fire and started nibbling on something I have lying around."
     robin "Right. I just experience food, I don’t read about it. I’m not a farmer, or a cook or whatever. We move things around, we don’t think about why they’re there. Same way you don’t read about being a construct. You just are."
     harper "Of course I read and think about my existence. Everything I know about myself is what I’ve been told or read about. Haven’t you ever read any philosophy? There are a lot of excellent human thinkers on the subject."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin neutralClosed with dissolve
     narrator "I rolled over, feeling a shiver of pleasure tickle up my spine as the gritty ground rubbed against my skin."
     robin "Point taken. Well, after we’re pushing off back to home, you can talk my ear off about Socrates or whoever. Lots of time for chatting and reading then."
     narrator "I chew, as much on the thought as what I have in my mouth. Neither of us say much after that and I doze like that for a while."
+    show robin neutral with dissolve
     narrator "I woke up from my nap, feeling better than before. I glanced at the sun, figuring it was a bit past noon ."
+    play sound "fire crackle.mp3" volume 1.0
     narrator "I noticed with some anxiety that the fire had burnt down to cinders again, so I reached into the fuel pile and started crumbling up small, dry pieces of twigs and leaf litter and gently placing them near the hotter coals."
     narrator "I built up the fire slowly, steadily adding larger and larger bits of fuel until the fire was back up to a pleasant roar. Then, it was back to check on the raft."
     narrator "I was wise to drive the stakes in because I found the raft had definitely moved around some even during the few hours I was asleep."
+    show robin neutralClosed with dissolve
     narrator "I thought about the waves and tides. It was concerning that they could change so quickly and capriciously."
     narrator "I’d noticed them before, but no particular pattern had yet emerged. Everything on this world was so strange that I often stopped to think about the reason and the why."
+    show robin neutral with dissolve
     narrator "At any rate, it was time to get back to work."
     narrator "I started dropping logs onto the frame to create a platform I could comfortably sit or stand on."
     narrator "I considered spacing the logs out quite far to save time, materials, and weight, but decided that the risk of falling between the logs and twisting my ankle or knee wasn’t worth it."
@@ -1322,60 +1345,84 @@ label start:
     # narrator "To mitigate the weight problem, I chose stout saplings for the platform. They were lighter than logs and still strong enough to support my weight, though they did bend when I stood. I decided I would need to ride it while kneeling or sitting or something."
 
     #timeskip
+    playsound "cloth rustle.mp3" volume 1.5
     narrator "There was a lot of lashing involved, and I needed to weave still more rope; length upon length to prevent the raft from breaking apart."
     narrator "On top of the regular chores like foraging, cooking, and making water, finishing the raft’s platform took the better part of several days."
     narrator "Once it was done, the final lashing taught, I stood back and took it in. It was a powerful sight. The result of nearly a week’s sweat and backbreaking labor. I realized I was grinning."
+    show robin neutralClosed with dissolve
     robin "Wish you could see this. You’d be proud of me."
     harper "I wish I could. Really. It’s already dreadfully boring when we’re in transit. You’re lucky you can at least work."
+    show robin neutral with dissolve
     robin "Come to think of it, it’s downright evil that we made you with the ability to get bored."
     harper "It is one of the unfortunate downsides of being an artificial person. So you can imagine how now, sitting still all day without so much as a course correction to fill the time makes me want to cut the coolant and let the reactor melt down."
     robin "And poison all those poor fish?"
     harper "They could use some minerals in their diet."
+    show robin sick with dissolve
     robin "Huh, didn’t know uranium was, uh, nutritious."
     harper "Makes your bones nice and strong. Bright, too. You’ll never need a flashlight again."
+    show robin neutral with dissolve
     robin "I always did like those little glow-in-the-dark stickers my mom would put on the bulkheads. The ones shaped like stars and planets."
     harper "That’s cute."
+    shoiw robin happy at hop
     robin "I’m gonna buy some more of those when we get out of here. That and a paddle."
     harper "A paddle?"
     robin "Yeah. I figure I can’t get this raft over to you just by kicking my feet."
     harper "So you, what, just push against the water to get around?"
+    show robin neutral with dissolve
     robin "When you put it that way it sounds ridiculous."
     harper "No, I’m really asking. It- Well, space does have a medium, I suppose..."
     robin "But you don’t see people paddling around in it."
     harper "Closest thing to that is probably an ion drive."
-
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin pain with dissolve
     narrator "I broke off the conversation with a groan as I pulled myself to my feet. My hands were still covered in scabs from the relentless woodworking and hauling I’d been doing, so rather than building a paddle, I decided I’d have to look for one instead."
+    play sound "walk sand.mp3" volume 1.5
+    show robin neutral with dissolve
     narrator "A short walk later, and I found a piece of wood that was already mostly in the shape I wanted."
+    play sound "clith rustle.mp3" volume 1.5
+    show robin at shiver
     narrator "It only took a few sessions of whittling at it with my scrap knife, even with how dull the blade was getting, to get it into the shape I wanted."
     narrator "It had a broad head, about as wide at its widest point as one and a half palms, that tapered into a roughly hewn but still smooth shaft that made for a pleasant grip."
+    show robin happy at hop
     narrator "I finished admiring my work and hopped eagerly over to the raft. I tossed the stakes and climbed onboard as the raft began floating out to sea."
+    show robin neutral with dissolve
     narrator "I bent carefully to my knees, the rough bark of the logs digging into my skin even through the protection of my suit. I leaned over to dip the paddle into the water off to one side and gave it a hearty stroke."
     narrator "I figured it’d be the same as kicking with my legs and feet. I was mostly correct. The raft {i}did{/i} move forward, but to my disappointment it mostly just spun to the left as I paddled."
     narrator "After a little experimenting, I started to figure it out. Paddling on one side turns me in the opposite direction. So if I alternate, I can cancel it out and go forward..."
+    show robin neutralClosed with dissolve
     narrator "I could see the dirtsiders laughing at this dumb rockhopper now."
+    show robin happy at hop
     narrator "With some gentle paddling, I started to move away from land towards the ship. Excitement washed over me even as my guts started to knot into a chilling tangle of fear. It wrapped around my stomach and squeezed. Constricting. Oozing."
+    show robin sick with dissolve
     narrator "A rising, cold terror I could taste in the back of my throat. Threatened to freeze my limbs. One foot farther, and you won’t get back. I’ll drown. There’s no tether. I’ll drown."
     narrator "The blood pounded in my ears. It was all I could hear. Engulfing my everything."
     narrator "I imagined going under and not being able to come up again."
     narrator "Something in me threatened to give, and the raft slowed."
+    show robin sickClosed with dissolve
     narrator "But somehow that slowing, that sense of moving backwards, losing progress, reminded me of everything I’d ever wanted. Everything I ever lived for. Everything I ever gave up on."
     narrator "I thought of Harper slowly running out of power, me running out of food, both of us shutting off non-essentials one by one and sinking into delirium."
     narrator "Our hulls tarnished and rotted, falling away to reveal the bones below."
     narrator "Rust coated, salt eaten ribs. Mine dipped in sand and theirs in sea, both jutting towards the sky like desperate fingers grasping for someone, anyone."
+    show robin angry with dissolve
     narrator "I clenched my teeth."
     robin "We’re not gonna die."
     narrator "I forced myself to paddle. Once. Twice. Again."
     robin "Not today."
     narrator "Steadily at first, then faster."
+    show robin at hop
     robin "Not dying today!"
     narrator "I could feel my will rising, stoking my determination. Hot, nuclear fire rushed into my limbs and melted and smothered the burning hoarfrost climbing my guts."
     narrator "I paddled fiercely now, my body dipping. Arms pumping down, over, and down again. I have to know. It needs to work."
+    show robin at hop
     robin "Come on..."
     narrator "The paddle dips left, then right. Left. Right. Left. Right. I can feel my shoulders starting to burn. The waves seem to grow bigger, pushing me up, then down."
     narrator "I can do this."
+    show robin at hop
     harper "You can do this."
     narrator "I grinned, panting through gritted teeth. I screamed. No words. A hoarse, desperate, excited thing."
+    show robin at hop
     narrator "I was obsessed, and that obsession drove me like an engine. Slowly, almost imperceptibly, I started to beat the waves. My stomach dropped as the raft leapt over the highest wave yet. I roared again in triumph."
+    show robin happy with dissolve
     narrator "Even as the water lapped over the front of the raft and threatened to push me back to the beach, I overcame it and pushed through and screamed again, my head vibrating with noise and joy."
     robin "Fuck you! Yes!"
     narrator "Everything flashed through my mind. Rescue. Food. A warm, soft place to lie down. Harper could patch me up with the medical suite, too."
@@ -1383,6 +1430,7 @@ label start:
     narrator "Suddenly, that’s all I could think of. I stopped thinking about preparation. I stopped thinking of working my way up to it. Everything gave way to a raw, berserk joy that sent all the carefully laid plans scattering away."
     narrator "The only thing to do was push forward."
     narrator "So I didn’t notice when the waves only got higher. I ignored the churning in my stomach as the waves grew from a firm push to a rough shove, and the raft came closer and closer to vertical."
+    show robin sick with dissolve
     narrator "It was then that I felt the fear. It made a home in my heart. And my heart soared with a frenzied desperation. I knew I would escape."
     narrator "I thought that right up until the raft took one last wave, a huge ripper that foamed and bubbled madly, curling as it seized the lip of the raft and fired it right over my head."
     # drowning
@@ -1426,6 +1474,8 @@ label start:
     narrator "The land was taking me. I thought to myself that that would be good. Then I wouldn’t have to hurt and try anymore."
     narrator "But dying wasn’t so easy as giving up. The pain came to the door, quietly first, knocking politely as my leg stung. A dull ache sang through the walls."
     narrator "In a few minutes it was going to be tearing the curtains down and ripping the furniture to bloody shreds, and I knew I would be useless, so I worked fast."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin underewear with dissolve
     narrator "My busted fingers throbbed as I yanked off the suit. The right side of the suit was torn from hitting the jagged wood of the raft, but the left side was intact."
     narrator "I thought of using the compartmentalization feature to put pressure on my wound."
     narrator "Most injuries I’d seen in null-g were pretty catastrophic. A few tons of rock or ship would pulverize your hands, limbs, or head."
@@ -1489,13 +1539,18 @@ label start:
     show robin painClosed gaunt at shiver with dissolve
     narrator "A small part of me noticed the lost time. My voice was already hoarse, so I must have been crying out in my sleep."
     narrator "My entire world was hurt. Every movement brought the pain roaring back to new heights. I couldn't stop myself from writhing."
+    show robin pain at hop
     narrator "Through hot tears I focused every ounce of my will on keeping my injured leg still. I channeled that compulsion to move into my hands and dug my bare fingers into the sand, squeezing and feeling the grit cut into my skin."
     narrator "This was helping. My hands were starting to go raw but my legs were only shivering now and that hurt far less. I heard a wet, coughing sob bubble up from inside me. I guess I'd stopped screaming at some point."
     narrator "I wished desperately to go back to sleep, to fall unconscious. I looked at the burning embers, what was left of the fire. I could shove my hand in those coals."
+    show robin sick with dissolve
     narrator "Yeah, if I grabbed a handful of hot coals, maybe it would hurt so much that I'd pass out. I gazed so long and so lovingly at those coals."
     narrator "The fire. The fire was low. I realized I wasn't just shivering from the pain and the exhaustion."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin pain at shiver with dissolve
     narrator "I groaned and wormed pathetically towards the firewood pile, trying to move using only my arms. It was awkward and agonizingly slow."
     narrator "I was close. By then I was panting. My body was covered in a cold sweat from the exertion."
+    show robin at hop
     narrator "I dropped my hand onto a branch with a gasp, then willed my hand to close around it. One by one, I clumsily dropped sticks into the embers."
     narrator "Not having the energy to place them carefully, the fire was uneven and spilling from the barrier of rocks I’d built around it."
     
@@ -1507,15 +1562,19 @@ label start:
     narrator "Slowly, the heat seeped into my body. The shivering slowed, then stopped."
     narrator "Something happened. I don't know when. I was still breathing, still squirming, squeezing fistfuls of sand. Could see it."
     narrator "Pain. It was there, but muffled. Like it had gone into another room."
+    show robin painClosed with dissolve
     narrator "My head was dull. There was a static sensation, like my skull was full of carbonated water."
     narrator "The pungent smell of burning hair cut through it all. I saw my bare arm being kissed by the flames. Don't know how I didn't notice it before. I nearly laughed it was so idiotic."
     narrator "I thought, consciously, \"that's dangerous\". The thought went so slowly, I could see it bubble up through my brain; feel it crawl lazily down the highway of nerves to have a chat with my arm."
+    show robin pain with dissolve
     narrator "My arm responded and, almost reluctantly, moved away from the fire. The skin where the flame had touched me was already turning red and swelling. It throbbed, but it didn't hurt. Nothing hurt anymore."
     narrator "My hand was clutching something that was not sand."
     narrator "I looked and saw it. It held the way out. I could be away from here, and never have to go back to this pain."
+    show robin painClosed with dissolve
     narrator "I could hear the waves crashing in my ears to the beat of my heart."
     narrator "They would understand."
     narrator "I lifted my hand to my throat."
+    show robin bored with dissolve
     narrator "They would forgive me."
     narrator "{i}There's no reason why I have to watch.{/i}"
     narrator "I turned my head to look at anything else. My eyes were suddenly full of stars."
@@ -1532,6 +1591,7 @@ label start:
     narrator "For one moment, all the feeling flew out of me. I was outside myself, in the world. Seeing the place for the first time. It was beautiful, all of it. The awe washed me out to sea, cast away in the waters of a universe."
     narrator "I remembered what it was like to be there, where I belonged, between worlds. Just me and-"
     robin "Harper?"
+    show robin sick with dissolve
     narrator "I felt a pang of something dreadful. I could feel its fingerprints on my heart. Something fell from my hand."
     narrator "Harper. It felt like a hundred years since I’d heard its voice. I felt worry worm its way into my stomach."
     narrator "My chin dug a little furrow into the sand as I dragged my head around, looking for the {i}Selkirk{/i}."
