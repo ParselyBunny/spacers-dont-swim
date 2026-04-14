@@ -1,7 +1,13 @@
 # Credits
-- Parsely
+- Parsely - Programming, Writing, Additional Art
+- Vince - Narrative Design
+- Halfbrick - Art, Editing
+- Furtuka - Additional Programming
+
+## Test Readers
+- TJ
 - Halfbrick
-- Furtuka
+- BluebsTopCat
 
 # Attribution
 
