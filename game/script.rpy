@@ -1838,40 +1838,94 @@ label start:
     narrator "The skin was tender, and far more painful than my leg was. More wicked, fiery antiseptic. I soaked the needle again, then lanced each blister one at a time. The relief as I squeezed the fluid out was incredible."
     narrator "I bandaged my leg, using tape to secure it, then wrapped both feet in thick layers of gauze. I threw on two pairs of clean socks and a spare set of boots over them."
     narrator "Experimentally, I set my feet flat on the ground. I put a little weight on one foot, the other- Each step still ached like hell, but at least I could limp around."
-    narrator "I tidied the mess I'd made somewhat, then, armed with my toolbelt and a flashlight, I hopped back out into the corridor to find more to eat."
+    narrator "I tidied the mess I'd made somewhat, then, armed with my toolbelt and a flashlight, I hopped back out into the corridor to get back to work."
 
-    narrator "Part of the mess compartment had collapsed, but even with most of the supply cabinets crushed there was no shortage of food or water for the near term."
-    narrator "It might become a concern if we couldn't drop into bluespace and we had to go home at relativistic speeds, but one problem at a time."
-    narrator "Now I walked the corridors while chewing on a fruit bar, checking every compartment, taking stock of the damage."
+    # TODO: insert a transition here to suggest time passing
+    narrator "Part of the mess compartment had collapsed, but not all of the supply cabinets had been flattened."
+    narrator "I opened each cabinet once to estimate how full it was, then emptied one and started counting packages. Opened a package and checked the contents against the nutrition sheet."
+    narrator "I even found a real pen and started scribbling an inventory in the yellowed margins of a dusty hardback manual."
+    narrator "Some simple arithmetic, and I was happy with the estimate of the ready supply. Plenty to eat and drink for at least a month without rationing."
+    narrator "The long-term storage came flatpacked in big bulk cargo containers, so I pulled a schematic and tried for an estimate by volume."
+    narrator "I hadn't done calculus by hand in years and I knuckled my eyes in frustration as I muddled through the problem."
+    robin "Harp, can I get a check on this solution-"
+    narrator "The words caught in my throat. My knuckles turned white, the hard back of the manual creaked. I willed my hand to relax."
+    narrator "My eyes fell back toward the page. The numbers."
+    narrator "I cleared my throat. Put on my best Harper impression."
+    robin "It might become a concern if we couldn't-"
+    narrator "Could {i}not{/i}."
+    robin "-could not drop into bluespace and were forced to proceed at relativistic speeds."
+    narrator "I sniffed and turned up my nose melodramatically."
+    robin "I am sure if we went the slow way that humans would find some way to turn back progress."
+    narrator "I deflated somewhat."
+    robin "No, Harper would never be that mean... Or speciesist."
+
+    # TODO: time passing transition
+    narrator "I walked the corridors while chewing on a fruit bar, checking every compartment, taking stock of the damage."
     narrator "The network being down, I used a marker with a fat chisel tip to scrawl notes on my arm or directly onto the hull beside each hatch."
     narrator "Slowly, I built a picture of the state of the ship."
     narrator "The gash in the side of the ship was catastrophic. The hatches had contained the worst of the flooding, but the arterial corridors were cut in places leaving large sections of the ship inaccessible."
     narrator "The {i}Selkirk{/i} must have been tumbling as it came down; it landed tail first, its nose pointing out of the water."
-    narrator "This meant that the main engine was not only submerged, but suffered an unknown amount of damage it struck the water and whatever lay beneath it."
-    narrator "Three out of four of the Individual Exit Vehicles (IEVs) were unusable. One I'd lost during re-entry, two were crushed, and the last was intact."
-    narrator "The IEV wasn't all that useful. Its thrusters were intended for use in microgravity, so it didn't have any hope of escaping the atmosphere."
+    narrator "This meant that the main engine, the torch, was not only submerged, but suffered an unknown amount of damage when it struck the water and whatever lay beneath it."
+    narrator "I traversed every corner of the ship I could reach. With the slope of the deck making walking difficult, it was slow going."
+    narrator "Three out of four of the Individual Exit Vehicles (IEVs) were unusable. One I'd lost during the ride down, two were wrecked or cut off by damage from the crash, but the last was intact."
+    narrator "Even intact, an IEV wasn't all that useful. Its thrusters were intended for use in microgravity, so it didn't have any hope of escaping the atmosphere on its own."
+    narrator "It was difficult to judge the extent of the flooding, but it seemed largely contained to a small portion of the ship. It'd still be a hell of a job to fix it."
+    narrator "And reversing the flooding was not optional. Even this superficial flooding would doubtlessly be a disaster for the flight characteristics."
+    narrator "In spite of my fears, the torch was in great shape. It was by far the most rugged and reliable part of the ship, and I cared for it well, but it nevertheless surprised me at how little harm it had suffered."
+    narrator "Redundant systems even allowed me to gain remote access to do a test spark. Even entirely submerged, it was capable of lighting."
+    narrator "The bluespace drive being intact was far less surprising. Not needing access to the exterior of the ship, and being relatively simple mechanically, it was easy to bury away."
+    narrator "The B-drive compartment was there, deep in the ship's ribcage, beneath layers of superstructure and deck plating. It was a massive, seamless black box."
+    narrator "They were designed to be tamper-proof, so B-drives aren't designed to be maintained. They're built, vacuum-sealed permanently in these shells, then used up and destroyed."
+    narrator "Bluespace travel was as convenient as it was dangerous."
+    narrator "Where once was Huangdi, a core world and a haven of science and intellect, now could only be found a black hole surrounded by the accreted matter of what once was a thriving and ingenious people."
+    narrator "The first lesson we learned in the certification course: don't switch on near a gravity well. That lesson was learned at unfathomable cost when the first viable B-drive was tested by unsuspecting researchers on Huangdi."
+    narrator "I ran one hand over the hard, black shell of the B-drive. It's surface was unbroken, seamless, like polished midnight."
+    narrator "If the shell is compromised, the vacuum is broken, triggering a self-destruct that turns the internals to slag, to prevent reverse-engineering."
+    robin "You're our ticket out of here, if we could just break orbit..."
 
+    # TODO: timeskip transition
+    robin "If we could just break orbit..."
+    narrator "After I topped the reactor off with fresh coolant, courtesy of the alien ocean, the power output had come back up to nominal levels. Yet Harper didn't leap back to life."
+    narrator "Much of the lights and a few appliances were down as well, so I could only hope it was an electrical problem, and Harper hadn't blacked out."
+    narrator "So there I was, hip-deep inside of one of Harper's maintenance accessways, fumbling around with a multimeter checking the conduits."
+    narrator "Though I'd been eating well recently, it hadn't restored my stamina just yet, and I poured with sweat as I stretched to reach further in."
+    robin "So, what would you do, huh Harp?"
+    narrator "The neat bundles of wires didn't reply. A hair tickled my eye and I huffed it away."
+    robin "Yeah, be that way. Make me do all the damn work."
+    narrator "I checked the readout again. Again, the wiring read as OK."
+    narrator "I dropped out of the accessway and slumped to the deck with a sigh."
+    robin "We got juice and we got a torch. That's everything we need to break orbit."
+    narrator "Except, the torch was under all that water. When lit, it output enough energy to put a planetcracker to shame. It'd be like dropping molten slag into a vat of chemfuel."
+    narrator "I had some qualms about turning my crash site into a crater, but more still about dying alone on this world."
+    narrator "I rolled a few metal bolts around in my palm."
+    robin "If I could just get the torch out of the water..."
+    narrator "I popped one of them into my mouth. I spat it hard, and frowned as it sailed in a little arc and landed only halfway across the compartment."
+    robin "Not as fun in this much gravity..."
+    narrator "I held another bolt between my teeth, pursed my lips, puffed my cheeks-"
+    narrator "I let the air out softly. The bolt dropped into my lap."
 
-    # ending rework
-    # 3. Robin assesses the damage and determines if the Selkirk can launch
-    #     - the flooding is bad, and there's not really a way to fix it;
-    #     - the torch is damaged, but it can spark and light
-    #     - the bluespace drive is working
-    #     - Harper's core is intact, but must stay connected to power
-    # 4. Robin goes over options:
-    #     - The Selkirk can't light the main torch without causing an explosion; probably would kill us
-    #     - The escape pod doesn't have the thrust to break orbit, and doesn't have enough power for Harper
-    #     - Firing up the bluespace drive would do something very, very bad, and there are failsafes
-    # 5. Robin settles on a plan:
-    #     - deliberately flood the ship to use the water as a shield?
-    #     - the radiation shield for the torch will deflect most of the blast
-    #     - flooding the cargo section 
-
-    # - the ending is a nice opportunity to show how important Harper is
-    # - Robin has to manually do everything it would normally be doing
-    # - I mentioned flooding. Pumping out all the water would be a serious obstacle
-    # - Water doesn't play nice with hot engine exhaust
-
+    # TODO: timeskip transition
+    narrator "I plopped down into one of the crash couches in the flight control compartment. I throw the harness over my shoulders and got strapped in."
+    narrator "I held my helmet between my legs. My fingers drummed on it nervously."
+    narrator "Propped atop the helmet was a tablet I had managed to coax back to life. It was running a countdown for me, counting the seconds until the airlocks had fully pressurized."
+    narrator "I'd sabotaged the life support system in certain key compartments to allow me to pressurize them far beyond what had ever been intended."
+    narrator "The pumps were never designed to work against such pressures, so I'd had to get creative."
+    narrator "The ship had far more pumps than was necessary, for redundancy, so I pulled the necessary parts and rigged up a dozen of them in series."
+    narrator "The tests had went well, so now came the moment of truth. I'd already sparked the torch and it was warming up."
+    narrator "The pumps force air into sealed compartments far aft. They build up an obscene amount of pressure, just a little more than what they're rated for."
+    narrator "At just the right moment, I close a circuit which, if my blueprint reading skills are sharp as ever, should trip the exterior airlocks, leading to-"
+    # TODO: shaking
+    # TODO: muffled thump
+    narrator "There's a deafening bang and a great, shuddering lurch. I'm sucked into the crash couch as a monumental acceleration leans against me like the mighty hand of a god."
+    narrator "The air is driven from my lungs in one great whoosh. At the same time, my helmet and the tablet are thrown against the back wall with a crash."
+    narrator "A heartbeat passes. Enough time to review and affirm that I did not stupidly close the circuit by mistake. So the airlocks must have been damaged, or my math was off."
+    narrator "Another heartbeat. My heart soars as I feel the acceleration slowly turning into that wonderful, homey sense of weightlessness as the ship begins to fall."
+    narrator "There's another circuit I set up. This one I rigged as a simple switch below my boot, so I could actuate it even under massive acceleration."
+    # TODO: cut out ALL sound
+    narrator "I twitched the toe of my boot. There was a sound like the birth of the universe. At that moment, it was undoubtedly the loudest sound in the solar system."
+    narrator "The torch burned hard, and I was driven again into the crash couch. If I could have moved, I would have leapt up and cheered."
+    narrator "Even if the {i}Selkirk{/i} hit a mountain in the next second, I would have died happy, knowing I did everything I could to survive."
+    narrator "My lungs screamed for air, but under the constant acceleration of the torch, my chest couldn't expand. The walls slowly closed in."
 
     stop music fadeout 2.0
     stop ambience fadeout 2.0
@@ -1884,9 +1938,9 @@ label start:
     pause 5.0
 
     # epilogue. there should be a weighty, patient transition to linger on the fact that Harper’s fate is unknown
-    narrator "I reckoned it had only been a couple weeks on the island, and then about 6 months back aboard the grounded {i}Selkirk{/i} before I was able to get her spaceworthy again."
+    narrator "I reckoned it had only been a couple weeks on the island, and then a good few months aboard the grounded {i}Selkirk{/i} before I was able to get her spaceworthy again."
     narrator "Now, back in space, it felt good to be away from the strangling hold of gravity. I drifted through the halls, wearing a bored expression, doing my rounds."
-    narrator "If it weren’t for the aches and scars where the medbay had stitched my body back together, it would almost have been as if nothing happened."
+    narrator "If it weren’t for the aches and scars where the medbay had stitched me back together, it would almost have been as if nothing happened."
     narrator "Almost. I was much less comfortable wearing a pressure suit, for one, and I did a lot of my work in just underclothes now."
     narrator "It didn’t hurt as much to remember, now."
     narrator "When I awoke from that hard sleep that came after my first day back, I pulled myself together a bit and got back onto my portable terminal. The gamble had paid off."
