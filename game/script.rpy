@@ -851,13 +851,13 @@ label start:
     narrator "The water I’d gathered was surprisingly clear, but still cloudy. Looking at the filtration components I’d left on the ground, I didn’t see a simple way to use those."
     show robin neutralClosed with dissolve
     narrator "I’d have to boil the water, but heating the pouch over the fire would just melt the plastic."
-    show robin pain with dissolve
+    show robin pain suit at midright
     narrator "My mouth was dry and my head throbbed with an ache that was hard to ignore. The thirst had been getting to me for the better part of the past few hours."
     narrator "I didn’t want to think about how long I could go on feeling this way."
     
     robin "Alright, so... How do I boil water without a bowl?"
     harper "Why do you need a bowl?"
-    show robin sick with dissolve
+    show robin sick suit with dissolve
     narrator "It was a frustrating question."
     robin "Why else? So I can bring the water to the fire and heat it up."
     harper "I do not see why you cannot heat the water in the hole."
@@ -1345,7 +1345,7 @@ label start:
     # narrator "To mitigate the weight problem, I chose stout saplings for the platform. They were lighter than logs and still strong enough to support my weight, though they did bend when I stood. I decided I would need to ride it while kneeling or sitting or something."
 
     #timeskip
-    playsound "cloth rustle.mp3" volume 1.5
+    play sound "cloth rustle.mp3" volume 1.5
     narrator "There was a lot of lashing involved, and I needed to weave still more rope; length upon length to prevent the raft from breaking apart."
     narrator "On top of the regular chores like foraging, cooking, and making water, finishing the raft’s platform took the better part of several days."
     narrator "Once it was done, the final lashing taught, I stood back and took it in. It was a powerful sight. The result of nearly a week’s sweat and backbreaking labor. I realized I was grinning."
@@ -1363,7 +1363,7 @@ label start:
     show robin neutral with dissolve
     robin "I always did like those little glow-in-the-dark stickers my mom would put on the bulkheads. The ones shaped like stars and planets."
     harper "That’s cute."
-    shoiw robin happy at hop
+    show robin happy at hop
     robin "I’m gonna buy some more of those when we get out of here. That and a paddle."
     harper "A paddle?"
     robin "Yeah. I figure I can’t get this raft over to you just by kicking my feet."
@@ -1475,7 +1475,7 @@ label start:
     narrator "But dying wasn’t so easy as giving up. The pain came to the door, quietly first, knocking politely as my leg stung. A dull ache sang through the walls."
     narrator "In a few minutes it was going to be tearing the curtains down and ripping the furniture to bloody shreds, and I knew I would be useless, so I worked fast."
     play sound "cloth rustle.mp3" volume 1.5
-    show robin underewear with dissolve
+    show robin underwear with dissolve
     narrator "My busted fingers throbbed as I yanked off the suit. The right side of the suit was torn from hitting the jagged wood of the raft, but the left side was intact."
     narrator "I thought of using the compartmentalization feature to put pressure on my wound."
     narrator "Most injuries I’d seen in null-g were pretty catastrophic. A few tons of rock or ship would pulverize your hands, limbs, or head."
@@ -1483,6 +1483,7 @@ label start:
     narrator "My suit was a little kinder and it could tighten sections of the material selectively to compress the body and control blood flow. In this way, it could be used like a compression bandage to staunch bleeding."
     narrator "My adrenaline was wearing off and my leg was pounding now; my entire body shook so hard it frightened me. Finally, I forced myself to look at it."
     narrator "My suit and my calf underneath it was laid open, enough that I could see the fat under my skin. Not a strip of thick, sticky seaweed but skin, still attached by a thread of flesh, flapped against my ankle."
+    show robin sick with dissolve
     narrator "When I saw the blood gushing out in sheets I felt my heart drop. My head tingled with static and my face turned cold."
     narrator "All of this happened in an instant, even as I put my suit on backwards, sticking my wounded right leg in the intact left leg sleeve of the suit, and leaving the torso segment to flop around my waist."
     narrator "Harper must have inferred the situation from the data transmitted by my implants because the suit instantly began to tighten before I gave it any commands."
@@ -1490,6 +1491,7 @@ label start:
     narrator "Seeing the wound somehow made the pain a thousand times worse. The sharp hand of death grabbed fistfuls of fascia and twisted, peeling each nerve one by one with its wicked fingertips."
     narrator "I lay there and moaned and wept, snot and drool oozing down my chin. I wanted nothing more than to make that awful pain stop."
     narrator "Then it did stop."
+    show robin neutralClosed with dissolve
     narrator "Everything..."
     narrator "Stopped."
 
@@ -1536,7 +1538,7 @@ label start:
     
 
     narrator "Then, I was back, on the beach, screaming and convulsing as the gash in my calf sent electric shocks of pain shooting up my body."
-    show robin painClosed gaunt at shiver with dissolve
+    show robin at shiver
     narrator "A small part of me noticed the lost time. My voice was already hoarse, so I must have been crying out in my sleep."
     narrator "My entire world was hurt. Every movement brought the pain roaring back to new heights. I couldn't stop myself from writhing."
     show robin pain at hop
@@ -1662,27 +1664,39 @@ label start:
     show robin neutral gaunt at midright with dissolve
     
     narrator "The next day, I didn’t feel much better than before. But I was fresh, I had some strength back, and a new determination. I knew my energy would go quickly because of my injury. Hunger gnawed at my stomach."
+    play sound "walk sand.mp3" volume 1.5
+    show robin at hop
     narrator "Crawling around my camp, I finished the last of the meat and water I’d saved. I was still peckish, but it would have to do."
     narrator "I propped myself up on one elbow and looked out at the sea. I thought about what I’d seen last night."
+    show robin neutralClosed with dissolve
     narrator "The coral was so close to the surface, breaking through in some places. I knew from books that it could be hard, and grew on rocks. If I ran into the rock supporting the coral, it could have flipped the raft over."
     narrator "I replayed that moment in my mind again. I sorted through the sensations that were burnt into my memory, but I couldn’t find that jarring feeling as if I’d smacked into a wall. No, the waves did me in."
+    show robin boredClosed with dissolve
     narrator "But how is that possible? Rock doesn’t exactly migrate overnight. I couldn’t have just floated around it."
     narrator "I took the shortest path towards the {i}Selkirk{/i}, and at night the coral reef almost looked like a bright, beautiful bridge leading straight to the ship. I had to have floated over it."
+    show robin surprised at hop
     narrator "That’s when it hit me."
     robin "The water is lower at night."
     narrator "I looked up at the star shining overhead."
     robin "Of course. The star’s gravity. It- It must cause the water to shift and collect."
     narrator "At night, then? At night the water was lower. The reef was exposed."
+    show robin at hop
     narrator "The realization jolted me."
     robin "I can walk the reef. I could walk home."
+    show robin happy with dissolve
     narrator "My face started to feel hot."
+    show robin at hop
     robin "Harper. Harper, can you hear me? I have it."
+    play sound "cloth rustle.mp3" volume 1.5
     narrator "I didn’t wait for an answer. I knew it was time to get to my feet. The gash on my leg still throbbed, but the pain had faded to a dull ache."
+    show robin pain with dissolve
     narrator "Using a tree for support, I wriggled upright with my weight on my good leg. My body trembled with the effort, but I managed to haul myself up."
     narrator "I gingerly tested my bad leg. My skin was so swollen that I thought I would split open."
+    show robin painClosed with dissolve
     narrator "As I pressed down harder the painful throbbing built to an agonizing pounding, but the bones did not shift and the muscles did not buckle and I could put weight on it."
     narrator "It was good that I could walk, but I could only push myself so far. I had to think about how I was going to spend that time carefully."
     narrator "I had until nightfall, when the water level changed, to think about how I was going to cross the reef. I knew I would die here if I didn’t cross tonight."
+    show robin pain with dissolve
     narrator "I had no idea what was in store for me. I’d only seen corals in pictures. The stone they grew on looked unforgiving."
     narrator "Some distant, muted part of my mind muttered to me that some corals could sting. I needed to protect my feet if I wanted to have any hope of making the crossing."
     narrator "What if the tide rose while I was out? What if I was allergic to the corals? There was far too much I didn’t know."
@@ -1691,14 +1705,18 @@ label start:
     narrator "I had a sickening thought, and I turned."
     # TODO: but cant robin not see the lights during the day?
     narrator "I looked towards the {i}Selkirk{/i}, as if I could reach out and touch its mind with my own."
+    show robin sick with dissolve
     robin "You’re not OK, are you?"
     narrator "I stared out there at the darkened wreck, waiting patiently for an answer."
+    show robin happy with dissolve
     narrator "I saw a light wink back at me. I grinned nervously, my head buzzing with an anxious hope."
     robin "OK! Two for yes, one for no. Acknowledge."
     narrator "Two winks of a running light. My next question came with a heat of urgency."
+    show robin neutral with dissolve
     robin "Can you hold out until tonight?"
     narrator "An agonizingly long pause, then two winks."
     robin "OK, after acknowledging this message switch off everything unnecessary and save your energy. Hang in there. I’m coming. I’ll fix you."
+    show robin neutralClosed with dissolve
     narrator "Two winks. I got to work."
 
     #that night
@@ -1708,23 +1726,31 @@ label start:
     show robin bored gaunt at midright with dissolve
     
     narrator "I sat by the fire as it burned the last of my fuel down to angry, glowing coals. Night had fallen, and just like before, the bioluminescent coral gleamed through the surface of the water."
+    show robin at shiver
     narrator "I nibbled anxiously on a strand of ropegrass, feeling it fray and come undone in my mouth, letting the tickling sensation distract me."
     narrator "Distract me from the gummy feeling in my mouth and the deep rut that hunger had furrowed into my stomach as my body began to eat itself."
     narrator "I wriggled my feet, testing the ropegrass sandals I’d made. I spent all morning puzzling about how to save my feet, and playing with the idea of making shoes from the plastic and metal I had."
+    show robin neutral with dissolve
     narrator "In the end I settled on making something flexible and cheap."
     narrator "I didn’t have any spare cord after building the raft. It took hours to make enough rope to coil into rough soles."
     narrator "Still more hours to work out how to use the cordage I had to stitch and weave it together into something that wouldn’t fall apart."
+    show robin bored with dissolve
     narrator "I played with the idea of using them as insoles, but they were too difficult to fit neatly into my skin tight suit. The smart rubber of the suit had time to reform overnight and adapt to being worn reversed."
+    play sound "cloth rustle.mp3" volume 1.5
     narrator "It was stiff and uncomfortable, but I could actually pull the leg sleeves entirely over my feet. In the end, I secured them over the suit rubber encasing my feet using a liberal amount of ropegrass cord."
     narrator "By the time I’d finished that project, it was nearly dusk. I spent the remaining daylight searching fruitlessly for more to eat, and boiling up a few more mouthfuls of water that barely seemed to quench me."
     narrator "Night crept on, and I waited patiently. The dark held me, preventing me from doing anything but sitting and waiting by my fire."
+    play sound "walk sand.mp3" volume 1.5
+    show robin pain with dissolve
     narrator "Eventually, I felt I didn’t want to wait any longer, though the coral barely seemed to breach the surface yet, and I hauled myself up on a scavenged wooden walking stick and set out into the surf."
     narrator "Even before the water reached my knees I could feel the sharp points of rocks poking through the mud and into my feet."
     narrator "It didn’t penetrate the sandals, but the pressure was painful, and the only relief was to lift my feet and keep moving forward."
     narrator "I was soaked. It had, unhelpfully, begun to rain, and my upper body was still clad only in my undershirt."
     narrator "So I paused to pull the upper part of the suit on. Only my good leg, clothed in the damaged leg of the suit, was exposed to the balmy waters that lapped at my calves."
+    play sound "sand walk.mp3" volume 1.5
     narrator "I pressed on, deep into the night.  The water grew deeper as I went further out to sea, but ceased rising around the midpoint of my thighs."
     narrator "The mud gave way to bare jagged rock, and it felt like walking on a sea of elbows, the bony points jabbing between my metatarsals. My feet were screaming in pain, and the {i}Selkirk{/i} seemed only slightly closer."
+    
     narrator "It was awkward, slow going. I found that using my eyes to judge where to step led only to stumbling and near falls."
     narrator "The small waves splashing into me didn’t do anything to help my balance, and my muscles burnt with the effort of keeping me upright."
     narrator "As I got further from the shore, a feeling of dread crept its way into my heart."
