@@ -1345,7 +1345,7 @@ label start:
     # narrator "To mitigate the weight problem, I chose stout saplings for the platform. They were lighter than logs and still strong enough to support my weight, though they did bend when I stood. I decided I would need to ride it while kneeling or sitting or something."
 
     #timeskip
-    playsound "cloth rustle.mp3" volume 1.5
+    play sound "cloth rustle.mp3" volume 1.5
     narrator "There was a lot of lashing involved, and I needed to weave still more rope; length upon length to prevent the raft from breaking apart."
     narrator "On top of the regular chores like foraging, cooking, and making water, finishing the raft’s platform took the better part of several days."
     narrator "Once it was done, the final lashing taught, I stood back and took it in. It was a powerful sight. The result of nearly a week’s sweat and backbreaking labor. I realized I was grinning."
@@ -1363,7 +1363,7 @@ label start:
     show robin neutral with dissolve
     robin "I always did like those little glow-in-the-dark stickers my mom would put on the bulkheads. The ones shaped like stars and planets."
     harper "That’s cute."
-    shoiw robin happy at hop
+    show robin happy at hop
     robin "I’m gonna buy some more of those when we get out of here. That and a paddle."
     harper "A paddle?"
     robin "Yeah. I figure I can’t get this raft over to you just by kicking my feet."
@@ -1955,6 +1955,7 @@ label start:
     narrator "Every day I told myself, today is the day I’d punch in the wakeup command. Harper had finished recompiling days ago, but I woke up the displays and checked it anyway. It was still ready."
     # final scene
     
+    label credits:
 
     stop music fadeout 8.0
     play ambience "ship ambience 2.mp3" fadein 4.0 volume 2.0
@@ -1974,9 +1975,17 @@ label start:
     
     show black
     pause 4.0
-    narrator "END"
     #harper "Robin?"
     #TODO: credits
+
+    show text "CREDITS\nWriting - Parsely\nArt - Halfbrick\nNarrative Design - Vince\nAdditional Programming - Furtuka" with dissolve
+    pause 8.0
+    show text "PLAYTESTERS\nThat's you!" with dissolve
+    pause 8.0
+    show text "ASSETS\n\Big list of attributions." with dissolve
+    pause 8.0
+    show text "Thanks for playing!" with dissolve
+    pause 12.0
 
 #end
 
