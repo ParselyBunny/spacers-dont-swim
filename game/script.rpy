@@ -1533,10 +1533,8 @@ label start:
     # robin passes out and wakes up later that night
     play ambience "jungle ambience 1.mp3" fadein 3.0 loop
     scene bg jungle night with fade
-    show robin surprised gaunt at midright
-    show robin surprised gaunt at hop
+    show robin surprised underwear gaunt at midright
     
-
     narrator "Then, I was back, on the beach, screaming and convulsing as the gash in my calf sent electric shocks of pain shooting up my body."
     show robin at shiver
     narrator "A small part of me noticed the lost time. My voice was already hoarse, so I must have been crying out in my sleep."
@@ -1559,7 +1557,7 @@ label start:
     play ambience "jungle ambience 1.mp3" fadein 3.0 loop
     play music "fire crackle.mp3" fadein 3.0 loop
     scene bg jungle night fire with dissolve
-    show robin pain gaunt with dissolve
+    show robin pain gaunt at midright with dissolve
     
     narrator "Slowly, the heat seeped into my body. The shivering slowed, then stopped."
     narrator "Something happened. I don't know when. I was still breathing, still squirming, squeezing fistfuls of sand. Could see it."
@@ -1619,7 +1617,7 @@ label start:
     narrator "Harper sounded so urgent, and so sorry. I’d never heard it be so {i}sorry{/i}. Something crumbled inside me and I wailed."
     harper "I’m here. I’m sorry, I was saving power. I couldn’t be sure when you’d wake."
     narrator "I choked back my sobs, trying and failing to steady my voice. Wanting so badly not to be so {i}weak{/i}."
-    robin "I hurt..."
+    robin "I'm hurt..."
     harper "I know. Just... Rest. Save your strength. I can stay awake with you until you fall back to sleep."
     robin "Promise?"
     harper "I promise."
@@ -1785,34 +1783,48 @@ label start:
     stop music
     play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
     scene bg ship corridor with fade
+    show robin pain gaunt at midright with dissolve
     
     narrator "Finally, the barbed and twisted metal gave way and I fell into thin air, flopping with a great splash onto the waterlogged deck. I trembled and shook from the cold of the water seeping into my suit."
+    show robin angryClosed at hop
     narrator "The deck was canted at a significant angle, sloping away from me and threatening to send me tumbling against the far wall."
     narrator "Even on this somewhat kinder ground my feet still felt like they were full of glass. I felt I’d surely cracked a few bones from the harsh walk."
     narrator "Blood sheeted down my face and arms. I wiped my eyes and threw myself at the nearest hatch with a grunt. Of course the electrics were down, and the door didn't throw itself open automatically as it normally would have."
+    show robin neutralClosed with dissolve
     narrator "I sighed and groped in the dark briefly, until my hands found the emergency access panel. I fingered the catch and it popped open with a satisfying click. How I'd missed those sounds."
+    show robin neutral with dissolve
     narrator "The panel swung open, revealing a small, unassuming valve helpfully labeled \"MANUAL ACCESS - TURN CLOCKWISE\". I unfolded the small handle attached to the rim of the valve and began cranking it."
     narrator "Slowly, very slowly, the door eased open. Water trickled, then poured through the widening opening to flood the hallway beyond."
     narrator "As soon as the opening was wide enough I squeezed through, then used the valve on the opposite side to seal it behind me to prevent more flooding."
+    show robin pain at hop
     narrator "I turned with a limp, feet splashing in the puddle by the hatchway. I gasped at the pain that shot through my ruined feet and fell against a nearby wall to stay upright."
+    show robin at shiver
     narrator "I was panting hard. My breath steamed in the frigid air of the ship. I looked, but I could see only vague shadows. Even the emergency lighting was shot."
     narrator "I slid along the wall, one arm outstretched, hand flat against the hull, feeling my way forwards. Thankfully the flooding seemed not to have reached this area, and my shivering began to slow."
     narrator "My hand fell away into the dark. An opening."
+    show robin painClosed with dissolve
     narrator "I placed my good hand against the mouth of the opening and felt the regular shapes of molded metal, a thin, rough seam where a precise weld was made. Felt like a hatchway."
     narrator "Stepped closer, prepared to duck through. My fingers rested on a particularly smooth part of the hatch frame. Someplace worn from the thousands of times I'd touched that exact spot."
+    show robin surprised with dissolve
     robin "Can't be..."
     narrator "I went inside and groped along the wall again. By some miracle, the light switch worked, and the room was bathed in red light. My berth."
     narrator "Nearly everything was stowed, just like I'd left it. Most things were neatly tucked away in sealed, transparent pouches stuck to the walls."
     narrator "Most every surface and item was covered in strips of rough touch fastener; lets you stick anything to anything so nothing comes loose when you're underway."
+    show robin boredClosed with dissolve
     narrator "Even through the tears blurring my vision, I could see that the floor was scattered with a handful of items that had broken free."
+    show robin pain with dissolve
     narrator "One of my beloved plush dolls, this one worn with use. A magazine I'd read a hundred times. Familiar tools I must have been using in the days before we came down."
+    show robin at shiver
     narrator "My hands shook from chill and excitement, then I finally collapsed as a wave of relief flooded my body. I was home."
-    narrator "I felt around for somethign to warm myself. My fingers had gone weird. Wouldn't close right. I could only manage to roughly pull drawers out and sift through my things with my palms until I caught a handful of chemical hand warming packets I’d stashed."
+    narrator "I felt around for something to warm myself. My fingers had gone weird. Wouldn't close right. I could only manage to roughly pull drawers out and sift through my things with my palms until I caught a handful of chemical hand warming packets I’d stashed."
     narrator "I squeezed pathetically, trying desperately to crack one with the little strength I had left, then resorted to seizing a hardcover manual that I had stuck to a patch of touch fasteners and smashed them ruthlessly."
+    play sound "cloth rustle.mp3" volume 1.5
     narrator "As I felt the packets growing warm, then hot, I shoveled them into my suit, squeezing them under my armpits and pinching one beneath my chin."
     narrator "With a shaking hand I yanked my sleeper bag from its place on the wall and crawled inside to wait for the shaking to stop."
+    show robin neutralClosed with dissolve
     narrator "I could feel myself slipping away. My body wanted to sleep, to heal. But it wasn’t over yet."
     robin "I’m coming..."
+    show robin neutral with dissolve
     narrator "I stared at the overhead lights, waiting for them to wink at me."
     robin "Do you hear?"
 
@@ -1823,113 +1835,185 @@ label start:
 
     play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
     scene bg ship corridor with fade
+    show robin neutral gaunt at midright with dissolve
+
 
     narrator "The world came back into gentle focus. I felt heavy, and terribly damp. I didn't feel rested, but my mind was definitely sharp once more."
     narrator "My mouth was dry and my stomach had that familiar empty feeling. I eyed the pouch on the wall near my bunk where I normally stashed snacks and licked my cracked lips."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin pain at hop with dissolve
     narrator "I tested my limbs gingerly, prompting waves of aching, soreness, and stinging pain all over. I peeled the sleeper bag away, slick with sweat and seawater, and pulled my legs under me with a groan."
     narrator "My feet touched the ground, and I nearly cried out from the searing pain. It had somehow gotten even worse than before. I dropped back to sitting with a hiss of pain."
+    show robin angryClosed with dissolve
     narrator "Everything below my ankle felt heavy and swollen, the skin stretched tight. I didn't dare remove my suit to get a better look until I'd dealt with the gash on my leg."
+    show robin at shiver
     narrator "I dragged myself over instead, and reached up to pluck the pouch from the wall. I jerked it open and spilled a variety of meal replacement tubes and no-spill flavored drink packs into my lap."
+    show robin angry at hop with dissolve
     narrator "I ripped into them with my teeth and devoured one after the other greedily. I'd never particularly enjoyed ready foods, but after the time I'd had this was practically gourmet."
     narrator "After I'd sucked them all down I went back to the empty tubes and squeezed them out once more, trying to get every last bit."
     narrator "I tore open each of the individually sealed drink packs and meticulously licked the insides clean."
+    show robin happyClosed with dissolve
     narrator "I felt satisfied for the first time in a long while. I sat there for a moment, enjoying the feeling of fullness, feeling spoiled."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin neutral with dissolve
     narrator "Out of habit I policed up the empty packaging and neatly packed the trash back into the pouch, sticking it back on its place on the wall."
     narrator "I sat against the wall, staring at my feet. Even through the skinsuit I could see how swollen they were."
+    play sound "cloth rustle.mp3" volume 1.5
     narrator "I experimentally tugged at the suit. I pulled it away from my hips, past my knees, but it would move no further; it still had a firm grip on my calf. Probably for the best until I had another way to stop the bleeding."
     narrator "Dragging myself along the floor, I sorted through my things until I found the first aid kit and my tool belt."
     narrator "The first aid kit contained meager supplies. Pack of sterile gloves, an epinephrine autoinjector, lots of antiseptic gel (\"do not apply to open wounds\"), plasters for nicks, enough painkillers for a bad headache, rolls of gauze, sterile wound wash..."
+    show robin pain with dissolve
     narrator "I dry swallowed the painkillers and smeared antiseptic gel on my cuts and the stinging rash on my hand. I peeled open a plaster and stuck it over a nick on my arm. It was so sad I couldn't help but laugh dryly to myself."
     narrator "I looked for something to tourniquet my leg. I thought for a moment, then opened another pouch and withdrew an elastic exercise band. I draped it over my leg, just above the knee."
     narrator "I stretched it tight, and tighter, flexing my arms and shoulders to leverage all my strength, and wrapped it around and around my leg with a grunt. My lower leg started to tingle. A good sign I'd done it right."
     narrator "When I ran out of length, I tucked the end of it beneath the wrap to keep the band in place."
     narrator "I pulled my utility knife from my tool belt. I took a moment to appreciate the elegance and beauty of the tool. I flicked the catch and the blade sprung free from its scabbard."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin sick underwear at shiver with dissolve
     narrator "I swept the blade along the suit, then dug my fingers into the gash and tore the suit away, freeing my legs and feet."
     narrator "I forced myself to look at the cut on my leg. The edges were ragged, the flesh in and around it was wet with blood and clear fluid. I could see my muscles moving inside my leg. My vision swam. I laid on my back until I could bear to look again."
     narrator "I put on a pair of sterile gloves for what would come next. A flap of skin clung to the edge of the wound by a strip of tissue. It was long enough that it hung down past my ankle."
+    show robin angryClosed with dissolve
     narrator "I touched it gingerly with a fingertip and was rewarded with stinging pain."
+    show robin sick at hop with dissolve
     narrator "I wiped down the tip of the utility blade with antiseptic gel, let it dry, then held my breath and severed the strip of skin from my leg. I bit back a cry of pain."
     narrator "Next, I sprayed the sterile wound wash solution into the cut. I was surprised that the only sensation I felt was a deep, aching burn as I rinsed away globs of blood and sand."
     narrator "I felt a cold sensation spreading at the back of my skull. I tried to ignore the tinny voice chattering from that fearful place, whispering about dead nerves that would never work again."
+    show robin sickClosed with dissolve
     narrator "I have to close this up."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin neutral with dissolve
     narrator "I dug through my supplies. Found a spool of fine synthetic thread, stuff normally used in the printers for fabrication."
     narrator "I snatched up the autoinjector and worked a pair of pliers into a seam in the housing. It popped apart, sending a spring and bits of plastic spinning away, and exposing the injector hidden inside."
+    play sound "water handling.mp3" volume 1.5
     narrator "I drenched the thread and pliers in antiseptic, then pulled the needle free from the rest of the injector assembly."
+    show robin sick with dissolve
     narrator "I held the hollow needle close to my face where I could see the opening and carefully fed the sterile thread through. Gently, I bent the needle using my pliers to give it a slight curve."
     narrator "Clutching my makeshift suture kit in my hands and a fistful of rubber suitskin between my teeth, I sunk the needle into my flesh and began stitching myself back together."
     narrator "I had a few false starts. My skin was weak from malnourishment, and when I tried to pull the first stitch taught, the thread tore right through it. Starting the stitch further from the lip of the wound solved that."
     narrator "The stitches were clumsy, ragged and uneven like my nerves, but my leg was closed up."
+    show robin painClosed with dissolve
     narrator "I smeared the wound in more burning antiseptic and loosened the tourniquet experimentally. My leg tingled as sensation slowly returned. Blood seeped from the wound, but it wasn't anything concerning."
     narrator "Next, my feet. They were swollen, the skin was a raw, angry red. The blisters that had developed from my first day were massive, and some were dark red with blood. A few had torn open to expose the layer of skin beneath."
     narrator "The skin was tender, and far more painful than my leg was. More wicked, fiery antiseptic. I soaked the needle again, then lanced each blister one at a time. The relief as I squeezed the fluid out was incredible."
+    show robin pain with dissolve
     narrator "I bandaged my leg, using tape to secure it, then wrapped both feet in thick layers of gauze. I threw on two pairs of clean socks and a spare set of boots over them."
     narrator "Experimentally, I set my feet flat on the ground. I put a little weight on one foot, the other- Each step still ached like hell, but at least I could limp around."
     narrator "I tidied the mess I'd made somewhat, then, armed with my toolbelt and a flashlight, I hopped back out into the corridor to get back to work."
 
+    stop music fadeout 3.0
+    show black with fade
+
+    pause 5.0
+
+    play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
+    scene bg ship corridor with fade
+    show robin neutral gaunt at midright with dissolve
     # TODO: insert a transition here to suggest time passing
     narrator "Part of the mess compartment had collapsed, but not all of the supply cabinets had been flattened."
     narrator "I opened each cabinet once to estimate how full it was, then emptied one and started counting packages. Opened a package and checked the contents against the nutrition sheet."
     narrator "I even found a real pen and started scribbling an inventory in the yellowed margins of a dusty hardback manual."
     narrator "Some simple arithmetic, and I was happy with the estimate of the ready supply. Plenty to eat and drink for at least a month without rationing."
     narrator "The long-term storage came flatpacked in big bulk cargo containers, so I pulled a schematic and tried for an estimate by volume."
+    show robin bored with dissolve
     narrator "I hadn't done calculus by hand in years and I knuckled my eyes in frustration as I muddled through the problem."
     robin "Harp, can I get a check on this solution-"
+    show robin pain with dissolve
     narrator "The words caught in my throat. My knuckles turned white, the hard back of the manual creaked. I willed my hand to relax."
     narrator "My eyes fell back toward the page. The numbers."
     narrator "I cleared my throat. Put on my best Harper impression."
     robin "It might become a concern if we couldn't-"
     narrator "Could {i}not{/i}."
     robin "-could not drop into bluespace and were forced to proceed at relativistic speeds."
+    show robin at hop
     narrator "I sniffed and turned up my nose melodramatically."
     robin "I am sure if we went the slow way that humans would find some way to turn back progress."
     narrator "I deflated somewhat."
     robin "No, Harper would never be that mean... Or speciesist."
 
+    stop music fadeout 3.0
+    show black with fade
+
+    pause 5.0
+
+    play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
+    scene bg ship corridor with fade
+    show robin neutral gaunt at midright with dissolve
     # TODO: time passing transition
     narrator "I walked the corridors while chewing on a fruit bar, checking every compartment, taking stock of the damage."
     narrator "The network being down, I used a marker with a fat chisel tip to scrawl notes on my arm or directly onto the hull beside each hatch."
     narrator "Slowly, I built a picture of the state of the ship."
+    show robin bored with dissolve
     narrator "The gash in the side of the ship was catastrophic. The hatches had contained the worst of the flooding, but the arterial corridors were cut in places leaving large sections of the ship inaccessible."
     narrator "The {i}Selkirk{/i} must have been tumbling as it came down; it landed tail first, its nose pointing out of the water."
     narrator "This meant that the main engine, the torch, was not only submerged, but suffered an unknown amount of damage when it struck the water and whatever lay beneath it."
     narrator "I traversed every corner of the ship I could reach. With the slope of the deck making walking difficult, it was slow going."
     narrator "Three out of four of the Individual Exit Vehicles (IEVs) were unusable. One I'd lost during the ride down, two were wrecked or cut off by damage from the crash, but the last was intact."
+    show robin neutralClosed with dissolve
     narrator "Even intact, an IEV wasn't all that useful. Its thrusters were intended for use in microgravity, so it didn't have any hope of escaping the atmosphere on its own."
     narrator "It was difficult to judge the extent of the flooding, but it seemed largely contained to a small portion of the ship. It'd still be a hell of a job to fix it."
     narrator "And reversing the flooding was not optional. Even this superficial flooding would doubtlessly be a disaster for the flight characteristics."
+    show robin neutral with dissolve
     narrator "In spite of my fears, the torch was in great shape. It was by far the most rugged and reliable part of the ship, and I cared for it well, but it nevertheless surprised me at how little harm it had suffered."
     narrator "Redundant systems even allowed me to gain remote access to do a test spark. Even entirely submerged, it was capable of lighting."
     narrator "The bluespace drive being intact was far less surprising. Not needing access to the exterior of the ship, and being relatively simple mechanically, it was easy to bury away."
     narrator "The B-drive compartment was there, deep in the ship's ribcage, beneath layers of superstructure and deck plating. It was a massive, seamless black box."
     narrator "They were designed to be tamper-proof, so B-drives aren't designed to be maintained. They're built, vacuum-sealed permanently in these shells, then used up and destroyed."
+    show robin pain with dissolve
     narrator "Bluespace travel was as convenient as it was dangerous."
     narrator "Where once was Huangdi, a core world and a haven of science and intellect, now could only be found a black hole surrounded by the accreted matter of what once was a thriving and ingenious people."
     narrator "The first lesson we learned in the certification course: don't switch on near a gravity well. That lesson was learned at unfathomable cost when the first viable B-drive was tested by unsuspecting researchers on Huangdi."
+    show robin neutral with dissolve
     narrator "I ran one hand over the hard, black shell of the B-drive. It's surface was unbroken, seamless, like polished midnight."
     narrator "If the shell is compromised, the vacuum is broken, triggering a self-destruct that turns the internals to slag, to prevent reverse-engineering."
+    show robin at hop
     robin "You're our ticket out of here, if we could just break orbit..."
 
+    stop music fadeout 3.0
+    show black with fade
+
+    pause 5.0
+
+    play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
+    scene bg ship corridor with fade
+    show robin pain gaunt at midright with dissolve
     # TODO: timeskip transition
     robin "If we could just break orbit..."
     narrator "After I topped the reactor off with fresh coolant, courtesy of the alien ocean, the power output had come back up to nominal levels. Yet Harper didn't leap back to life."
     narrator "Much of the lights and a few appliances were down as well, so I could only hope it was an electrical problem, and Harper hadn't blacked out."
     narrator "So there I was, hip-deep inside of one of Harper's maintenance accessways, fumbling around with a multimeter checking the conduits."
+    play sound "cloth rustle.mp3" volume 1.5
+    show robin pain at shiver with dissolve
     narrator "Though I'd been eating well recently, it hadn't restored my stamina just yet, and I poured with sweat as I stretched to reach further in."
+    show robin painClosed with dissolve
     robin "So, what would you do, huh Harp?"
     narrator "The neat bundles of wires didn't reply. A hair tickled my eye and I huffed it away."
+    show robin bored with dissolve
     robin "Yeah, be that way. Make me do all the damn work."
     narrator "I checked the readout again. Again, the wiring read as OK."
     narrator "I dropped out of the accessway and slumped to the deck with a sigh."
+    show robin with neutral with dissolve
     robin "We got juice and we got a torch. That's everything we need to break orbit."
     narrator "Except, the torch was under all that water. When lit, it output enough energy to put a planetcracker to shame. It'd be like dropping molten slag into a vat of chemfuel."
     narrator "I had some qualms about turning my crash site into a crater, but more still about dying alone on this world."
     narrator "I rolled a few metal bolts around in my palm."
+    show robin painClosed with dissolve
     robin "If I could just get the torch out of the water..."
+    show robin at hop
     narrator "I popped one of them into my mouth. I spat it hard, and frowned as it sailed in a little arc and landed only halfway across the compartment."
+    show robin bored with dissolve
     robin "Not as fun in this much gravity..."
     narrator "I held another bolt between my teeth, pursed my lips, puffed my cheeks-"
     narrator "I let the air out softly. The bolt dropped into my lap."
 
+    stop music fadeout 3.0
+    show black with fade
+
+    pause 5.0
+
+    play ambience "ship ambience 1.mp3" fadein 4.0 volume 2.0
+    scene bg ship corridor with fade
+    show robin neutral gaunt at midright with dissolve
     # TODO: timeskip transition
     narrator "I plopped down into one of the crash couches in the flight control compartment. I throw the harness over my shoulders and got strapped in."
     narrator "I held my helmet between my legs. My fingers drummed on it nervously."
@@ -1942,14 +2026,19 @@ label start:
     narrator "At just the right moment, I close a circuit which, if my blueprint reading skills are sharp as ever, should trip the exterior airlocks, leading to-"
     # TODO: shaking
     # TODO: muffled thump
+    show robin surprisedClosed with dissolve
     narrator "There's a deafening bang and a great, shuddering lurch. I'm sucked into the crash couch as a monumental acceleration leans against me like the mighty hand of a god."
     narrator "The air is driven from my lungs in one great whoosh. At the same time, my helmet and the tablet are thrown against the back wall with a crash."
+    show robin happy at shiver with dissolve
     narrator "A heartbeat passes. Enough time to review and affirm that I did not stupidly close the circuit by mistake. So the airlocks must have been damaged, or my math was off."
     narrator "Another heartbeat. My heart soars as I feel the acceleration slowly turning into that wonderful, homey sense of weightlessness as the ship begins to fall."
+    show robin neutral at shiver with dissolve
     narrator "There's another circuit I set up. This one I rigged as a simple switch below my boot, so I could actuate it even under massive acceleration."
     # TODO: cut out ALL sound
     narrator "I twitched the toe of my boot. There was a sound like the birth of the universe. At that moment, it was undoubtedly the loudest sound in the solar system."
+    show robin angryClosed at shiver with dissolve
     narrator "The torch burned hard, and I was driven again into the crash couch. If I could have moved, I would have leapt up and cheered."
+    show robin angry at shiver with dissolve 
     narrator "Even if the {i}Selkirk{/i} hit a mountain in the next second, I would have died happy, knowing I did everything I could to survive."
     narrator "My lungs screamed for air, but under the constant acceleration of the torch, my chest couldn't expand. The walls slowly closed in."
 
