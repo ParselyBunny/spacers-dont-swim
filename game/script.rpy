@@ -2070,6 +2070,7 @@ label start:
     narrator "Every day I told myself, today is the day I’d punch in the wakeup command. Harper had finished recompiling days ago, but I woke up the displays and checked it anyway. It was still ready."
     # final scene
     
+    label credits:
 
     stop music fadeout 8.0
     play ambience "ship ambience 2.mp3" fadein 4.0 volume 2.0
@@ -2089,9 +2090,17 @@ label start:
     
     show black
     pause 4.0
-    narrator "END"
     #harper "Robin?"
     #TODO: credits
+
+    show text "CREDITS\nWriting - Parsely\nArt - Halfbrick\nNarrative Design - Vince\nAdditional Programming - Furtuka" with dissolve
+    pause 8.0
+    show text "PLAYTESTERS\nThat's you!" with dissolve
+    pause 8.0
+    show text "ASSETS\n\Big list of attributions." with dissolve
+    pause 8.0
+    show text "Thanks for playing!" with dissolve
+    pause 12.0
 
 #end
 
