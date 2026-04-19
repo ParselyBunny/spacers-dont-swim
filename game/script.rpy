@@ -2250,14 +2250,36 @@ label start:
     show black
     pause 4.0
 
-    show text "CREDITS\nWriting - Parsely\nArt - Halfbrick\nNarrative Design - Vince\nAdditional Programming - Furtuka" with dissolve
+    show text "CREDITS\n
+    Writing - Parsely\n
+    Art - Halfbrick\n
+    Narrative Design - Vince\n
+    Additional Programming - Furtuka" with dissolve
+
     pause 8.0
-    show text "PLAYTESTERS\nThat's you!" with dissolve
+    show text "SPECIAL THANKS\n
+    TJ, the loveliest alpha reader <3\n
+    Noodle\n
+    BluebsTopCat"
+    
     pause 8.0
-    show text "ASSETS\n\Big list of attributions." with dissolve
+    show text "PLAYTESTERS\n
+    Sala --- Venera\n
+    Amorphous --- Zephyr Violet\n
+    Petra --- Zoe :)\n
+    Avery Woods --- bitsbops\n
+    Kinnera --- Miranda Wanamaker\n
+    cephalopadre --- NoirMouse\n
+    Roxy --- R'eet'r" with dissolve
+
+    pause 8.0
+    show text "ASSETS\n
+    Big list of attributions." with dissolve
+
     pause 8.0
     show text "Thanks for playing!" with dissolve
-    pause 12.0
+
+    pause 4.0
 
 #end
 
