@@ -30,6 +30,8 @@ Spaceship Ambience  by nick121087 -- https://freesound.org/s/234316/ -- License:
 Quarrelling Foxes by naturenotesuk -- https://freesound.org/s/530123/ -- License: Creative Commons 0
 jack daniels brand water.wav by rstthedave -- https://freesound.org/s/186529/ -- License: Creative Commons 0
 Steps_Fine_Snow_Or_Sand by BlondPanda -- https://freesound.org/s/778542/ -- License: Creative Commons 0
+Passing rain shower Kauai.wav by tec_studio -- https://freesound.org/s/222637/ -- License: Creative Commons 0
+Ambiance_Underwater_Stereo.wav by Nox_Sound -- https://freesound.org/s/482116/ -- License: Creative Commons 0
 
 ## Music
 "Leaving Home" Kevin MacLeod (incompetech.com)
