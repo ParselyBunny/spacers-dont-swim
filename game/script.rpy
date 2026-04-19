@@ -14,6 +14,10 @@ init python:
     
     renpy.music.register_channel("ambience", "sfx", loop=True)
 
+
+# Variables
+default persistent.warningsAccept = False
+
 # Characters
 define robin = Character("Robin", callback=robin_beep)
 define harper = Character("Harper", callback=harper_beep)
@@ -270,39 +274,41 @@ layeredimage robin:
 label start:
     stop music
 
-    show text "Do you wish to see content warnings?"
-
-    if warningsAccept:
+    if persistent.warningsAccept:
         jump warningsAfter
 
+    "Do you wish to see content warnings?"
+    
     menu:
-        "Yes, I want to know what to expect.":
+        "Yes, I want to read content warnings.":
             label warnings:
-                show text "This story contains graphic and detailed depictions of violence and injury.
-                \nIn one case, the killing and butchering of an animal for food is described in graphic detail.
-                \nAt one point, a character is implied to experience suicidal impulses.
-                \nA character experiences severe malnutrition for an extended period of time.
-                \nOccasionally, there are mild sexual themes."
-                show text "Do you still want to play?"
+                "This story contains graphic and detailed depictions of violence and injury."
+                "In one case, the killing and butchering of an animal for food is described in graphic detail."
+                "A character experiences suicidal impulses."
+                "A character experiences severe malnutrition for an extended period of time."
+                "Occasionally, there are mild sexual themes."
+                "Do you still want to play?"
                 menu:
-                    "Yes, please.":
+                    "Yes, I want to play.":
                         jump warningsAccept
                     "No, I want to quit.":
                         jump warningsDecline
                     "Can I read the content warnings again?":
-                        show text "No problem."
+                        "No problem."
                         jump warnings
-        "No, I'm OK with taking the risk.":
+        "No, I want to start playing the game.":
             label warningsAccept:
-                show text "Understood. This warning will not appear again."
+                "Understood. This warning will not appear again."
         "Actually, I don't want to play, get me out of here.":
             label warningsDecline:
-                show text "Very well. You'll be returned to the main menu. This warning will reappear should you choose to play again."
+                "Very well. You'll be returned to the main menu. This warning will reappear should you choose to play again."
                 return
 
-    $ warningsAccept = True
+    $ persistent.warningsAccept = True
 
     label warningsAfter:
+
+    pause 1.0
     
     play music "music/Leaving Home.mp3" fadein 8.0
 
@@ -1318,7 +1324,7 @@ label start:
     harper "That’s more than you could say for me."
     robin "Don’t worry pal, you’re next. I’ll strap logs to you and pull you onto this island with me so we can have a barbecue together. Any dietary restrictions?"
     harper "You know, after so long without any fuel, you’re starting to look pretty tasty."
-    show robin surprise at hop
+    show robin surprised at hop
     robin "You’d eat your own crewmate?!"
     harper "Humans are cannibals, you have no leg to stand on."
     show robin neutral with dissolve
@@ -1408,7 +1414,7 @@ label start:
     pause 4.0
 
     scene bg jungle day fire with fade
-    play music "jungle ambience.mp3" fadein 3.0
+    play music "jungle ambience 1.mp3" fadein 3.0
     play sound "fire crackle.mp3" volume 1.0 loop
     show robin neutral gaunt at midright with dissolve
     narrator "I woke up from my nap, feeling better than before. I glanced at the sun, figuring it was a bit past noon."
@@ -1475,7 +1481,7 @@ label start:
     show robin neutral gaunt at midright with dissolve
 
     narrator "A short walk later, and I found a piece of wood that was already mostly in the shape I wanted."
-    play sound "clith rustle.mp3" volume 1.5
+    play sound "cloth rustle.mp3" volume 1.5
     show robin at shiver
     narrator "It only took a few sessions of whittling at it with my scrap knife, even with how dull the blade was getting, to get it into the shape I wanted."
     narrator "It had a broad head, about as wide at its widest point as one and a half palms, that tapered into a roughly hewn but still smooth shaft that made for a pleasant grip."
@@ -1856,7 +1862,7 @@ label start:
     narrator "It didn’t penetrate the sandals, but the pressure was painful, and the only relief was to lift my feet and keep moving forward."
     narrator "I was soaked. It had, unhelpfully, begun to rain, and my upper body was still clad only in my undershirt."
     narrator "So I paused to pull the upper part of the suit on. Only my good leg, clothed in the damaged leg of the suit, was exposed to the balmy waters that lapped at my calves."
-    play sound "sand walk.mp3" volume 1.5
+    play sound "walk sand.mp3" volume 1.5
     narrator "I pressed on, deep into the night.  The water grew deeper as I went further out to sea, but ceased rising around the midpoint of my thighs."
     narrator "The mud gave way to bare jagged rock, and it felt like walking on a sea of elbows, the bony points jabbing between my metatarsals. My feet were screaming in pain, and the {i}Selkirk{/i} seemed only slightly closer."
     
