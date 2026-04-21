@@ -2270,7 +2270,8 @@ label start:
     Avery Woods --- bitsbops\n
     Kinnera --- Miranda Wanamaker\n
     cephalopadre --- NoirMouse\n
-    Roxy --- R'eet'r" with dissolve
+    Roxy --- R'eet'r
+    rilakkoda" with dissolve
 
     pause 8.0
     show text "ASSETS\n
