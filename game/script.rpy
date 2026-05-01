@@ -1063,9 +1063,14 @@ label start:
     robin "Why in the world would you want to look at a walking scrotum?"
     harper "Your vile turns of phrase are delightful. I must admit that I find their hideousness charming."
     robin "Do you have a favorite animal?"
+    harper "Humans."
     show robin bored with dissolve
+    robin "Be serious."
+    harper "Tapirs."
+    show robin surprised at hop
     robin "What?"
     harper "They are like pigs, but with longer noses. The calves can have very cute striped and spotted coats. I like watching them graze."
+    show robin neutral with dissolve
     robin "Mm. So how do they taste?"
     harper "I really could not say."
     play sound "walk sand.mp3" volume 1.5
@@ -1223,7 +1228,7 @@ label start:
     narrator "I snatched up my scrap knife and pinched the grass between the knife and a flat stone I used as an anvil. I drew the knife along the length of the grass, scraping the green skin away."
     narrator "It worked well. I did one blade of grass. Two. This pace would work great if I was making doll clothes."
     show robin neutral with dissolve
-    narrator "I grasped a handful of grass in my fist, lined up just so, then pinched one end under my anvil stone and pulled the bundle taught over the face of the rock. The peeling went a lot faster this time."
+    narrator "I grasped a handful of grass in my fist, lined up just so, then pinched one end under my anvil stone and pulled the bundle taut over the face of the rock. The peeling went a lot faster this time."
     narrator "At first I used too much pressure and ended up slicing the fibers and ruining them. I had to experiment a little to find the right amount of force to use."
     narrator "It was delicate, but eventually I nailed the technique. In only an hour I’d made a wet, greenish hairball about the size of my head."
     narrator "My hands were sore and I was out of grass, but my spirits were soaring. It was the first step in a long, manual, effortful process, but for the first time it felt like my hope of making a raft was beginning to come true."
