@@ -19,8 +19,8 @@ init python:
 default persistent.warningsAccept = False
 
 # Characters
-define robin = Character("Robin", callback=robin_beep)
-define harper = Character("Harper", callback=harper_beep)
+define robin = Character("Robin", window_background=Frame("textboxrobin.png", 1, 1), callback=robin_beep)
+define harper = Character("Harper", window_background=Frame("textboxharper.png", 1, 1), callback=harper_beep)
 
 # Custom transforms & transitions
 transform midright:
