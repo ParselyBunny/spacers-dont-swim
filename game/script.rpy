@@ -44,6 +44,8 @@ transform shiver:
     easeout 0.075 yoffset 0
 
 define slowdissolve = Dissolve(1.5)
+define veryslowdissolve = Dissolve(5.0)
+
 
 # VFX
 # Source: https://lemmasoft.renai.us/forums/viewtopic.php?t=67359
@@ -88,6 +90,21 @@ image smoke:
     pause 5
     "bg smoke 4" with slowdissolve
     pause 5
+    repeat
+
+image lying_on_beach:
+    "cutscene 1" with dissolve
+    pause 3
+    "cutscene 2" with dissolve
+    pause 0.008
+    "cutscene 3" with dissolve
+    pause 0.015
+    "cutscene 4" with dissolve
+    pause 1.5
+    "cutscene 3" with dissolve
+    pause 0.8
+    "cutscene 2" with dissolve
+    pause 1
     repeat
 
 image robin_eyes_neutral:
@@ -273,6 +290,7 @@ layeredimage robin:
 
 label start:
     stop music
+    $ quick_menu = False
 
     if persistent.warningsAccept:
         jump warningsAfter
@@ -308,9 +326,38 @@ label start:
 
     label warningsAfter:
 
-    pause 1.0
+    pause 3.0
+
+    play music "beach ambience.mp3" fadein 10.0 volume 2.0
+    show lying_on_beach with veryslowdissolve
+
+    pause 10.0
+
+    show closed with slowdissolve
+    pause 6.0
+    show open with slowdissolve 
+    pause 6.0
+
+    show splash art with slowdissolve
+    pause 5.0
+
+    hide lying_on_beach
+    hide closed
+    hide open
+
+    show title logo with slowdissolve
+    pause 3.0
+    show call to action with slowdissolve
+
+    pause 20.0
+
+    stop music fadeout 4.0
+
+    scene black with slowdissolve
     
     play music "music/Leaving Home.mp3" fadein 8.0
+
+    pause 6.0
 
     narrator "First it was smell. That smell. An odor that was hard to place. It grew into a stink, powerful and acrid. It was a sort of decay, innocent, like rotten vegetables or compost."
     scene bg beach with fade
