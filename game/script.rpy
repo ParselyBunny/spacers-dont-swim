@@ -2264,6 +2264,7 @@ label start:
     pause 8.0
     show text "SPECIAL THANKS\n
     TJ, the loveliest alpha reader <3\n
+    Koda, for lots of encouragement and being an early reader\n
     Noodle\n
     BluebsTopCat"
     
