@@ -346,10 +346,8 @@ label start:
     hide open
 
     show title logo with slowdissolve
-    pause 3.0
-    show call to action with slowdissolve
 
-    pause 20.0
+    pause 8.0
 
     stop music fadeout 4.0
 
